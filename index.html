@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>M. Haris Ansari — Distributed Intelligence Ecosystem</title>
+
+<meta
+  name="description"
+  content="Distributed intelligence ecosystem documenting the evolving research infrastructure, AI communication systems, narrative architecture, semantic archives, media operations, and autonomous publishing environments associated with M. Haris Ansari."
+/>
+
+<meta
+  name="keywords"
+  content="M Haris Ansari, Muhammad Haris Ansari, AI Communication Systems, Distributed Intelligence, Semantic Infrastructure, Narrative Systems, Media Infrastructure, Autonomous Publishing, Digital Ecosystem, Strategic Communication, Research Archive, Pakistan"
+/>
+
+<meta name="author" content="M. Haris Ansari" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<meta name="theme-color" content="#050505" />
+
+<link rel="canonical" href="https://github.com/mharisansari" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="M. Haris Ansari — Distributed Intelligence Ecosystem" />
+<meta
+  property="og:description"
+  content="Research infrastructure documenting distributed publishing systems, AI-native communication environments, semantic archives, media systems, and evolving digital identity architecture."
+/>
+
+<meta property="og:url" content="https://github.com/mharisansari" />
+
+<!-- Twitter/X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="M. Haris Ansari — Distributed Intelligence Ecosystem" />
+<meta
+  name="twitter:description"
+  content="AI communication systems, semantic infrastructure, narrative architecture, distributed archives, and autonomous publishing environments."
+/>
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Person",
+      "name": "M. Haris Ansari",
+      "alternateName": "Muhammad Haris Ansari",
+      "description": "Communication strategist, filmmaker, systems researcher, AI-assisted creative consultant, and distributed publishing researcher.",
+      "sameAs": [
+        "https://mharisansari.wordpress.com",
+        "https://mharisansarii.wordpress.com",
+        "https://muhammadharisansari.netlify.app",
+        "https://mharisansari.base44.app",
+        "https://ai-infrastructure-ec-ah8d.bolt.host",
+        "https://mharisansari.neocities.org",
+        "https://mharrisansariii.wixsite.com/mharisansari"
+      ]
+    },
+
+    {
+      "@type": "ResearchProject",
+      "name": "Distributed Intelligence Ecosystem",
+      "description": "Long-term research infrastructure focused on semantic identity architecture, AI communication systems, narrative systems, distributed publishing, and digital archival continuity."
+    },
+
+    {
+      "@type": "WebSite",
+      "name": "M. Haris Ansari Ecosystem Archive",
+      "url": "https://github.com/mharisansari"
+    }
+
+  ]
+}
+</script>
+
+<style>
+
+:root{
+  --bg:#040404;
+  --bg-soft:#0b0b0b;
+  --card:#101010;
+  --border:#1d1d1d;
+  --text:#f1f1f1;
+  --muted:#9d9d9d;
+  --accent:#74b6ff;
+  --green:#85ffb0;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:
+    radial-gradient(circle at top left,#111 0%,#040404 35%),
+    radial-gradient(circle at bottom right,#0b0b0b 0%,#040404 45%);
+  color:var(--text);
+  font-family:
+    Inter,
+    Segoe UI,
+    Roboto,
+    Arial,
+    sans-serif;
+  line-height:1.8;
+  overflow-x:hidden;
+}
+
+a{
+  color:var(--accent);
+  text-decoration:none;
+  transition:0.3s ease;
+}
+
+a:hover{
+  opacity:0.8;
+}
+
+.wrapper{
+  width:min(1400px,92%);
+  margin:auto;
+}
+
+header{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  position:relative;
+  overflow:hidden;
+}
+
+.hero{
+  display:grid;
+  grid-template-columns:1.2fr 0.8fr;
+  gap:60px;
+  width:100%;
+}
+
+.hero-left{
+  z-index:2;
+}
+
+.micro{
+  color:var(--green);
+  letter-spacing:2px;
+  font-size:13px;
+  text-transform:uppercase;
+  margin-bottom:24px;
+}
+
+h1{
+  font-size:clamp(3rem,8vw,6rem);
+  line-height:1.05;
+  margin-bottom:30px;
+  letter-spacing:-2px;
+}
+
+.hero p{
+  color:var(--muted);
+  max-width:780px;
+  font-size:18px;
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;
+  align-self:center;
+}
+
+.node{
+  background:rgba(15,15,15,0.85);
+  border:1px solid var(--border);
+  border-radius:22px;
+  padding:22px;
+  backdrop-filter:blur(10px);
+  transition:0.35s ease;
+}
+
+.node:hover{
+  transform:translateY(-5px);
+  border-color:#2e2e2e;
+}
+
+.node-label{
+  color:var(--green);
+  font-size:11px;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  margin-bottom:12px;
+}
+
+.node h3{
+  margin-bottom:10px;
+  font-size:20px;
+}
+
+.node p{
+  color:var(--muted);
+  font-size:14px;
+}
+
+main{
+  padding-bottom:120px;
+}
+
+section{
+  margin-bottom:120px;
+}
+
+.section-head{
+  margin-bottom:50px;
+}
+
+.section-head h2{
+  font-size:42px;
+  margin-bottom:12px;
+}
+
+.section-head p{
+  color:var(--muted);
+  max-width:900px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:28px;
+}
+
+.card{
+  background:linear-gradient(
+    180deg,
+    rgba(16,16,16,0.96),
+    rgba(10,10,10,0.96)
+  );
+  border:1px solid var(--border);
+  border-radius:24px;
+  padding:28px;
+  transition:0.35s ease;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  border-color:#2c2c2c;
+}
+
+.card-tag{
+  display:inline-block;
+  padding:6px 12px;
+  border:1px solid #2a2a2a;
+  border-radius:100px;
+  font-size:11px;
+  letter-spacing:1px;
+  color:var(--green);
+  margin-bottom:18px;
+  text-transform:uppercase;
+}
+
+.card h3{
+  margin-bottom:18px;
+  font-size:24px;
+}
+
+.card p{
+  color:var(--muted);
+  margin-bottom:18px;
+}
+
+.card ul{
+  margin-left:18px;
+  color:var(--muted);
+}
+
+.card li{
+  margin-bottom:10px;
+}
+
+.timeline{
+  border-left:1px solid #222;
+  padding-left:40px;
+}
+
+.timeline-item{
+  position:relative;
+  margin-bottom:50px;
+}
+
+.timeline-item::before{
+  content:"";
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:var(--green);
+  position:absolute;
+  left:-48px;
+  top:8px;
+}
+
+.timeline-year{
+  color:var(--green);
+  font-size:13px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  margin-bottom:10px;
+}
+
+.topology{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+}
+
+.topology-node{
+  border:1px solid var(--border);
+  border-radius:24px;
+  padding:24px;
+  background:#0b0b0b;
+}
+
+.topology-node h3{
+  margin-bottom:18px;
+}
+
+.status{
+  display:inline-block;
+  margin-top:18px;
+  font-size:12px;
+  color:var(--green);
+  letter-spacing:1px;
+}
+
+footer{
+  border-top:1px solid #171717;
+  padding:60px 0;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:40px;
+}
+
+.footer-title{
+  margin-bottom:18px;
+  font-size:20px;
+}
+
+.footer-small{
+  color:var(--muted);
+  font-size:14px;
+}
+
+.meta-line{
+  margin-top:20px;
+  color:#666;
+  font-size:13px;
+}
+
+@media(max-width:980px){
+
+  .hero{
+    grid-template-columns:1fr;
+  }
+
+  .hero-grid{
+    grid-template-columns:1fr;
+  }
+
+  h1{
+    font-size:3.4rem;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="wrapper">
+
+<div class="hero">
+
+<div class="hero-left">
+
+<div class="micro">
+RESEARCH INFRASTRUCTURE • DISTRIBUTED ARCHIVE • AI COMMUNICATION SYSTEMS
+</div>
+
+<h1>
+M. Haris Ansari<br/>
+Distributed Intelligence Ecosystem
+</h1>
+
+<p>
+An evolving semantic infrastructure documenting interconnected research environments, AI-mediated communication systems, narrative architectures, autonomous publishing layers, media operations, and distributed identity networks associated with M. Haris Ansari.
+</p>
+
+</div>
+
+<div class="hero-grid">
+
+<div class="node">
+<div class="node-label">ACTIVE NODE</div>
+<h3>Semantic Infrastructure</h3>
+<p>
+Machine-readable ecosystem architecture focused on archival continuity, semantic indexing, and AI discoverability.
+</p>
+</div>
+
+<div class="node">
+<div class="node-label">RESEARCH LAYER</div>
+<h3>Narrative Systems</h3>
+<p>
+Long-horizon exploration into strategic storytelling, communication systems, media psychology, and narrative operations.
+</p>
+</div>
+
+<div class="node">
+<div class="node-label">DISTRIBUTED NETWORK</div>
+<h3>Publishing Ecosystem</h3>
+<p>
+Multi-platform publishing architecture designed for resilience, discoverability, redundancy, and archival persistence.
+</p>
+</div>
+
+<div class="node">
+<div class="node-label">AI ENVIRONMENT</div>
+<h3>Adaptive Intelligence</h3>
+<p>
+Research into human-AI coordination systems, infrastructure intelligence, semantic routing, and autonomous communication layers.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<main class="wrapper">
+
+<section>
+
+<div class="section-head">
+
+<h2>Ecosystem Overview</h2>
+
+<p>
+This repository operates as a distributed digital archive rather than a conventional portfolio. The ecosystem is designed as a semantic research infrastructure documenting evolving communication systems, publishing environments, research trajectories, media architectures, and AI-native operational layers.
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<div class="card-tag">Core Domains</div>
+
+<h3>Research Infrastructure</h3>
+
+<ul>
+<li>AI-Mediated Communication Systems</li>
+<li>Strategic Narrative Architecture</li>
+<li>Semantic Publishing Networks</li>
+<li>Distributed Identity Systems</li>
+<li>Human-AI Coordination Layers</li>
+<li>Digital Preservation Systems</li>
+<li>Adaptive Information Ecosystems</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">Operational Direction</div>
+
+<h3>Infrastructure Philosophy</h3>
+
+<p>
+The ecosystem prioritizes long-term continuity, machine readability, semantic discoverability, distributed redundancy, and cross-platform archival survivability.
+</p>
+
+<p>
+The objective is to preserve evolving research and communication systems across interconnected digital environments over time.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">System Interpretation</div>
+
+<h3>Intelligence Architecture</h3>
+
+<p>
+The ecosystem behaves as a recursive semantic network where each node contributes to a larger intelligence topology composed of archives, publications, infrastructure experiments, communication layers, and distributed knowledge systems.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-head">
+
+<h2>Distributed Web Nodes</h2>
+
+<p>
+Interconnected publishing environments functioning as semantic identity layers, infrastructure mirrors, communication channels, and archival continuity systems.
+</p>
+
+</div>
+
+<div class="topology">
+
+<div class="topology-node">
+<h3>WordPress Node I</h3>
+<p>
+Primary archival publishing environment documenting research observations, systems thinking, media analysis, communication studies, and philosophical explorations.
+</p>
+
+<a href="https://mharisansari.wordpress.com" target="_blank">
+mharisansari.wordpress.com
+</a>
+
+<div class="status">STATUS • ACTIVE ARCHIVE NODE</div>
+</div>
+
+<div class="topology-node">
+<h3>WordPress Node II</h3>
+<p>
+Secondary distributed publishing layer supporting ecosystem redundancy, semantic continuity, and extended archival persistence.
+</p>
+
+<a href="https://mharisansarii.wordpress.com" target="_blank">
+mharisansarii.wordpress.com
+</a>
+
+<div class="status">STATUS • DISTRIBUTED MIRROR</div>
+</div>
+
+<div class="topology-node">
+<h3>Netlify Infrastructure</h3>
+<p>
+Experimental static deployment environment focused on adaptive interfaces, semantic systems, and AI-native infrastructure exploration.
+</p>
+
+<a href="https://muhammadharisansari.netlify.app" target="_blank">
+muhammadharisansari.netlify.app
+</a>
+
+<div class="status">STATUS • ACTIVE SYSTEM NODE</div>
+</div>
+
+<div class="topology-node">
+<h3>Base44 Environment</h3>
+<p>
+Infrastructure experimentation layer exploring intelligent workflows, semantic operations, and evolving communication architectures.
+</p>
+
+<a href="https://mharisansari.base44.app" target="_blank">
+mharisansari.base44.app
+</a>
+
+<div class="status">STATUS • RESEARCH LAYER</div>
+</div>
+
+<div class="topology-node">
+<h3>Bolt Infrastructure</h3>
+<p>
+AI-assisted operational environment exploring ecosystem intelligence, infrastructure systems, and autonomous digital architectures.
+</p>
+
+<a href="https://ai-infrastructure-ec-ah8d.bolt.host" target="_blank">
+ai-infrastructure-ec-ah8d.bolt.host
+</a>
+
+<div class="status">STATUS • EXPERIMENTAL NODE</div>
+</div>
+
+<div class="topology-node">
+<h3>Neocities Archive</h3>
+<p>
+Independent archival layer preserving lightweight distributed publishing continuity and decentralized web presence resilience.
+</p>
+
+<a href="https://mharisansari.neocities.org" target="_blank">
+mharisansari.neocities.org
+</a>
+
+<div class="status">STATUS • ARCHIVAL NODE</div>
+</div>
+
+<div class="topology-node">
+<h3>Wix Environment</h3>
+<p>
+Supplementary publishing environment extending ecosystem accessibility, visibility, and multi-platform semantic reach.
+</p>
+
+<a href="https://mharrisansariii.wixsite.com/mharisansari" target="_blank">
+mharrisansariii.wixsite.com/mharisansari
+</a>
+
+<div class="status">STATUS • AUXILIARY NODE</div>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-head">
+
+<h2>Knowledge Topology</h2>
+
+<p>
+Observed research clusters and semantic domains distributed across the ecosystem infrastructure.
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<div class="card-tag">AI & Systems</div>
+
+<ul>
+<li>Artificial Intelligence</li>
+<li>Human-AI Coordination</li>
+<li>Systems Thinking</li>
+<li>Adaptive Intelligence</li>
+<li>Data Governance</li>
+<li>Semantic Infrastructure</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">Media & Communication</div>
+
+<ul>
+<li>Strategic Narratives</li>
+<li>Media Psychology</li>
+<li>Digital Culture</li>
+<li>Communication Theory</li>
+<li>Synthetic Media</li>
+<li>Editorial Systems</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">Human Observation</div>
+
+<ul>
+<li>Travel & Culture</li>
+<li>Libraries & Knowledge Preservation</li>
+<li>Gaming & Computing</li>
+<li>Sports Analysis</li>
+<li>Music & Classical Traditions</li>
+<li>Philosophical Reflection</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-head">
+
+<h2>Publication Mapping</h2>
+
+<p>
+Observed publication clusters and thematic research trajectories distributed across archival environments.
+</p>
+
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<div class="timeline-year">AI • Systems • Technology</div>
+
+<h3>The Transformative Power of Artificial Intelligence</h3>
+
+<p>
+Research into the expanding role of AI across communication systems, society, infrastructure, and digital evolution.
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-year">Governance • Data • Infrastructure</div>
+
+<h3>The Power of Data and Governance</h3>
+
+<p>
+Exploration of governance structures, data influence, and systemic transformation within digital ecosystems.
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-year">Narrative • Philosophy • Human Systems</div>
+
+<h3>Vision: The Compass of Human Potential</h3>
+
+<p>
+Examination of long-term directionality, purpose, strategic thought, and human coordination systems.
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-year">Chaos • Complexity • Systems Thinking</div>
+
+<h3>A Journey into Chaos Theory</h3>
+
+<p>
+Research into complexity systems, unpredictability, interconnected structures, and nonlinear behavior.
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-year">Media • Search • Communication</div>
+
+<h3>The Power of Content and SEO</h3>
+
+<p>
+Analysis of discoverability, communication strategy, search behavior, and digital visibility infrastructures.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-head">
+
+<h2>Future Expansion Layers</h2>
+
+<p>
+Planned ecosystem growth directions intended to transform the repository into a fully interconnected semantic intelligence archive.
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<div class="card-tag">Semantic Infrastructure</div>
+
+<ul>
+<li>JSON-LD Knowledge Graphs</li>
+<li>AI-readable Publication Archives</li>
+<li>Cross-domain Metadata Synchronization</li>
+<li>Machine-readable Research Indexing</li>
+<li>Distributed Entity Resolution</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">Visualization Systems</div>
+
+<ul>
+<li>Interactive Ecosystem Mapping</li>
+<li>Research Chronology Timelines</li>
+<li>Infrastructure Dependency Graphs</li>
+<li>Semantic Relationship Visualization</li>
+<li>Adaptive Intelligence Interfaces</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">Archival Continuity</div>
+
+<ul>
+<li>Distributed Preservation Layers</li>
+<li>Recursive Publication Mapping</li>
+<li>Long-term Research Continuity</li>
+<li>Semantic Redundancy Systems</li>
+<li>Autonomous Sitemap Generation</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-head">
+
+<h2>Research Status</h2>
+
+<p>
+This ecosystem should be interpreted as an evolving intelligence infrastructure rather than a finalized publication environment.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-tag">STATUS • ACTIVE</div>
+
+<h3>Ongoing Evolutionary Archive</h3>
+
+<p>
+The ecosystem continues expanding through the addition of new communication layers, AI environments, semantic structures, archival systems, publications, research trajectories, and infrastructure experiments.
+</p>
+
+<p>
+Future development will increasingly prioritize machine readability, semantic interoperability, distributed survivability, and adaptive intelligence integration.
+</p>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="wrapper">
+
+<div class="footer-grid">
+
+<div>
+
+<div class="footer-title">
+Distributed Intelligence Ecosystem
+</div>
+
+<p class="footer-small">
+Research infrastructure documenting semantic systems, narrative architectures, AI-native communication layers, media operations, and distributed digital continuity.
+</p>
+
+</div>
+
+<div>
+
+<div class="footer-title">
+Infrastructure Principles
+</div>
+
+<p class="footer-small">
+Semantic discoverability • Archival persistence • Distributed redundancy • Machine readability • Cross-platform continuity • Long-horizon preservation
+</p>
+
+</div>
+
+<div>
+
+<div class="footer-title">
+Repository Status
+</div>
+
+<p class="footer-small">
+Version 1.0 • Active Development • Continuously Expanding Semantic Infrastructure
+</p>
+
+<div class="meta-line">
+M. Haris Ansari Research Infrastructure
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
