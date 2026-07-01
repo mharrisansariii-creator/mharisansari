@@ -2,917 +2,1652 @@
 <html lang="en">
 <head>
 
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<title>M. Haris Ansari — Distributed Intelligence Ecosystem</title>
-
-<meta
-  name="description"
-  content="Distributed intelligence ecosystem documenting the evolving research infrastructure, AI communication systems, narrative architecture, semantic archives, media operations, and autonomous publishing environments associated with M. Haris Ansari."
-/>
-
-<meta
-  name="keywords"
-  content="M Haris Ansari, Muhammad Haris Ansari, AI Communication Systems, Distributed Intelligence, Semantic Infrastructure, Narrative Systems, Media Infrastructure, Autonomous Publishing, Digital Ecosystem, Strategic Communication, Research Archive, Pakistan"
-/>
-
-<meta name="author" content="M. Haris Ansari" />
-<meta name="robots" content="index, follow, max-image-preview:large" />
-<meta name="theme-color" content="#050505" />
-
-<link rel="canonical" href="https://github.com/mharisansari" />
-
-<!-- Open Graph -->
-<meta property="og:type" content="website" />
-<meta property="og:title" content="M. Haris Ansari — Distributed Intelligence Ecosystem" />
-<meta
-  property="og:description"
-  content="Research infrastructure documenting distributed publishing systems, AI-native communication environments, semantic archives, media systems, and evolving digital identity architecture."
-/>
-
-<meta property="og:url" content="https://github.com/mharisansari" />
-
-<!-- Twitter/X -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="M. Haris Ansari — Distributed Intelligence Ecosystem" />
-<meta
-  name="twitter:description"
-  content="AI communication systems, semantic infrastructure, narrative architecture, distributed archives, and autonomous publishing environments."
-/>
-
-<!-- JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-
-    {
-      "@type": "Person",
-      "name": "M. Haris Ansari",
-      "alternateName": "Muhammad Haris Ansari",
-      "description": "Communication strategist, filmmaker, systems researcher, AI-assisted creative consultant, and distributed publishing researcher.",
-      "sameAs": [
-        "https://mharisansari.wordpress.com",
-        "https://mharisansarii.wordpress.com",
-        "https://muhammadharisansari.netlify.app",
-        "https://mharisansari.base44.app",
-        "https://ai-infrastructure-ec-ah8d.bolt.host",
-        "https://mharisansari.neocities.org",
-        "https://mharrisansariii.wixsite.com/mharisansari"
-      ]
-    },
-
-    {
-      "@type": "ResearchProject",
-      "name": "Distributed Intelligence Ecosystem",
-      "description": "Long-term research infrastructure focused on semantic identity architecture, AI communication systems, narrative systems, distributed publishing, and digital archival continuity."
-    },
-
-    {
-      "@type": "WebSite",
-      "name": "M. Haris Ansari Ecosystem Archive",
-      "url": "https://github.com/mharisansari"
-    }
-
-  ]
-}
-</script>
-
-<style>
-
-:root{
-  --bg:#040404;
-  --bg-soft:#0b0b0b;
-  --card:#101010;
-  --border:#1d1d1d;
-  --text:#f1f1f1;
-  --muted:#9d9d9d;
-  --accent:#74b6ff;
-  --green:#85ffb0;
-}
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-html{
-  scroll-behavior:smooth;
-}
-
-body{
-  background:
-    radial-gradient(circle at top left,#111 0%,#040404 35%),
-    radial-gradient(circle at bottom right,#0b0b0b 0%,#040404 45%);
-  color:var(--text);
-  font-family:
-    Inter,
-    Segoe UI,
-    Roboto,
-    Arial,
-    sans-serif;
-  line-height:1.8;
-  overflow-x:hidden;
-}
-
-a{
-  color:var(--accent);
-  text-decoration:none;
-  transition:0.3s ease;
-}
-
-a:hover{
-  opacity:0.8;
-}
-
-.wrapper{
-  width:min(1400px,92%);
-  margin:auto;
-}
-
-header{
-  min-height:100vh;
-  display:flex;
-  align-items:center;
-  position:relative;
-  overflow:hidden;
-}
-
-.hero{
-  display:grid;
-  grid-template-columns:1.2fr 0.8fr;
-  gap:60px;
-  width:100%;
-}
-
-.hero-left{
-  z-index:2;
-}
-
-.micro{
-  color:var(--green);
-  letter-spacing:2px;
-  font-size:13px;
-  text-transform:uppercase;
-  margin-bottom:24px;
-}
-
-h1{
-  font-size:clamp(3rem,8vw,6rem);
-  line-height:1.05;
-  margin-bottom:30px;
-  letter-spacing:-2px;
-}
-
-.hero p{
-  color:var(--muted);
-  max-width:780px;
-  font-size:18px;
-}
-
-.hero-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:18px;
-  align-self:center;
-}
-
-.node{
-  background:rgba(15,15,15,0.85);
-  border:1px solid var(--border);
-  border-radius:22px;
-  padding:22px;
-  backdrop-filter:blur(10px);
-  transition:0.35s ease;
-}
-
-.node:hover{
-  transform:translateY(-5px);
-  border-color:#2e2e2e;
-}
-
-.node-label{
-  color:var(--green);
-  font-size:11px;
-  letter-spacing:1.5px;
-  text-transform:uppercase;
-  margin-bottom:12px;
-}
-
-.node h3{
-  margin-bottom:10px;
-  font-size:20px;
-}
-
-.node p{
-  color:var(--muted);
-  font-size:14px;
-}
-
-main{
-  padding-bottom:120px;
-}
-
-section{
-  margin-bottom:120px;
-}
-
-.section-head{
-  margin-bottom:50px;
-}
-
-.section-head h2{
-  font-size:42px;
-  margin-bottom:12px;
-}
-
-.section-head p{
-  color:var(--muted);
-  max-width:900px;
-}
-
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:28px;
-}
-
-.card{
-  background:linear-gradient(
-    180deg,
-    rgba(16,16,16,0.96),
-    rgba(10,10,10,0.96)
-  );
-  border:1px solid var(--border);
-  border-radius:24px;
-  padding:28px;
-  transition:0.35s ease;
-}
-
-.card:hover{
-  transform:translateY(-5px);
-  border-color:#2c2c2c;
-}
-
-.card-tag{
-  display:inline-block;
-  padding:6px 12px;
-  border:1px solid #2a2a2a;
-  border-radius:100px;
-  font-size:11px;
-  letter-spacing:1px;
-  color:var(--green);
-  margin-bottom:18px;
-  text-transform:uppercase;
-}
-
-.card h3{
-  margin-bottom:18px;
-  font-size:24px;
-}
-
-.card p{
-  color:var(--muted);
-  margin-bottom:18px;
-}
-
-.card ul{
-  margin-left:18px;
-  color:var(--muted);
-}
-
-.card li{
-  margin-bottom:10px;
-}
-
-.timeline{
-  border-left:1px solid #222;
-  padding-left:40px;
-}
-
-.timeline-item{
-  position:relative;
-  margin-bottom:50px;
-}
-
-.timeline-item::before{
-  content:"";
-  width:14px;
-  height:14px;
-  border-radius:50%;
-  background:var(--green);
-  position:absolute;
-  left:-48px;
-  top:8px;
-}
-
-.timeline-year{
-  color:var(--green);
-  font-size:13px;
-  letter-spacing:2px;
-  text-transform:uppercase;
-  margin-bottom:10px;
-}
-
-.topology{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:24px;
-}
-
-.topology-node{
-  border:1px solid var(--border);
-  border-radius:24px;
-  padding:24px;
-  background:#0b0b0b;
-}
-
-.topology-node h3{
-  margin-bottom:18px;
-}
-
-.status{
-  display:inline-block;
-  margin-top:18px;
-  font-size:12px;
-  color:var(--green);
-  letter-spacing:1px;
-}
-
-footer{
-  border-top:1px solid #171717;
-  padding:60px 0;
-}
-
-.footer-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:40px;
-}
-
-.footer-title{
-  margin-bottom:18px;
-  font-size:20px;
-}
-
-.footer-small{
-  color:var(--muted);
-  font-size:14px;
-}
-
-.meta-line{
-  margin-top:20px;
-  color:#666;
-  font-size:13px;
-}
-
-@media(max-width:980px){
-
-  .hero{
-    grid-template-columns:1fr;
-  }
-
-  .hero-grid{
-    grid-template-columns:1fr;
-  }
-
-  h1{
-    font-size:3.4rem;
-  }
-
-}
-
-</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>M. Haris Ansari | Media Technology & Communications Strategist</title>
+
+    <meta
+        name="description"
+        content="Media technology and communications strategist specializing in executive frameworks for organizational coordination, communication systems, and AI integration."
+    />
+
+    <meta
+        name="keywords"
+        content="M Haris Ansari, Media Technology, Communications Strategist, Executive Frameworks, Organizational Coordination, AI Integration, Business Efficiency"
+    />
+
+    <meta name="author" content="M. Haris Ansari" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#050505" />
+
+    <link rel="canonical" href="https://mharrisansariii-creator.github.io/mharisansari" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="M. Haris Ansari | Media Technology & Communications Strategist" />
+    <meta
+        property="og:description"
+        content="Media technology and communications strategist specializing in executive frameworks for organizational coordination, communication systems, and AI integration."
+    />
+    <meta property="og:url" content="https://mharrisansariii-creator.github.io/mharisansari" />
+    <meta property="og:image" content="https://mharisansari.wordpress.com/wp-content/uploads/2026/05/mharisansari-2026-1.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="M. Haris Ansari | Media Technology & Communications Strategist" />
+    <meta
+        name="twitter:description"
+        content="Media technology and communications strategist specializing in executive frameworks for organizational coordination, communication systems, and AI integration."
+    />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Person",
+                    "@id": "https://mharrisansariii-creator.github.io/mharisansari#person",
+                    "name": "M. Haris Ansari",
+                    "alternateName": "Muhammad Haris Ansari",
+                    "description": "Media technology and communications strategist specializing in executive frameworks for organizational coordination, communication systems, and AI integration.",
+                    "url": "https://mharrisansariii-creator.github.io/mharisansari",
+                    "image": {
+                        "@type": "ImageObject",
+                        "url": "https://mharisansari.wordpress.com/wp-content/uploads/2026/05/mharisansari-2026-1.jpg",
+                        "width": 1200,
+                        "height": 630
+                    },
+                    "sameAs": [
+                        "https://mharisansari.wordpress.com",
+                        "https://mharisansarii.wordpress.com",
+                        "https://mharisansari.base44.app",
+                        "https://ai-infrastructure-ec-ah8d.bolt.host",
+                        "https://mharisansari.neocities.org",
+                        "https://mharrisansariii.wixsite.com/mharisansari",
+                        "https://mharrisansariii-creator.github.io/mharisansari",
+                        "https://mharisansari.edgeone.app",
+                        "https://mharisansari.created.app",
+                        "https://muhammadharisansari.netlify.app",
+                        "https://sites.google.com/view/harisansari/home",
+                        "https://linkedin.com/in/mharisansari"
+                    ],
+                    "hasOccupation": {
+                        "@type": "Occupation",
+                        "name": "Media Technology & Communications Strategist",
+                        "description": "Developing executive frameworks for organizational coordination, communication systems, and AI integration."
+                    },
+                    "alumniOf": {
+                        "@type": "CollegeOrUniversity",
+                        "name": "University of the Punjab",
+                        "description": "Master's degree in Mass Media Communication, 2010"
+                    },
+                    "knowsAbout": [
+                        "Media Technology",
+                        "Communications Strategy",
+                        "Organizational Coordination",
+                        "Communication Systems",
+                        "AI Integration",
+                        "Executive Frameworks",
+                        "Business Efficiency",
+                        "Strategic Communication",
+                        "Knowledge Architecture",
+                        "Systems Thinking"
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://mharrisansariii-creator.github.io/mharisansari#website",
+                    "name": "M. Haris Ansari — Media Technology & Communications Strategist",
+                    "url": "https://mharrisansariii-creator.github.io/mharisansari",
+                    "description": "GitHub signaling node establishing the intellectual foundation for executive frameworks in media technology and communications strategy.",
+                    "inLanguage": "en-US",
+                    "publisher": {
+                        "@id": "https://mharrisansariii-creator.github.io/mharisansari#person"
+                    }
+                },
+                {
+                    "@type": "ItemList",
+                    "name": "Distributed Ecosystem Nodes",
+                    "description": "Interconnected platforms forming the distributed intelligence ecosystem.",
+                    "numberOfItems": 11,
+                    "itemListElement": [
+                        { "@type": "WebSite", "position": 1, "name": "Primary Publishing", "url": "https://mharisansari.wordpress.com" },
+                        { "@type": "WebSite", "position": 2, "name": "Infrastructure Systems", "url": "https://mharisansarii.wordpress.com" },
+                        { "@type": "WebSite", "position": 3, "name": "AI Native Layer", "url": "https://mharisansari.base44.app" },
+                        { "@type": "WebSite", "position": 4, "name": "Experimental Environment", "url": "https://ai-infrastructure-ec-ah8d.bolt.host" },
+                        { "@type": "WebSite", "position": 5, "name": "Archive Layer", "url": "https://mharisansari.neocities.org" },
+                        { "@type": "WebSite", "position": 6, "name": "Media Layer", "url": "https://mharrisansariii.wixsite.com/mharisansari" },
+                        { "@type": "WebSite", "position": 7, "name": "Open Infrastructure", "url": "https://mharrisansariii-creator.github.io/mharisansari" },
+                        { "@type": "WebSite", "position": 8, "name": "Edge Infrastructure", "url": "https://mharisansari.edgeone.app" },
+                        { "@type": "WebSite", "position": 9, "name": "Experimental Sandbox", "url": "https://mharisansari.created.app" },
+                        { "@type": "WebSite", "position": 10, "name": "Canonical Observatory", "url": "https://sites.google.com/view/harisansari/home" },
+                        { "@type": "WebSite", "position": 11, "name": "Static Deployment", "url": "https://muhammadharisansari.netlify.app" }
+                    ]
+                }
+            ]
+        }
+    </script>
+
+    <style>
+        /* ============================================================
+                   ROOT VARIABLES
+                ============================================================ */
+        :root {
+            --bg: #040404;
+            --bg-soft: #0a0a0a;
+            --card: #0e0e0e;
+            --border: #1d1d1d;
+            --border-hover: #2e2e2e;
+            --text: #f1f1f1;
+            --muted: #9d9d9d;
+            --muted-light: #b0b0b0;
+            --accent: #74b6ff;
+            --green: #85ffb0;
+            --gold: #ffd966;
+            --blue: #5b9aff;
+            --white: #ffffff;
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            --radius: 24px;
+            --radius-sm: 12px;
+            --transition: 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            --max-width: 1400px;
+            --wrapper-padding: 1rem;
+        }
+
+        /* ============================================================
+                   RESET & BASE
+                ============================================================ */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--font);
+            line-height: 1.7;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--gold);
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+
+        ::selection {
+            background: var(--gold);
+            color: var(--bg);
+        }
+
+        a {
+            color: var(--blue);
+            text-decoration: none;
+            transition: var(--transition);
+            border-bottom: 1px solid transparent;
+        }
+
+        a:hover {
+            opacity: 0.85;
+            border-bottom-color: var(--blue);
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gold);
+            color: var(--bg);
+            padding: 12px 24px;
+            border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+            font-weight: 600;
+            z-index: 10000;
+            border-bottom: none;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .wrapper {
+            width: min(var(--max-width), 92%);
+            margin: 0 auto;
+            padding: 0 var(--wrapper-padding);
+        }
+
+        /* ============================================================
+                   SCROLLBAR
+                ============================================================ */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-hover);
+            border-radius: 8px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--muted);
+        }
+
+        /* ============================================================
+                   UTILITY
+                ============================================================ */
+        .text-gold {
+            color: var(--gold);
+        }
+        .text-green {
+            color: var(--green);
+        }
+        .text-muted {
+            color: var(--muted);
+        }
+        .text-accent {
+            color: var(--accent);
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 14px;
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            font-size: 0.65rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--gold);
+            font-weight: 600;
+            background: rgba(255, 215, 0, 0.04);
+        }
+
+        .badge-green {
+            border-color: rgba(133, 255, 176, 0.2);
+            color: var(--green);
+            background: rgba(133, 255, 176, 0.04);
+        }
+
+        .badge-blue {
+            border-color: rgba(91, 154, 255, 0.2);
+            color: var(--blue);
+            background: rgba(91, 154, 255, 0.04);
+        }
+
+        .badge-gold {
+            border-color: rgba(255, 215, 0, 0.3);
+            color: var(--gold);
+            background: rgba(255, 215, 0, 0.08);
+        }
+
+        .badge-executive {
+            border-color: rgba(255, 215, 0, 0.4);
+            color: var(--gold);
+            background: rgba(255, 215, 0, 0.12);
+            font-weight: 700;
+        }
+
+        /* ============================================================
+                   BUTTONS
+                ============================================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 32px;
+            border-radius: 60px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: var(--transition);
+            cursor: pointer;
+            border-bottom: none;
+            font-family: var(--font);
+        }
+
+        .btn:hover {
+            background: var(--text);
+            color: var(--bg);
+            border-color: var(--text);
+            opacity: 1;
+            transform: translateY(-2px);
+            border-bottom: none;
+        }
+
+        .btn-primary {
+            background: var(--gold);
+            color: var(--bg);
+            border-color: var(--gold);
+        }
+
+        .btn-primary:hover {
+            background: var(--white);
+            border-color: var(--white);
+            color: var(--bg);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border-color: var(--border-hover);
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--muted);
+            color: var(--text);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            border-color: #25D366;
+            color: var(--bg);
+        }
+
+        .btn-whatsapp:hover {
+            background: #20b85a;
+            border-color: #20b85a;
+            color: var(--bg);
+        }
+
+        .btn-linkedin {
+            background: #0A66C2;
+            border-color: #0A66C2;
+            color: var(--white);
+        }
+
+        .btn-linkedin:hover {
+            background: #004182;
+            border-color: #004182;
+            color: var(--white);
+        }
+
+        /* ============================================================
+                   EXECUTIVE BADGE
+                ============================================================ */
+        .executive-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 100px;
+            background: rgba(255, 215, 0, 0.06);
+            color: var(--gold);
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .executive-badge::before {
+            content: '◆';
+            font-size: 0.5rem;
+            color: var(--gold);
+        }
+
+        /* ============================================================
+                   HEADER / HERO
+                ============================================================ */
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 60px 0 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: -20%;
+            width: 60%;
+            height: 80%;
+            background: radial-gradient(ellipse, rgba(133, 255, 176, 0.03) 0%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 60px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero-badge-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 {
+            margin-bottom: 4px;
+            font-size: clamp(2.4rem, 5vw, 3.8rem);
+        }
+
+        .hero .tagline {
+            font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+            color: var(--gold);
+            font-weight: 500;
+            margin-bottom: 12px;
+            letter-spacing: -0.01em;
+        }
+
+        .hero .subtitle {
+            margin-bottom: 16px;
+            font-size: clamp(0.95rem, 1.2vw, 1.1rem);
+            color: var(--muted-light);
+            font-weight: 300;
+        }
+
+        .hero-description {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 680px;
+            line-height: 1.8;
+        }
+
+        .hero-description strong {
+            color: var(--gold);
+        }
+
+        .hero-highlight-box {
+            background: rgba(255, 215, 0, 0.04);
+            border-left: 3px solid var(--gold);
+            padding: 16px 22px;
+            border-radius: 4px;
+            max-width: 680px;
+            margin: 16px 0 20px;
+        }
+
+        .hero-highlight-box p {
+            color: var(--muted-light);
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .hero-highlight-box strong {
+            color: var(--gold);
+        }
+
+        .hero-cta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 8px;
+        }
+
+        .hero-right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .hero-profile-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .hero-profile-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-4px);
+        }
+
+        .hero-profile-image {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            border: 2px solid var(--gold);
+            background: var(--bg-soft);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .hero-profile-image-placeholder {
+            font-size: 4rem;
+            color: var(--gold);
+            font-weight: 600;
+            letter-spacing: -0.05em;
+        }
+
+        .hero-profile-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 4px;
+        }
+
+        .hero-profile-card .role {
+            color: var(--gold);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .hero-profile-card .location {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 4px;
+        }
+
+        .hero-stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 12px;
+        }
+
+        .stat-item {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 16px 12px;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .stat-item:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--gold);
+            line-height: 1.2;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-top: 4px;
+        }
+
+        /* ============================================================
+                   SECTION COMMON
+                ============================================================ */
+        section {
+            padding: 60px 0;
+        }
+
+        .section-head {
+            margin-bottom: 48px;
+        }
+
+        .section-head .micro-label {
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--gold);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .section-head h2 {
+            margin-bottom: 12px;
+        }
+
+        .section-head p {
+            color: var(--muted);
+            max-width: 800px;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .section-divider {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 0;
+        }
+
+        /* ============================================================
+                   EXECUTIVE FRAMEWORKS
+                ============================================================ */
+        .frameworks-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 24px;
+        }
+
+        .framework-card {
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 28px 30px;
+            background: var(--card);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .framework-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-4px);
+        }
+
+        .framework-card .executive-badge {
+            margin-bottom: 12px;
+        }
+
+        .framework-card h3 {
+            font-size: 1.2rem;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+
+        .framework-card .framework-solves {
+            color: var(--gold);
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .framework-card p {
+            color: var(--muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .framework-card .framework-outcome {
+            margin-top: 12px;
+            padding: 12px 16px;
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            border-radius: var(--radius-sm);
+            background: rgba(255, 215, 0, 0.03);
+        }
+
+        .framework-card .framework-outcome strong {
+            color: var(--gold);
+        }
+
+        .framework-card .framework-outcome p {
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        /* ============================================================
+                   COORDINATION STACK
+                ============================================================ */
+        .stack-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .stack-item {
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 16px 20px;
+            background: var(--card);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .stack-item:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-2px);
+        }
+
+        .stack-item .layer {
+            font-size: 0.6rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--muted);
+            font-weight: 600;
+        }
+
+        .stack-item .name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--gold);
+            margin: 4px 0;
+        }
+
+        .stack-item .desc {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        /* ============================================================
+                   ECOSYSTEM NODES
+                ============================================================ */
+        .node-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 16px;
+        }
+
+        .node-card {
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 18px 22px;
+            background: var(--card);
+            transition: var(--transition);
+        }
+
+        .node-card:hover {
+            border-color: var(--border-hover);
+            transform: translateY(-3px);
+        }
+
+        .node-card .node-role {
+            font-size: 0.6rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--gold);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .node-card h4 {
+            font-size: 1rem;
+            margin-bottom: 2px;
+        }
+
+        .node-card .node-url {
+            font-size: 0.75rem;
+            color: var(--muted);
+            word-break: break-all;
+            border-bottom: none;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .node-card .node-url:hover {
+            border-bottom: 1px solid var(--blue);
+        }
+
+        .node-card p {
+            color: var(--muted);
+            font-size: 0.85rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* ============================================================
+                   PUBLICATIONS
+                ============================================================ */
+        .publications-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .publication-item {
+            border: 1px solid var(--border);
+            border-radius: var(--radius-sm);
+            padding: 18px 22px;
+            background: var(--card);
+            transition: var(--transition);
+        }
+
+        .publication-item:hover {
+            border-color: var(--border-hover);
+        }
+
+        .publication-item h4 {
+            font-size: 1rem;
+            color: var(--text);
+            margin-bottom: 2px;
+        }
+
+        .publication-item h4 a {
+            color: var(--text);
+            border-bottom: none;
+        }
+
+        .publication-item h4 a:hover {
+            color: var(--gold);
+            border-bottom: 1px solid var(--gold);
+        }
+
+        .publication-item .pub-meta {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-bottom: 4px;
+        }
+
+        .publication-item .pub-abstract {
+            font-size: 0.9rem;
+            color: var(--muted);
+            line-height: 1.6;
+            margin: 0 0 8px 0;
+        }
+
+        .publication-item .pub-link {
+            font-size: 0.85rem;
+            border-bottom: none;
+        }
+
+        .publication-item .pub-link:hover {
+            border-bottom: 1px solid var(--blue);
+        }
+
+        /* ============================================================
+                   CONTACT / CTA
+                ============================================================ */
+        .contact-section {
+            background: linear-gradient(180deg, rgba(16, 16, 16, 0.8), rgba(10, 10, 10, 0.8));
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 48px 56px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 8px;
+        }
+
+        .contact-section p {
+            color: var(--muted);
+            max-width: 600px;
+            margin: 0 auto 24px;
+            font-size: 1.05rem;
+        }
+
+        .contact-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 14px;
+        }
+
+        /* ============================================================
+                   FOOTER
+                ============================================================ */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 60px 0 40px;
+            margin-top: 20px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1.5fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .footer-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        .footer-text {
+            color: var(--muted);
+            font-size: 0.9rem;
+            line-height: 1.7;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .footer-links a {
+            font-size: 0.85rem;
+            color: var(--muted);
+            border-bottom: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--text);
+            border-bottom: 1px solid var(--blue);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-bottom p {
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+
+        .footer-bottom .tagline {
+            color: var(--muted-light);
+            font-size: 0.8rem;
+            letter-spacing: 0.04em;
+        }
+
+        .footer-bottom .tagline strong {
+            color: var(--gold);
+        }
+
+        /* ============================================================
+                   RESPONSIVE
+                ============================================================ */
+        @media (max-width: 1200px) {
+            .footer-grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .hero {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .hero-right {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+
+            .hero-profile-card {
+                grid-column: 1 / -1;
+            }
+
+            .hero-stats-grid {
+                grid-column: 1 / -1;
+            }
+
+            .publications-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                min-height: auto;
+                padding: 40px 0;
+            }
+
+            .hero-right {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-stats-grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .frameworks-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-section {
+                padding: 32px 20px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .node-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-profile-image {
+                width: 100px;
+                height: 100px;
+            }
+
+            .hero-profile-image-placeholder {
+                font-size: 2.8rem;
+            }
+
+            .stack-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .hero-cta {
+                flex-direction: column;
+            }
+
+            .hero-cta .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .contact-buttons {
+                flex-direction: column;
+            }
+
+            .contact-buttons .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .stack-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
 </head>
-
 <body>
 
-<header>
-
-<div class="wrapper">
-
-<div class="hero">
-
-<div class="hero-left">
-
-<div class="micro">
-RESEARCH INFRASTRUCTURE • DISTRIBUTED ARCHIVE • AI COMMUNICATION SYSTEMS
-</div>
-
-<h1>
-M. Haris Ansari<br/>
-Distributed Intelligence Ecosystem
-</h1>
-
-<p>
-An evolving semantic infrastructure documenting interconnected research environments, AI-mediated communication systems, narrative architectures, autonomous publishing layers, media operations, and distributed identity networks associated with M. Haris Ansari.
-</p>
-
-</div>
-
-<div class="hero-grid">
-
-<div class="node">
-<div class="node-label">ACTIVE NODE</div>
-<h3>Semantic Infrastructure</h3>
-<p>
-Machine-readable ecosystem architecture focused on archival continuity, semantic indexing, and AI discoverability.
-</p>
-</div>
-
-<div class="node">
-<div class="node-label">RESEARCH LAYER</div>
-<h3>Narrative Systems</h3>
-<p>
-Long-horizon exploration into strategic storytelling, communication systems, media psychology, and narrative operations.
-</p>
-</div>
-
-<div class="node">
-<div class="node-label">DISTRIBUTED NETWORK</div>
-<h3>Publishing Ecosystem</h3>
-<p>
-Multi-platform publishing architecture designed for resilience, discoverability, redundancy, and archival persistence.
-</p>
-</div>
-
-<div class="node">
-<div class="node-label">AI ENVIRONMENT</div>
-<h3>Adaptive Intelligence</h3>
-<p>
-Research into human-AI coordination systems, infrastructure intelligence, semantic routing, and autonomous communication layers.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</header>
-
-<main class="wrapper">
-
-<section>
-
-<div class="section-head">
-
-<h2>Ecosystem Overview</h2>
-
-<p>
-This repository operates as a distributed digital archive rather than a conventional portfolio. The ecosystem is designed as a semantic research infrastructure documenting evolving communication systems, publishing environments, research trajectories, media architectures, and AI-native operational layers.
-</p>
-
-</div>
-
-<div class="grid">
-
-<div class="card">
-
-<div class="card-tag">Core Domains</div>
-
-<h3>Research Infrastructure</h3>
-
-<ul>
-<li>AI-Mediated Communication Systems</li>
-<li>Strategic Narrative Architecture</li>
-<li>Semantic Publishing Networks</li>
-<li>Distributed Identity Systems</li>
-<li>Human-AI Coordination Layers</li>
-<li>Digital Preservation Systems</li>
-<li>Adaptive Information Ecosystems</li>
-</ul>
-
-</div>
-
-<div class="card">
-
-<div class="card-tag">Operational Direction</div>
-
-<h3>Infrastructure Philosophy</h3>
-
-<p>
-The ecosystem prioritizes long-term continuity, machine readability, semantic discoverability, distributed redundancy, and cross-platform archival survivability.
-</p>
-
-<p>
-The objective is to preserve evolving research and communication systems across interconnected digital environments over time.
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="card-tag">System Interpretation</div>
-
-<h3>Intelligence Architecture</h3>
-
-<p>
-The ecosystem behaves as a recursive semantic network where each node contributes to a larger intelligence topology composed of archives, publications, infrastructure experiments, communication layers, and distributed knowledge systems.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<div class="section-head">
-
-<h2>Distributed Web Nodes</h2>
-
-<p>
-Interconnected publishing environments functioning as semantic identity layers, infrastructure mirrors, communication channels, and archival continuity systems.
-</p>
-
-</div>
-
-<div class="topology">
-
-<div class="topology-node">
-<h3>WordPress Node I</h3>
-<p>
-Primary archival publishing environment documenting research observations, systems thinking, media analysis, communication studies, and philosophical explorations.
-</p>
-
-<a href="https://mharisansari.wordpress.com" target="_blank">
-mharisansari.wordpress.com
-</a>
-
-<div class="status">STATUS • ACTIVE ARCHIVE NODE</div>
-</div>
-
-<div class="topology-node">
-<h3>WordPress Node II</h3>
-<p>
-Secondary distributed publishing layer supporting ecosystem redundancy, semantic continuity, and extended archival persistence.
-</p>
-
-<a href="https://mharisansarii.wordpress.com" target="_blank">
-mharisansarii.wordpress.com
-</a>
-
-<div class="status">STATUS • DISTRIBUTED MIRROR</div>
-</div>
-
-<div class="topology-node">
-<h3>Google Infrastructure</h3>
-<p>
-Experimental static deployment environment focused on architecture, systems, and AI-native infrastructure exploration.
-</p>
-
-<a href="https://sites.google.com/view/harisansari/home" target="_blank">
-https://sites.google.com/view/harisansari/home
-</a>
-
-<div class="status">STATUS • ACTIVE SYSTEM NODE</div>
-</div>
-
-<div class="topology-node">
-<h3>Base44 Environment</h3>
-<p>
-Infrastructure experimentation layer exploring intelligent workflows, semantic operations, and evolving communication architectures.
-</p>
-
-<a href="https://mharisansari.base44.app" target="_blank">
-mharisansari.base44.app
-</a>
-
-<div class="status">STATUS • RESEARCH LAYER</div>
-</div>
-
-<div class="topology-node">
-<h3>Bolt Infrastructure</h3>
-<p>
-AI-assisted operational environment exploring ecosystem intelligence, infrastructure systems, and autonomous digital architectures.
-</p>
-
-<a href="https://ai-infrastructure-ec-ah8d.bolt.host" target="_blank">
-ai-infrastructure-ec-ah8d.bolt.host
-</a>
-
-<div class="status">STATUS • EXPERIMENTAL NODE</div>
-</div>
-
-<div class="topology-node">
-<h3>Neocities Archive</h3>
-<p>
-Independent archival layer preserving lightweight distributed publishing continuity and decentralized web presence resilience.
-</p>
-
-<a href="https://mharisansari.neocities.org" target="_blank">
-mharisansari.neocities.org
-</a>
-
-<div class="status">STATUS • ARCHIVAL NODE</div>
-</div>
-
-<div class="topology-node">
-<h3>Wix Environment</h3>
-<p>
-Supplementary publishing environment extending ecosystem accessibility, visibility, and multi-platform semantic reach.
-</p>
-
-<a href="https://mharrisansariii.wixsite.com/mharisansari" target="_blank">
-mharrisansariii.wixsite.com/mharisansari
-</a>
-
-<div class="status">STATUS • AUXILIARY NODE</div>
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<div class="section-head">
-
-<h2>Knowledge Topology</h2>
-
-<p>
-Observed research clusters and semantic domains distributed across the ecosystem infrastructure.
-</p>
-
-</div>
-
-<div class="grid">
-
-<div class="card">
-
-<div class="card-tag">AI & Systems</div>
-
-<ul>
-<li>Artificial Intelligence</li>
-<li>Human-AI Coordination</li>
-<li>Systems Thinking</li>
-<li>Adaptive Intelligence</li>
-<li>Data Governance</li>
-<li>Semantic Infrastructure</li>
-</ul>
-
-</div>
-
-<div class="card">
-
-<div class="card-tag">Media & Communication</div>
-
-<ul>
-<li>Strategic Narratives</li>
-<li>Media Psychology</li>
-<li>Digital Culture</li>
-<li>Communication Theory</li>
-<li>Synthetic Media</li>
-<li>Editorial Systems</li>
-</ul>
-
-</div>
-
-<div class="card">
-
-<div class="card-tag">Human Observation</div>
-
-<ul>
-<li>Travel & Culture</li>
-<li>Libraries & Knowledge Preservation</li>
-<li>Gaming & Computing</li>
-<li>Sports Analysis</li>
-<li>Music & Classical Traditions</li>
-<li>Philosophical Reflection</li>
-</ul>
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<div class="section-head">
-
-<h2>Publication Mapping</h2>
-
-<p>
-Observed publication clusters and thematic research trajectories distributed across archival environments.
-</p>
-
-</div>
-
-<div class="timeline">
-
-<div class="timeline-item">
-
-<div class="timeline-year">AI • Systems • Technology</div>
-
-<h3>The Transformative Power of Artificial Intelligence</h3>
-
-<p>
-Research into the expanding role of AI across communication systems, society, infrastructure, and digital evolution.
-</p>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-year">Governance • Data • Infrastructure</div>
-
-<h3>The Power of Data and Governance</h3>
-
-<p>
-Exploration of governance structures, data influence, and systemic transformation within digital ecosystems.
-</p>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-year">Narrative • Philosophy • Human Systems</div>
-
-<h3>Vision: The Compass of Human Potential</h3>
-
-<p>
-Examination of long-term directionality, purpose, strategic thought, and human coordination systems.
-</p>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-year">Chaos • Complexity • Systems Thinking</div>
-
-<h3>A Journey into Chaos Theory</h3>
-
-<p>
-Research into complexity systems, unpredictability, interconnected structures, and nonlinear behavior.
-</p>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-year">Media • Search • Communication</div>
-
-<h3>The Power of Content and SEO</h3>
-
-<p>
-Analysis of discoverability, communication strategy, search behavior, and digital visibility infrastructures.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<div class="section-head">
-
-<h2>Future Expansion Layers</h2>
-
-<p>
-Planned ecosystem growth directions intended to transform the repository into a fully interconnected semantic intelligence archive.
-</p>
-
-</div>
-
-<div class="grid">
-
-<div class="card">
-
-<div class="card-tag">Semantic Infrastructure</div>
-
-<ul>
-<li>JSON-LD Knowledge Graphs</li>
-<li>AI-readable Publication Archives</li>
-<li>Cross-domain Metadata Synchronization</li>
-<li>Machine-readable Research Indexing</li>
-<li>Distributed Entity Resolution</li>
-</ul>
-
-</div>
-
-<div class="card">
-
-<div class="card-tag">Visualization Systems</div>
-
-<ul>
-<li>Interactive Ecosystem Mapping</li>
-<li>Research Chronology Timelines</li>
-<li>Infrastructure Dependency Graphs</li>
-<li>Semantic Relationship Visualization</li>
-<li>Adaptive Intelligence Interfaces</li>
-</ul>
-
-</div>
-
-<div class="card">
-
-<div class="card-tag">Archival Continuity</div>
-
-<ul>
-<li>Distributed Preservation Layers</li>
-<li>Recursive Publication Mapping</li>
-<li>Long-term Research Continuity</li>
-<li>Semantic Redundancy Systems</li>
-<li>Autonomous Sitemap Generation</li>
-</ul>
-
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<div class="section-head">
-
-<h2>Research Status</h2>
-
-<p>
-This ecosystem should be interpreted as an evolving intelligence infrastructure rather than a finalized publication environment.
-</p>
-
-</div>
-
-<div class="card">
-
-<div class="card-tag">STATUS • ACTIVE</div>
-
-<h3>Ongoing Evolutionary Archive</h3>
-
-<p>
-The ecosystem continues expanding through the addition of new communication layers, AI environments, semantic structures, archival systems, publications, research trajectories, and infrastructure experiments.
-</p>
-
-<p>
-Future development will increasingly prioritize machine readability, semantic interoperability, distributed survivability, and adaptive intelligence integration.
-</p>
-
-</div>
-
-</section>
-
-</main>
-
-<footer>
-
-<div class="wrapper">
-
-<div class="footer-grid">
-
-<div>
-
-<div class="footer-title">
-Distributed Intelligence Ecosystem
-</div>
-
-<p class="footer-small">
-Research infrastructure documenting semantic systems, narrative architectures, AI-native communication layers, media operations, and distributed digital continuity.
-</p>
-
-</div>
-
-<div>
-
-<div class="footer-title">
-Infrastructure Principles
-</div>
-
-<p class="footer-small">
-Semantic discoverability • Archival persistence • Distributed redundancy • Machine readability • Cross-platform continuity • Long-horizon preservation
-</p>
-
-</div>
-
-<div>
-
-<div class="footer-title">
-Repository Status
-</div>
-
-<p class="footer-small">
-Version 1.0 • Active Development • Continuously Expanding Semantic Infrastructure
-</p>
-
-<div class="meta-line">
-M. Haris Ansari Research Infrastructure
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</footer>
+    <!-- ============================================================
+    SKIP TO CONTENT LINK
+    ============================================================ -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ============================================================
+    HEADER / HERO
+    ============================================================ -->
+    <header role="banner" aria-label="Site header">
+        <div class="wrapper">
+            <div class="hero">
+
+                <div class="hero-left">
+
+                    <div class="hero-badge-group">
+                        <span class="badge badge-gold">Executive Frameworks</span>
+                        <span class="badge badge-blue">Media · Technology · Communications</span>
+                        <span class="badge badge-green">Organizational Coordination</span>
+                    </div>
+
+                    <h1>M. Haris Ansari</h1>
+
+                    <p class="tagline">Media Technology &amp; Communications Strategist</p>
+
+                    <div class="hero-highlight-box">
+                        <p>
+                            <strong>Executive frameworks for organizational coordination, communication systems, and AI integration.</strong>
+                            Custom-built for CEOs and COOs to improve business efficiency and turnover.
+                        </p>
+                    </div>
+
+                    <p class="hero-description">
+                        Specializing in <strong>executive frameworks</strong> that help organizations coordinate
+                        effectively across communication systems, media technology, and AI integration. Each framework
+                        is designed to solve specific executive problems—reducing coordination failures, improving
+                        information flow, and increasing organizational efficiency.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#frameworks" class="btn btn-primary">Explore the Frameworks</a>
+                        <a href="https://linkedin.com/in/mharisansari" target="_blank" class="btn btn-linkedin">Connect</a>
+                        <a href="https://wa.me/923215797177" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+                    </div>
+
+                </div>
+
+                <div class="hero-right">
+
+                    <div class="hero-profile-card">
+                        <div class="hero-profile-image">
+                            <img
+                                src="https://mharisansari.wordpress.com/wp-content/uploads/2026/05/mharisansari-2026-1.jpg"
+                                alt="M. Haris Ansari — Media Technology & Communications Strategist"
+                                loading="lazy"
+                                onerror="this.style.display='none'; this.parentElement.innerHTML='<span class=\'hero-profile-image-placeholder\'>HA</span>';"
+                            />
+                        </div>
+                        <h3>M. Haris Ansari</h3>
+                        <div class="role">Media Technology &amp; Communications Strategist</div>
+                        <div class="location">📍 Pakistan · Global Reach</div>
+                    </div>
+
+                    <div class="hero-stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">2010</div>
+                            <div class="stat-label">Master's Degree</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">11</div>
+                            <div class="stat-label">Platform Ecosystem</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6</div>
+                            <div class="stat-label">Executive Frameworks</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================
+    MAIN CONTENT
+    ============================================================ -->
+    <main id="main" role="main">
+
+        <!-- ============================================================
+        SECTION: EXECUTIVE FRAMEWORKS
+        ============================================================ -->
+        <section id="frameworks" aria-labelledby="frameworks-heading">
+            <div class="wrapper">
+
+                <div class="section-head">
+                    <span class="micro-label">Executive Frameworks</span>
+                    <h2 id="frameworks-heading">Frameworks for Organizational Coordination</h2>
+                    <p>
+                        Custom-built frameworks designed for CEOs and COOs to solve specific organizational
+                        challenges—improving communication systems, information flow, and overall business efficiency.
+                    </p>
+                </div>
+
+                <div class="frameworks-grid">
+
+                    <div class="framework-card">
+                        <span class="executive-badge">Executive Framework</span>
+                        <h3>Civilization as Coordination</h3>
+                        <div class="framework-solves">▸ Solves: Organizational Fragmentation</div>
+                        <p>
+                            A foundational framework for understanding how signals evolve into information, information
+                            evolves into narratives, narratives evolve into institutions, and institutions evolve into
+                            infrastructures capable of coordinating human and machine behavior at scale.
+                        </p>
+                        <div class="framework-outcome">
+                            <p><strong>Outcome:</strong> Organizations achieve coherent coordination across departments,
+                            systems, and external partners—reducing friction and increasing operational efficiency.</p>
+                        </div>
+                    </div>
+
+                    <div class="framework-card">
+                        <span class="executive-badge">Executive Framework</span>
+                        <h3>Communication Operating System (CommOS)</h3>
+                        <div class="framework-solves">▸ Solves: Communication Breakdown</div>
+                        <p>
+                            A framework examining communication as the operating system of civilization. Helps
+                            organizations diagnose and repair communication failures at every level—from internal
+                            teams to external stakeholders.
+                        </p>
+                        <div class="framework-outcome">
+                            <p><strong>Outcome:</strong> Organizations achieve faster decision-making, reduced
+                            miscommunication, and improved information flow across all departments.</p>
+                        </div>
+                    </div>
+
+                    <div class="framework-card">
+                        <span class="executive-badge">Executive Framework</span>
+                        <h3>Distributed Narrative Intelligence (DNI)</h3>
+                        <div class="framework-solves">▸ Solves: Misaligned Organizational Narratives</div>
+                        <p>
+                            A framework exploring how narrative functions as coordination technology across human and
+                            machine systems. Aligns organizational storytelling with strategic objectives.
+                        </p>
+                        <div class="framework-outcome">
+                            <p><strong>Outcome:</strong> Organizations create consistent, compelling narratives that
+                            coordinate internal alignment and external market positioning.</p>
+                        </div>
+                    </div>
+
+                    <div class="framework-card">
+                        <span class="executive-badge">Executive Framework</span>
+                        <h3>Brain OS</h3>
+                        <div class="framework-solves">▸ Solves: Human-Machine Coordination Gaps</div>
+                        <p>
+                            A framework exploring human and machine meaning-making as coordinated intelligence systems.
+                            Helps organizations integrate AI effectively into their operations.
+                        </p>
+                        <div class="framework-outcome">
+                            <p><strong>Outcome:</strong> Organizations achieve seamless human-AI collaboration,
+                            improving productivity and decision quality.</p>
+                        </div>
+                    </div>
+
+                    <div class="framework-card">
+                        <span class="executive-badge">Executive Framework</span>
+                        <h3>Adaptive Intelligence Systems</h3>
+                        <div class="framework-solves">▸ Solves: Organizational Rigidity</div>
+                        <p>
+                            A framework for understanding how systems maintain coordination amid change. Enables
+                            organizations to adapt to rapidly changing market conditions.
+                        </p>
+                        <div class="framework-outcome">
+                            <p><strong>Outcome:</strong> Organizations become more resilient and adaptable, maintaining
+                            coordination even during periods of significant change.</p>
+                        </div>
+                    </div>
+
+                    <div class="framework-card">
+                        <span class="executive-badge">Executive Framework</span>
+                        <h3>Semantic Infrastructure Architecture</h3>
+                        <div class="framework-solves">▸ Solves: Information Fragmentation</div>
+                        <p>
+                            A framework for understanding how meaning coordinates across distributed platforms.
+                            Enables organizations to maintain coherent knowledge across disparate systems.
+                        </p>
+                        <div class="framework-outcome">
+                            <p><strong>Outcome:</strong> Organizations achieve unified knowledge architecture,
+                            reducing information loss and improving decision quality.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="section-divider" />
+
+        <!-- ============================================================
+        SECTION: COORDINATION STACK
+        ============================================================ -->
+        <section id="stack" aria-labelledby="stack-heading">
+            <div class="wrapper">
+
+                <div class="section-head">
+                    <span class="micro-label">The Coordination Stack</span>
+                    <h2 id="stack-heading">How Coordination Evolves</h2>
+                    <p>
+                        Information does not merely describe reality—it coordinates reality. Understanding this
+                        progression is the foundation of every executive framework.
+                    </p>
+                </div>
+
+                <div class="stack-grid">
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 1</div>
+                        <div class="name">Signal</div>
+                        <div class="desc">Raw data requiring interpretation</div>
+                    </div>
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 2</div>
+                        <div class="name">Information</div>
+                        <div class="desc">Signals organized into meaning</div>
+                    </div>
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 3</div>
+                        <div class="name">Knowledge</div>
+                        <div class="desc">Information applied to action</div>
+                    </div>
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 4</div>
+                        <div class="name">Narrative</div>
+                        <div class="desc">Knowledge structured for coordination</div>
+                    </div>
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 5</div>
+                        <div class="name">Institution</div>
+                        <div class="desc">Stabilized narratives enabling scale</div>
+                    </div>
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 6</div>
+                        <div class="name">Infrastructure</div>
+                        <div class="desc">Coordination made physical/digital</div>
+                    </div>
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 7</div>
+                        <div class="name">Ecosystem</div>
+                        <div class="desc">Interconnected institutions and infrastructure</div>
+                    </div>
+
+                    <div class="stack-item">
+                        <div class="layer">Layer 8</div>
+                        <div class="name">Civilization</div>
+                        <div class="desc">Humanity's largest coordination system</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="section-divider" />
+
+        <!-- ============================================================
+        SECTION: THE DISTRIBUTED ECOSYSTEM
+        ============================================================ -->
+        <section id="ecosystem" aria-labelledby="ecosystem-heading">
+            <div class="wrapper">
+
+                <div class="section-head">
+                    <span class="micro-label">Distributed Ecosystem</span>
+                    <h2 id="ecosystem-heading">The Platform Network</h2>
+                    <p>
+                        11 interconnected platforms forming a distributed intelligence ecosystem. Each node serves a
+                        specific function in the larger coordination infrastructure.
+                    </p>
+                </div>
+
+                <div class="node-grid">
+
+                    <div class="node-card">
+                        <span class="node-role">Primary Publishing</span>
+                        <h4>M. Haris Ansari I</h4>
+                        <a href="https://mharisansari.wordpress.com" target="_blank" class="node-url">mharisansari.wordpress.com</a>
+                        <p>Primary archival publishing environment documenting research, systems thinking, and media analysis.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Infrastructure Systems</span>
+                        <h4>M. Haris Ansari II</h4>
+                        <a href="https://mharisansarii.wordpress.com" target="_blank" class="node-url">mharisansarii.wordpress.com</a>
+                        <p>Secondary distributed publishing layer supporting ecosystem redundancy and semantic continuity.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">AI Native Layer</span>
+                        <h4>Haris Base44</h4>
+                        <a href="https://mharisansari.base44.app" target="_blank" class="node-url">mharisansari.base44.app</a>
+                        <p>Infrastructure experimentation layer exploring intelligent workflows and semantic operations.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Experimental Environment</span>
+                        <h4>Haris Bolt</h4>
+                        <a href="https://ai-infrastructure-ec-ah8d.bolt.host" target="_blank" class="node-url">ai-infrastructure-ec-ah8d.bolt.host</a>
+                        <p>AI-assisted operational environment exploring ecosystem intelligence and autonomous architectures.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Archive Layer</span>
+                        <h4>Haris Neocities</h4>
+                        <a href="https://mharisansari.neocities.org" target="_blank" class="node-url">mharisansari.neocities.org</a>
+                        <p>Independent archival layer preserving lightweight distributed publishing continuity.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Media Layer</span>
+                        <h4>Haris Wix</h4>
+                        <a href="https://mharrisansariii.wixsite.com/mharisansari" target="_blank" class="node-url">mharrisansariii.wixsite.com/mharisansari</a>
+                        <p>Supplementary publishing environment extending ecosystem accessibility and visibility.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Open Infrastructure</span>
+                        <h4>Haris GitHub</h4>
+                        <a href="https://mharrisansariii-creator.github.io/mharisansari" target="_blank" class="node-url">mharrisansariii-creator.github.io/mharisansari</a>
+                        <p><strong>Strategic signaling node</strong> establishing the intellectual foundation for executive frameworks.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Edge Infrastructure</span>
+                        <h4>Haris EdgeOne</h4>
+                        <a href="https://mharisansari.edgeone.app" target="_blank" class="node-url">mharisansari.edgeone.app</a>
+                        <p>Edge-native deployment for global distribution and performance.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Experimental Sandbox</span>
+                        <h4>Haris Anything</h4>
+                        <a href="https://mharisansari.created.app" target="_blank" class="node-url">mharisansari.created.app</a>
+                        <p>Flexible environment for testing new communication concepts and publishing experiments.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Canonical Observatory</span>
+                        <h4>Haris Google</h4>
+                        <a href="https://sites.google.com/view/harisansari/home" target="_blank" class="node-url">sites.google.com/view/harisansari/home</a>
+                        <p>Experimental static deployment environment focused on architecture and systems.</p>
+                    </div>
+
+                    <div class="node-card">
+                        <span class="node-role">Static Deployment</span>
+                        <h4>Haris Netlify</h4>
+                        <a href="https://muhammadharisansari.netlify.app" target="_blank" class="node-url">muhammadharisansari.netlify.app</a>
+                        <p>Static deployment environment supporting performance and redundancy.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="section-divider" />
+
+        <!-- ============================================================
+        SECTION: PUBLICATIONS
+        ============================================================ -->
+        <section id="publications" aria-labelledby="publications-heading">
+            <div class="wrapper">
+
+                <div class="section-head">
+                    <span class="micro-label">Publications</span>
+                    <h2 id="publications-heading">Selected Publications</h2>
+                    <p>
+                        Research essays exploring media technology, communications strategy, AI systems, and organizational coordination.
+                    </p>
+                </div>
+
+                <div class="publications-grid">
+
+                    <div class="publication-item">
+                        <h4><a href="https://mharisansari.wordpress.com/2024/ai-transformative-power/" target="_blank">The Transformative Power of Artificial Intelligence</a></h4>
+                        <div class="pub-meta">2024 · AI · Communication Systems</div>
+                        <p class="pub-abstract">Exploring AI's role in communication systems, infrastructure, and digital evolution.</p>
+                        <a href="https://mharisansari.wordpress.com/2024/ai-transformative-power/" target="_blank" class="pub-link">Read →</a>
+                    </div>
+
+                    <div class="publication-item">
+                        <h4><a href="https://mharisansari.wordpress.com/2024/data-governance/" target="_blank">The Power of Data and Governance</a></h4>
+                        <div class="pub-meta">2024 · Governance · Digital Ecosystems</div>
+                        <p class="pub-abstract">Governance structures, data influence, and systemic transformation in digital ecosystems.</p>
+                        <a href="https://mharisansari.wordpress.com/2024/data-governance/" target="_blank" class="pub-link">Read →</a>
+                    </div>
+
+                    <div class="publication-item">
+                        <h4><a href="https://mharisansari.wordpress.com/2024/vision-compass/" target="_blank">Vision: The Compass of Human Potential</a></h4>
+                        <div class="pub-meta">2024 · Strategic Thought · Human Coordination</div>
+                        <p class="pub-abstract">Directionality, purpose, strategic thought, and human coordination systems.</p>
+                        <a href="https://mharisansari.wordpress.com/2024/vision-compass/" target="_blank" class="pub-link">Read →</a>
+                    </div>
+
+                    <div class="publication-item">
+                        <h4><a href="https://mharisansari.wordpress.com/2024/chaos-theory/" target="_blank">A Journey into Chaos Theory</a></h4>
+                        <div class="pub-meta">2024 · Complexity · Systems Thinking</div>
+                        <p class="pub-abstract">Complexity systems, unpredictability, interconnected structures, and nonlinear behavior.</p>
+                        <a href="https://mharisansari.wordpress.com/2024/chaos-theory/" target="_blank" class="pub-link">Read →</a>
+                    </div>
+
+                    <div class="publication-item">
+                        <h4><a href="https://mharisansari.wordpress.com/2024/content-seo/" target="_blank">The Power of Content and SEO</a></h4>
+                        <div class="pub-meta">2024 · SEO · Discoverability · Communication Strategy</div>
+                        <p class="pub-abstract">Discoverability, communication strategy, search behavior, and digital visibility.</p>
+                        <a href="https://mharisansari.wordpress.com/2024/content-seo/" target="_blank" class="pub-link">Read →</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="section-divider" />
+
+        <!-- ============================================================
+        SECTION: CONTACT / CTA
+        ============================================================ -->
+        <section aria-labelledby="contact-heading">
+            <div class="wrapper">
+
+                <div class="contact-section">
+                    <span class="badge" style="margin-bottom: 12px;">Executive Consultation</span>
+                    <h2 id="contact-heading">Let's Build Something</h2>
+                    <p>
+                        M. Haris Ansari is available for executive consultations, framework development, and
+                        organizational strategy—across Pakistan and globally.
+                    </p>
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/923215797177" target="_blank" class="btn btn-whatsapp" aria-label="Contact via WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                            WhatsApp
+                        </a>
+                        <a href="https://linkedin.com/in/mharisansari" target="_blank" class="btn btn-linkedin" aria-label="Connect on LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://mharisansari.wordpress.com" target="_blank" class="btn btn-outline">
+                            Research Archive →
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer role="contentinfo">
+        <div class="wrapper">
+
+            <div class="footer-grid">
+
+                <div>
+                    <div class="footer-title">M. Haris Ansari</div>
+                    <p class="footer-text">
+                        <strong>Media Technology &amp; Communications Strategist</strong>
+                    </p>
+                    <p class="footer-text" style="margin-top: 8px;">
+                        Developing executive frameworks for organizational coordination, communication systems,
+                        and AI integration.
+                    </p>
+                    <p class="footer-text" style="margin-top: 12px;">
+                        📍 Pakistan · Global Reach<br />
+                        📞 <a href="https://wa.me/923215797177" target="_blank">+92 321 5797177</a><br />
+                        🔗 <a href="https://linkedin.com/in/mharisansari" target="_blank">linkedin.com/in/mharisansari</a>
+                    </p>
+                </div>
+
+                <div>
+                    <div class="footer-title">Ecosystem Nodes</div>
+                    <div class="footer-links">
+                        <a href="https://mharisansari.wordpress.com" target="_blank">Primary Publishing →</a>
+                        <a href="https://mharisansarii.wordpress.com" target="_blank">Infrastructure Systems →</a>
+                        <a href="https://mharisansari.base44.app" target="_blank">AI Native Layer →</a>
+                        <a href="https://ai-infrastructure-ec-ah8d.bolt.host" target="_blank">Experimental Environment →</a>
+                        <a href="https://mharisansari.neocities.org" target="_blank">Archive Layer →</a>
+                        <a href="https://mharrisansariii.wixsite.com/mharisansari" target="_blank">Media Layer →</a>
+                        <a href="https://mharrisansariii-creator.github.io/mharisansari" target="_blank">Open Infrastructure →</a>
+                        <a href="https://mharisansari.edgeone.app" target="_blank">Edge Infrastructure →</a>
+                        <a href="https://mharisansari.created.app" target="_blank">Experimental Sandbox →</a>
+                        <a href="https://sites.google.com/view/harisansari/home" target="_blank">Canonical Observatory →</a>
+                        <a href="https://muhammadharisansari.netlify.app" target="_blank">Static Deployment →</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="footer-title">Quick Links</div>
+                    <div class="footer-links">
+                        <a href="#frameworks">Executive Frameworks</a>
+                        <a href="#stack">Coordination Stack</a>
+                        <a href="#publications">Publications</a>
+                        <a href="https://wa.me/923215797177" target="_blank">WhatsApp</a>
+                        <a href="https://linkedin.com/in/mharisansari" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="footer-title">Infrastructure</div>
+                    <p class="footer-text">
+                        <strong>11</strong> Active Platforms<br />
+                        <strong>6</strong> Executive Frameworks<br />
+                        <strong>2010</strong> Master's Degree
+                    </p>
+                    <p class="footer-text" style="margin-top: 12px; font-size: 0.8rem;">
+                        <span class="badge" style="font-size: 0.6rem;">Active 2026</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 M. Haris Ansari · Media Technology &amp; Communications
+                </p>
+                <p class="tagline">
+                    <strong>Built for Executives · Organizations · AI Systems</strong>
+                </p>
+                <p style="font-size: 0.7rem; color: var(--muted);">
+                    Strategic Signaling Node · Version 2.0
+                </p>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 </html>
