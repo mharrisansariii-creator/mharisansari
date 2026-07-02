@@ -78,7 +78,7 @@ Each layer increases the scale, durability, and complexity of coordination.
 ## 📚 Background
 
 **Education:**
-- Master's in Mass Media Communication — University of the Punjab (2010)
+- Master's in Mass Media Communication — National University of Modern Languages (2010)
 
 **Professional Identity:**
 - Media Technology & Communications Strategist
