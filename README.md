@@ -293,7 +293,7 @@ The frameworks are available for use. The research is open for examination. The 
 
 | Platform | Contact |
 |----------|---------|
-| **LinkedIn** | [linkedin.com/in/mharisansari](https://linkedin.com/in/mharisansari) |
+| **LinkedIn** | [linkedin.com/in/mharisansari](https://linkedin.com/in/mharisansarii) |
 | **WhatsApp** | [+92 321 5797177](https://wa.me/923215797177) |
 | **Research** | [mharisansari.wordpress.com](https://mharisansari.wordpress.com) |
 | **GitHub** | [mharrisansariii-creator.github.io/mharisansari](https://mharrisansariii-creator.github.io/mharisansari) |
