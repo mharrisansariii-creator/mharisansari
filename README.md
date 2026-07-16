@@ -15,7 +15,7 @@
 
 Every generation inherits a different communication environment.
 
-Mine happened to span one of the most significant transitions in recent history—from analog media and early personal computing to networked societies and, more recently, intelligent systems capable of participating in human workflows.
+Mine happened to span one of the most significant transitions in recent history, from analog media and early personal computing to networked societies and, more recently, intelligent systems capable of participating in human workflows.
 
 Looking back, what appeared to be separate experiences in computing, journalism, broadcast media, entrepreneurship, documentary production, tourism, and institutional communication gradually revealed a recurring question:
 
@@ -45,7 +45,7 @@ The frameworks in this repository are not isolated ideas. They are the current s
 
 I am M. Haris Ansari.
 
-My formal training is in Mass Media Communication—a Master's degree from the National University of Modern Languages (2010). But the education that shaped this investigation came from environments far removed from classrooms.
+My formal training is in Mass Media Communication, a Master's degree from the National University of Modern Languages (2010). But the education that shaped this investigation came from environments far removed from classrooms.
 
 I have worked across:
 
@@ -177,9 +177,9 @@ Each model is an attempt to explain a recurring pattern observed across multiple
 ## The Coordination Stack
 
 Coordination operates across layers that increase in scale, durability, and complexity.
+
 Signal → Information → Knowledge → Narrative → Institution → Infrastructure → Ecosystem → Civilization
 
----
 
 Each layer depends on the layers beneath it. Each layer enables new forms of coordination that were not possible before.
 
@@ -209,13 +209,58 @@ This stack is a working model—an attempt to describe how coordination scales. 
 
 ## Publications
 
-| Title | Year | Topics |
-|-------|------|--------|
-| [The Transformative Power of Artificial Intelligence](https://mharisansari.wordpress.com/2024/ai-transformative-power/) | 2024 | AI, Communication Systems |
-| [The Power of Data and Governance](https://mharisansari.wordpress.com/2024/data-governance/) | 2024 | Governance, Digital Ecosystems |
-| [Vision: The Compass of Human Potential](https://mharisansari.wordpress.com/2024/vision-compass/) | 2024 | Strategic Thought, Coordination |
-| [A Journey into Chaos Theory](https://mharisansari.wordpress.com/2024/chaos-theory/) | 2024 | Complexity, Systems Thinking |
-| [The Power of Content and SEO](https://mharisansari.wordpress.com/2024/content-seo/) | 2024 | SEO, Communication Strategy |
+### Foundational Essays
+
+| Title | Year | Link |
+|-------|------|------|
+| Why I Built a Digital Ecosystem | 2026 | [Read →](https://mharisansarii.wordpress.com/2026/06/05/why-i-built-a-digital-ecosystem/) |
+| Vision: The Compass of Human Potential | 2025 | [Read →](https://mharisansarii.wordpress.com/2025/03/20/vision-the-compass-of-human-potential/) |
+| The Dance of Ideas and Opinions | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/10/the-dance-of-ideas-and-opinions/) |
+| The Essence of Research | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/the-essence-of-research-a-journey-that-spans-decades/) |
+
+### Technology, AI & Systems
+
+| Title | Year | Link |
+|-------|------|------|
+| The Transformative Power of Artificial Intelligence | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/26/the-transformative-power-of-artificial-intelligence-m-haris-ansari/) |
+| The Power of Data and Governance | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/10/03/the-power-of-data-and-governance-m-haris-ansari/) |
+| Google, Facebook, Amazon & OpenAI: Shaping the Future of Technology | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/12/google-facebook-amazon-openai-shaping-the-future-of-technology/) |
+| The Revolutionary Impact of Cryptocurrency and Blockchain | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/21/the-revolutionary-impact-of-cryptocurrency-and-blockchain/) |
+| The Most Searched Queries on Google in 2024 | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/23/the-most-searched-queries-on-google-in-2024-a-brief-look-into-our-digital-curiosity/) |
+| Top 10 Websites According to Alexa Ranking | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/30/top-10-websites-according-to-alexa-ranking/) |
+| A Journey Into Chaos Theory | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/10/24/a-journey-into-chaos-theory-m-haris-ansari/) |
+
+### Research, Society & Human Development
+
+| Title | Year | Link |
+|-------|------|------|
+| The Power of Content and SEO | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/15/the-power-of-content-and-seo-m-haris-ansari/) |
+| The Journey of Self Improvement | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/25/the-journey-of-self-improvement-an-inspirational-tale/) |
+| The Magic of Library | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/18/the-magic-of-library-guide-to-knowledge-and-imagination/) |
+| Climate Change and Pakistan | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/20/climate-change-and-pakistan/) |
+| The Transformative Power of Travel | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/19/the-transformative-power-of-travel-a-journey-of-exploration-and-learning/) |
+
+### Media, Film & Culture
+
+| Title | Year | Link |
+|-------|------|------|
+| Baraka: A Timeless Documentary Piece | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/baraka-a-timeless-documentary-piece/) |
+| The Phenomenon of YouTube and MrBeast | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/13/the-phenomenon-of-youtube-and-mrbeast/) |
+| The Best Movies: A Cinematic Journey | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/18/the-best-movies-a-cinematic-journey/) |
+| Sector 36: A Gripping Journey Into The Dark Psyche | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/17/sector-36-a-gripping-journey-into-the-dark-psyche/) |
+| A Melodic Odyssey: Eastern and Western Classical Music | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/a-melodic-odyssey-eastern-and-western-classical-music/) |
+| When The Office Printer Declared War | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/22/when-the-office-printer-declared-war-a-comedy-of-errors/) |
+
+### Sports, Leadership & Performance
+
+| Title | Year | Link |
+|-------|------|------|
+| The Meteoric Rise of Cristiano Ronaldo | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/12/the-meteoric-rise-of-cristiano-ronaldo-a-football-enthusiasts-tale/) |
+| Zlatan Ibrahimović: The Swedish Ace | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/24/zlatan-ibrahimovic-the-swedish-ace/) |
+| MS Dhoni: The Leader Who Redefined Indian Cricket | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/21/ms-dhoni-the-leader-who-redefined-indian-cricket/) |
+| The Thrill of Being a Manchester United Fan | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/18/the-thrill-of-being-a-manchester-united-fan-a-journey-of-passion/) |
+| Cricket: The Gentleman's Game | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/cricket-the-gentlemans-game/) |
+| Chess: A Reflection of Life | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/16/chess-a-reflection-of-life/) |
 
 ---
 
@@ -293,7 +338,7 @@ The frameworks are available for use. The research is open for examination. The 
 
 | Platform | Contact |
 |----------|---------|
-| **LinkedIn** | [linkedin.com/in/mharisansari](https://linkedin.com/in/mharisansarii) |
+| **LinkedIn** | [linkedin.com/in/mharisansari](https://linkedin.com/in/mharisansari) |
 | **WhatsApp** | [+92 321 5797177](https://wa.me/923215797177) |
 | **Research** | [mharisansari.wordpress.com](https://mharisansari.wordpress.com) |
 | **GitHub** | [mharrisansariii-creator.github.io/mharisansari](https://mharrisansariii-creator.github.io/mharisansari) |
