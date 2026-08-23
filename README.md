@@ -270,17 +270,17 @@ This stack is a working model—an attempt to describe how coordination scales. 
 
 | Platform | URL | Function |
 |----------|-----|----------|
-| Primary Publishing | [mharisansari.wordpress.com](https://mharisansari.wordpress.com) | Archival publishing of long-form research |
-| Infrastructure Systems | [mharisansarii.wordpress.com](https://mharisansarii.wordpress.com) | Secondary publishing layer |
-| AI Native Layer | [mharisansari.base44.app](https://mharisansari.base44.app) | Infrastructure experimentation |
-| Experimental Environment | [ai-infrastructure-ec-ah8d.bolt.host](https://ai-infrastructure-ec-ah8d.bolt.host) | AI-assisted operational environment |
-| Archive Layer | [mharisansari.neocities.org](https://mharisansari.neocities.org) | Independent archival layer |
-| Media Layer | [mharrisansariii.wixsite.com/mharisansari](https://mharrisansariii.wixsite.com/mharisansari) | Supplementary publishing |
-| **Open Infrastructure** | **[mharrisansariii-creator.github.io/mharisansari](https://mharrisansariii-creator.github.io/mharisansari)** | **Strategic Signaling Node** |
-| Edge Infrastructure | [mharisansari.edgeone.app](https://mharisansari.edgeone.app) | Edge-native deployment |
-| Experimental Sandbox | [mharisansari.created.app](https://mharisansari.created.app) | Testing environment |
-| Canonical Observatory | [sites.google.com/view/harisansari/home](https://sites.google.com/view/harisansari/home) | Experimental deployment |
-| Static Deployment | [muhammadharisansari.netlify.app](https://muhammadharisansari.netlify.app) | Static deployment |
+| Primary Publishing | [mharisansari.wordpress.com](https://mharisansari.wordpress.com) | Professional Identity & Evidence |
+| Secondary Publishing | [mharisansarii.wordpress.com](https://mharisansarii.wordpress.com) | Research & Intellectual Archive |
+| AI Native Layer | [mharisansari.base44.app](https://mharisansari.base44.app) | Operational Intelligence |
+| Experimental Environment | [ai-infrastructure-ec-ah8d.bolt.host](https://ai-infrastructure-ec-ah8d.bolt.host) | R&D / Prototype Lab |
+| Independent Web Layer | [mharisansari.neocities.org](https://mharisansari.neocities.org) | Commercial Front Door |
+| Media Layer | [mharrisansariii.wixsite.com/mharisansari](https://mharrisansariii.wixsite.com/mharisansari) | Creative & Visual Evidence |
+| **Open Infrastructure** | **[mharrisansariii-creator.github.io/mharisansari](https://mharrisansariii-creator.github.io/mharisansari)** | **Technical Infrastructure** |
+| Edge Infrastructure | [mharisansari.edgeone.app](https://mharisansari.edgeone.app) | Edge Infrastructure |
+| Experimental Sandbox | [mharisansari.created.app](https://mharisansari.created.app) | Experimental Sandbox |
+| Canonical Observatory | [sites.google.com/view/harisansari/home](https://sites.google.com/view/harisansari/home) | Observatory & Ecosystem Map |
+| Static Deployment | [muhammadharisansari.netlify.app](https://muhammadharisansari.netlify.app) | Executive Systems Interface |
 
 ---
 
