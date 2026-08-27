@@ -2,385 +2,586 @@
 
 ## Independent Research Program on Coordination
 
----
+> **How does coordination change as it becomes increasingly structured, contextualized, shared, semantically organized, institutionalized, infrastructural, networked, and persistent across time — and what changes when artificial agents become participants in those processes?**
 
-![Status: Active](https://img.shields.io/badge/Status-Active-85ffb0)
-![Version: 3.0](https://img.shields.io/badge/Version-3.0-ffd966)
-![Research Program](https://img.shields.io/badge/Research-Program-5b9aff)
-![Open Infrastructure](https://img.shields.io/badge/Infrastructure-Open-ff6b6b)
-
----
-
-## Why This Repository Exists
-
-Every generation inherits a different communication environment.
-
-Mine happened to span one of the most significant transitions in recent history, from analog media and early personal computing to networked societies and, more recently, intelligent systems capable of participating in human workflows.
-
-Looking back, what appeared to be separate experiences in computing, journalism, broadcast media, entrepreneurship, documentary production, tourism, and institutional communication gradually revealed a recurring question:
-
-**How do people, organizations, institutions, and increasingly intelligent systems coordinate under growing complexity?**
-
-This repository documents an ongoing independent investigation into that question. It brings together observations, working models, essays, frameworks, experiments, and applications developed over time. None of them are presented as the final answer. Together, they represent the current state of an evolving research program.
+[![Status: Active](https://img.shields.io/badge/Status-Active-85ffb0)](https://github.com/mharrisansariii-creator/mharisansari)
+[![Research Program](https://img.shields.io/badge/Research-Program-5b9aff)](https://github.com/mharrisansariii-creator/mharisansari)
+[![Open Infrastructure](https://img.shields.io/badge/Infrastructure-Open-ff6b6b)](https://github.com/mharrisansariii-creator/mharisansari)
 
 ---
 
-## The Central Question
+## What This Repository Is
 
-For nearly three decades, a single question has recurred across every environment I have inhabited:
+This repository is the **technical and documentary record of M. Haris Ansari's Independent Research Program on Coordination**.
 
-**How do people, institutions, and increasingly intelligent machines coordinate well enough to accomplish things no individual could accomplish alone?**
+The program investigates how humans, organizations, institutions, media systems, and increasingly intelligent machines coordinate:
 
-This question did not emerge from theory. It emerged from observation.
+- meaning
+- information
+- knowledge
+- decisions
+- attention
+- trust
+- action
 
-As a child, I noticed that different people could look at the same world and somehow arrive at completely different understandings of it. I noticed technologies arriving unevenly. I watched institutions succeed for reasons that were invisible from the outside, and fail for reasons equally difficult to see.
+The work sits at the intersection of **communication, media, information architecture, systems thinking, institutional analysis, artificial intelligence, and coordination theory**.
 
-Those observations eventually became an investigation.
+This is an active research program rather than a completed theory.
 
-The frameworks in this repository are not isolated ideas. They are the current state of that investigation.
+The repository therefore contains not only conclusions, but also:
 
----
+- theoretical foundations
+- intellectual provenance
+- working models
+- research propositions
+- experimental implementations
+- evidence boundaries
+- unresolved questions
 
-## About the Researcher
+The objective is not to present a finished answer.
 
-I am M. Haris Ansari.
-
-My formal training is in Mass Media Communication, a Master's degree from the National University of Modern Languages (2010). But the education that shaped this investigation came from environments far removed from classrooms.
-
-I have worked across:
-
-- **Computing** — Building machines from parts in the early 2000s, when documentation was scarce and every success felt like a small resurrection.
-- **Journalism** — Editorial rooms where decisions about truth, speed, and trust were made under impossible pressure.
-- **Broadcast Media** — Pakistan Television, where I learned that audiences see broadcasts, but institutions see coordination.
-- **Entrepreneurship** — Ventures that succeeded, failed, and ended through regulatory shifts, market collapses, and global pandemics.
-- **Documentary & Film Production** — Where I discovered that attention is a distinct coordination category.
-- **Public Institutions** — Engagements with FWO, ISPR, the Ministry of Communication, and the PTV Academy.
-- **Artificial Intelligence** — Where intelligent systems have stopped being tools and started becoming participants in coordination itself.
-
-The common thread across all these environments was not a single discipline. It was a recurring pattern: coordination failures that could have been prevented, and coordination successes that were rarely understood well enough to be replicated.
-
-This repository is an attempt to understand both.
+It is to make the investigation **inspectable**.
 
 ---
 
-## How This Investigation Emerged
+## The Research Question
 
-I did not set out to build a research program. I set out to answer a question a child asks before he has the vocabulary to know it's a question at all.
+The broader question is:
 
-The investigation emerged organically across decades of experience, failure, and rebuilding. Each period revealed a new layer of the question.
+> **How do humans, organizations, societies, media systems, and intelligent systems coordinate meaning, knowledge, decisions, and action?**
 
----
+The narrower structural question currently guiding the theoretical work is:
 
-## Evolution of the Investigation
+> **How does coordination change as it becomes increasingly structured, contextualized, shared, semantically organized, institutionalized, infrastructural, networked, and persistent across time — and what changes when artificial agents become participants in those processes?**
 
-### 1997 — Two Worlds
-Growing up in Pakistan meant watching analog and digital worlds exist simultaneously. Infrastructure arrived unevenly. Some households lived decades apart despite sharing the same street. Long before I understood systems, I began noticing the spaces between them.
+The distinction matters.
 
-*The observation:* Overlapping infrastructures change how people coordinate.
+Coordination itself is not a new field of inquiry. It has been studied across economics, sociology, organizational theory, communication, computer science, linguistics, systems theory, and complexity science.
 
----
-
-### 2001–2004 — Computers as Laboratory
-Computers became my laboratory. I built machines from parts, configured dial-up connections for households experiencing the internet for the first time, and watched the wonder on faces when a page finally loaded. I was self-taught in an environment where documentation was scarce.
-
-*The observation:* Technology is valuable not because it works, but because it restores human capability.
+The investigation documented here asks whether these traditions can be brought into a more coherent research architecture without pretending that they already constitute a single unified theory.
 
 ---
 
-### 2005 — The First Zero
-In 2005 I discovered that understanding a system does not mean understanding the behavior that emerges when thousands of people inhabit it simultaneously. The Karachi Stock Exchange became my first teacher in collective coordination. My account emptied. The shares I held went bankrupt and were removed from the index entirely.
+## Research Position
 
-*The observation:* Outcomes can emerge from the coordination of many actors in ways that exceed what any single actor's understanding could predict or prevent.
+The current position is deliberately provisional.
 
----
+Three propositions currently organize much of the investigation:
 
-### 2006–2009 — A New Vocabulary
-I needed language for systems of people, not only systems of machines. University gave me that vocabulary—journalism and sociology. A sociology professor kept redirecting my analysis toward institutional pattern rather than individual behavior. A senior editor taught me that trust is not a property of information, but an outcome of process.
+### 1. Coordination as an organizing problem
 
-*The observation:* Education doesn't hand us new ideas so much as vocabulary for ideas we've already been circling.
+Coordination may provide a useful organizing problem through which information, communication, meaning, knowledge, narrative, intelligence, systems, institutions, and infrastructure can be examined together.
 
----
+### 2. Communication as infrastructure
 
-### 2010–2013 — What a Broadcast Hides
-Television taught me something university never could: audiences see broadcasts, but institutions see coordination. Every bulletin that reached the screen represented hundreds of invisible decisions made across editorial rooms, engineering departments, schedules, and verification processes. The broadcast was never the work. It was the visible residue of coordinated work.
+Communication may be more than the transfer of messages.
 
-*The observation:* The technical layer could be flawless and the institution could still fail to coordinate—because coordination is human and organizational as much as it is technical.
+It can also be understood as part of the infrastructure through which distributed actors preserve meaning, share knowledge, make decisions, and coordinate action.
 
----
+### 3. Coordination in the AI era
 
-### 2015 — The Second Zero
-I co-founded a venture—a themed café and designer house built for residential-area operation. It was working. Customers came. The numbers were healthy. Then a structural policy shift required businesses of this kind to relocate out of residential areas entirely. The ground the concept had been built on stopped existing.
+As artificial intelligence increases the number, speed, autonomy, and heterogeneity of intelligent participants in a system, the design of coordination infrastructure may become increasingly important.
 
-*The observation:* Strong internal execution offers no guarantee against a coordination failure occurring one level above the organization. Competent execution at one level of a system provides no immunity from failure at a level above it.
+These are **research propositions**, not established conclusions.
 
 ---
 
-### 2016–2018 — What a Film Set Coordinates
-Film production taught me a third category of coordination. A film set is not a creative environment first and an operational one second—it is the reverse. Writing, directing, sound, lighting, logistics, and finance synchronize with almost no margin for error. The entire enterprise is a miracle of temporary organization.
+## The Research Architecture
 
-*The observation:* Coordination in this setting was organized around attention—the narrative and emotional thread that has to survive being shot out of sequence and reassembled coherently. Attention deserves treatment as its own coordination category.
+The program currently operates across several connected layers.
+
+Observation
+
+↓
+
+Research
+
+↓
+
+Framework
+
+↓
+
+Experiment
+
+↓
+
+Application
+
+↓
+
+Evidence
+
+↓
+
+New Questions
+
+↺
+
+The process is iterative rather than declarative.
+
+Professional practice produces observations.
+
+Observations generate questions.
+
+Questions lead to research.
+
+Research produces frameworks.
+
+Frameworks are tested through experiments and applications.
+
+Applications generate new observations.
+
+The cycle continues.
+
+The repository documents that cycle.
 
 ---
 
-### 2020 — The Third Zero
-Going into 2020, tourism in Pakistan was booming. I was building Pakistan Explorer at full throttle. Then COVID lockdowns arrived. Travel stopped entirely and without warning. The venture ended inside that collapse.
+## Core Research Domains
 
-*The observation:* Sometimes there is no attributable cause. Sometimes things just end, and you have to rebuild anyway.
+The investigation currently concentrates on seven interconnected domains:
 
----
+| Domain                      | Research Concern                                           |
+| --------------------------- | ---------------------------------------------------------- |
+| **Coordination**            | How distributed actors synchronize action                  |
+| **Communication**           | How information, meaning, and signals move through systems |
+| **Trust**                   | How credibility and verification enable coordination       |
+| **Institutions**            | How coordination becomes durable and governed              |
+| **Knowledge**               | How information becomes contextual, shared, and reusable   |
+| **Infrastructure**          | How coordination is materially and technically enabled     |
+| **Artificial Intelligence** | What changes when machines become active participants      |
 
-### 2021–2025 — Proximity to Serious Institutions
-Engagements with the Frontier Works Organization (FWO), Inter-Services Public Relations (ISPR), the Ministry of Communication, and the PTV Academy sharpened earlier lessons. The verification discipline first observed in a regional newsroom exists at these institutions with substantially higher stakes attached.
+These domains should not be understood as isolated research categories.
 
-*The observation:* Coordination failures here are not abstractions—they are visible and consequential.
-
----
-
-### Present — The Machines Enter the Loop
-Artificial intelligence stopped being a tool and started becoming a participant in coordination itself. Every proposition developed earlier—about infrastructure, collective outcomes, institutional trust, attention, and systems embedded in larger systems—resurfaces here, but with a new class of participant inside each one.
-
-*The current question:* Mechanisms of trust and verification built for human-only systems may prove insufficient once artificial systems are active participants rather than passive tools. New mechanisms may need to be deliberately designed rather than assumed to emerge on their own.
-
----
-
-## Research Themes
-
-The investigation is organized around recurring themes that connect across contexts.
-
-| Theme | Focus |
-|-------|-------|
-| **Coordination** | How people, institutions, and systems synchronize |
-| **Communication** | How information, narrative, and meaning flow through organizations |
-| **Trust** | How institutions build, maintain, and lose credibility |
-| **Institutions** | How organizations persist and adapt across time |
-| **Knowledge** | How information becomes memory, semantics, and learning |
-| **Infrastructure** | How digital, institutional, and social systems support coordination |
-| **Artificial Intelligence** | How intelligent systems participate in coordination |
-
----
-
-## Current Working Models
-
-Each model is an attempt to explain a recurring pattern observed across multiple contexts. Models evolve as new observations accumulate.
-
-| Model | Addresses | Working Proposition |
-|-------|-----------|---------------------|
-| **Civilization as Coordination** | Organizational fragmentation | Coherent coordination across departments, systems, and partners is the foundation of durable organizations |
-| **Communication Operating System (CommOS)** | Communication breakdown | Communication can be designed as a system rather than treated as an emergent property |
-| **Distributed Narrative Intelligence (DNI)** | Misaligned narratives | Consistent narratives require deliberate design across distributed teams and systems |
-| **Semantic Infrastructure** | Information fragmentation | Unified knowledge architecture is a prerequisite for coherent decision-making |
-| **Brain OS** | Human-machine coordination | Human-AI collaboration requires explicit design of coordination mechanisms |
-| **Adaptive Intelligence** | Organizational rigidity | Resilient organizations require systems that learn and adapt continuously |
+The program is specifically interested in the relationships between them.
 
 ---
 
 ## The Coordination Stack
 
-Coordination operates across layers that increase in scale, durability, and complexity.
+One of the principal working models in the program is the **Coordination Stack**:
 
-Signal → Information → Knowledge → Narrative → Institution → Infrastructure → Ecosystem → Civilization
+Signal
 
+↓
 
-Each layer depends on the layers beneath it. Each layer enables new forms of coordination that were not possible before.
+Information
 
-This stack is a working model—an attempt to describe how coordination scales. It continues to evolve as new contexts and observations emerge.
+↓
 
----
+Knowledge
 
-## Current Research
+↓
 
-### Active Lines of Inquiry
+Narrative
 
-1. **Human-AI Coordination** — How do mechanisms of trust and verification need to change when artificial systems become participants in coordination rather than passive tools?
+↓
 
-2. **Attention as a Coordination Category** — How does attention function as a resource, and how can it be designed for in organizations?
+Institution
 
-3. **Distributed Intelligence** — How does intelligence emerge across networks of humans and machines, and what conditions support or inhibit it?
+↓
 
-### Open Questions
+Infrastructure
 
-1. What new forms of governance are required when coordination occurs across human and artificial systems simultaneously?
+↓
 
-2. How do institutions remain coherent when they operate across multiple coordination layers?
+Ecosystem
 
-3. What can we learn from coordination failures that has not yet been captured in existing models?
+↓
 
----
+Civilization
 
-## Publications
+The current formulation treats these not as substances that literally transform from one into another, but as **different forms and scales through which coordination can be organized**.
 
-### Foundational Essays
+A signal is not an institution.
 
-| Title | Year | Link |
-|-------|------|------|
-| Why I Built a Digital Ecosystem | 2026 | [Read →](https://mharisansarii.wordpress.com/2026/06/05/why-i-built-a-digital-ecosystem/) |
-| Vision: The Compass of Human Potential | 2025 | [Read →](https://mharisansarii.wordpress.com/2025/03/20/vision-the-compass-of-human-potential/) |
-| The Dance of Ideas and Opinions | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/10/the-dance-of-ideas-and-opinions/) |
-| The Essence of Research | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/the-essence-of-research-a-journey-that-spans-decades/) |
+An institution is not infrastructure.
 
-### Technology, AI & Systems
+Infrastructure is not civilization.
 
-| Title | Year | Link |
-|-------|------|------|
-| The Transformative Power of Artificial Intelligence | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/26/the-transformative-power-of-artificial-intelligence-m-haris-ansari/) |
-| The Power of Data and Governance | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/10/03/the-power-of-data-and-governance-m-haris-ansari/) |
-| Google, Facebook, Amazon & OpenAI: Shaping the Future of Technology | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/12/google-facebook-amazon-openai-shaping-the-future-of-technology/) |
-| The Revolutionary Impact of Cryptocurrency and Blockchain | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/21/the-revolutionary-impact-of-cryptocurrency-and-blockchain/) |
-| The Most Searched Queries on Google in 2024 | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/23/the-most-searched-queries-on-google-in-2024-a-brief-look-into-our-digital-curiosity/) |
-| Top 10 Websites According to Alexa Ranking | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/30/top-10-websites-according-to-alexa-ranking/) |
-| A Journey Into Chaos Theory | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/10/24/a-journey-into-chaos-theory-m-haris-ansari/) |
+The stack therefore remains a conceptual model for examining increasing structure, persistence, interdependence, and scale.
 
-### Research, Society & Human Development
+It is **not presented as an established law or validated universal sequence**.
 
-| Title | Year | Link |
-|-------|------|------|
-| The Power of Content and SEO | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/15/the-power-of-content-and-seo-m-haris-ansari/) |
-| The Journey of Self Improvement | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/25/the-journey-of-self-improvement-an-inspirational-tale/) |
-| The Magic of Library | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/18/the-magic-of-library-guide-to-knowledge-and-imagination/) |
-| Climate Change and Pakistan | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/20/climate-change-and-pakistan/) |
-| The Transformative Power of Travel | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/19/the-transformative-power-of-travel-a-journey-of-exploration-and-learning/) |
+The theoretical foundations document examines each layer and transition individually, including the places where the model may fail.
 
-### Media, Film & Culture
-
-| Title | Year | Link |
-|-------|------|------|
-| Baraka: A Timeless Documentary Piece | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/baraka-a-timeless-documentary-piece/) |
-| The Phenomenon of YouTube and MrBeast | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/13/the-phenomenon-of-youtube-and-mrbeast/) |
-| The Best Movies: A Cinematic Journey | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/18/the-best-movies-a-cinematic-journey/) |
-| Sector 36: A Gripping Journey Into The Dark Psyche | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/17/sector-36-a-gripping-journey-into-the-dark-psyche/) |
-| A Melodic Odyssey: Eastern and Western Classical Music | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/a-melodic-odyssey-eastern-and-western-classical-music/) |
-| When The Office Printer Declared War | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/22/when-the-office-printer-declared-war-a-comedy-of-errors/) |
-
-### Sports, Leadership & Performance
-
-| Title | Year | Link |
-|-------|------|------|
-| The Meteoric Rise of Cristiano Ronaldo | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/12/the-meteoric-rise-of-cristiano-ronaldo-a-football-enthusiasts-tale/) |
-| Zlatan Ibrahimović: The Swedish Ace | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/24/zlatan-ibrahimovic-the-swedish-ace/) |
-| MS Dhoni: The Leader Who Redefined Indian Cricket | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/21/ms-dhoni-the-leader-who-redefined-indian-cricket/) |
-| The Thrill of Being a Manchester United Fan | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/18/the-thrill-of-being-a-manchester-united-fan-a-journey-of-passion/) |
-| Cricket: The Gentleman's Game | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/11/cricket-the-gentlemans-game/) |
-| Chess: A Reflection of Life | 2024 | [Read →](https://mharisansarii.wordpress.com/2024/09/16/chess-a-reflection-of-life/) |
+→ [`theoretical-foundations.md`](./theoretical-foundations.md)
 
 ---
 
-## Distributed Knowledge Ecosystem
+## Working Frameworks
 
-11 interconnected platforms forming a distributed intelligence ecosystem. Each serves a distinct function in the architecture of the investigation.
+The program currently contains several working frameworks.
 
-| Platform | URL | Function |
-|----------|-----|----------|
-| Primary Publishing | [mharisansari.wordpress.com](https://mharisansari.wordpress.com) | Professional Identity & Evidence |
-| Secondary Publishing | [mharisansarii.wordpress.com](https://mharisansarii.wordpress.com) | Research & Intellectual Archive |
-| AI Native Layer | [mharisansari.base44.app](https://mharisansari.base44.app) | Operational Intelligence |
-| Experimental Environment | [ai-infrastructure-ec-ah8d.bolt.host](https://ai-infrastructure-ec-ah8d.bolt.host) | R&D / Prototype Lab |
-| Independent Web Layer | [mharisansari.neocities.org](https://mharisansari.neocities.org) | Commercial Front Door |
-| Media Layer | [mharrisansariii.wixsite.com/mharisansari](https://mharrisansariii.wixsite.com/mharisansari) | Creative & Visual Evidence |
-| **Open Infrastructure** | **[mharrisansariii-creator.github.io/mharisansari](https://mharrisansariii-creator.github.io/mharisansari)** | **Technical Infrastructure** |
-| Edge Infrastructure | [mharisansari.edgeone.app](https://mharisansari.edgeone.app) | Edge Infrastructure |
-| Experimental Sandbox | [mharisansari.created.app](https://mharisansari.created.app) | Experimental Sandbox |
-| Canonical Observatory | [sites.google.com/view/harisansari/home](https://sites.google.com/view/harisansari/home) | Observatory & Ecosystem Map |
-| Static Deployment | [muhammadharisansari.netlify.app](https://muhammadharisansari.netlify.app) | Executive Systems Interface |
+They should be read as models under development rather than established theories.
 
----
+| Framework                                | Central Problem                                                                                    |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Civilization as Coordination**         | How large-scale human systems organize and sustain coordination                                    |
+| **Communication Operating System**       | How communication can be deliberately architected within organizations                             |
+| **Distributed Narrative Intelligence**   | How distributed actors preserve coherence through shared narrative structures                      |
+| **Brain OS**                             | How externalized cognitive structures can support attention, memory, and decision processes        |
+| **Adaptive Intelligence Systems**        | How systems can learn, respond, and recalibrate under changing conditions                          |
+| **Semantic Infrastructure Architecture** | How shared meaning, definitions, relationships, and context become infrastructure for coordination |
 
-## Guiding Principles
+The frameworks exist at different stages.
 
-The investigation is guided by principles that preserve its integrity over time.
+Some are conceptual.
 
-### Principle 1: The question is always bigger than the answer.
-Every document should leave readers with a better question than they arrived with. This is an ongoing investigation.
+Some are being translated into prototypes.
 
-### Principle 2: Observations, interpretations, and propositions are clearly distinguished.
-This investigation distinguishes between:
-- **Observed:** What happened.
-- **Interpreted:** What it suggests.
-- **Proposed:** What it implies.
-- **Applied:** How it might help.
+Some have already entered applied environments.
 
-### Principle 3: Every concept earns its definition.
-Terms like coordination, trust, narrative, and infrastructure have stable definitions that do not drift from one document to another.
-
-### Principle 4: Every model has boundaries.
-No framework explains everything. Every model includes:
-- What it explains well.
-- What it does not explain.
-- Where further research is needed.
-
-### Principle 5: A coherent vocabulary is maintained.
-If "coordination" means one thing in the README, it means the same thing in a proposal, website, or research note.
-
-### Principle 6: The ecosystem is cumulative.
-Nothing feels isolated. A new essay connects back to existing concepts. The repository feels like a growing network, not a stack of disconnected files.
+None should be interpreted as independently validated theory merely because an implementation exists.
 
 ---
 
-## Invitation
+## Current Lines of Inquiry
 
-This investigation is open.
+### Human–AI Coordination
 
-If you are:
+What changes when artificial systems become participants in coordination rather than passive tools?
 
-- An executive facing coordination challenges
-- A researcher studying human-machine coordination
-- A journalist or media professional navigating institutional communication
-- A policymaker designing systems for complex coordination
-- An AI practitioner designing systems that participate in coordination
-- A curious reader following the investigation
+Particular attention is given to:
 
-You are welcome here.
-
-The frameworks are available for use. The research is open for examination. The questions are open for collaboration.
-
----
-
-## Contact
-
-| Platform | Contact |
-|----------|---------|
-| **LinkedIn** | [linkedin.com/in/mharisansari](https://linkedin.com/in/mharisansari) |
-| **WhatsApp** | [+92 321 5797177](https://wa.me/923215797177) |
-| **Research** | [mharisansari.wordpress.com](https://mharisansari.wordpress.com) |
-| **GitHub** | [mharrisansariii-creator.github.io/mharisansari](https://mharrisansariii-creator.github.io/mharisansari) |
+- trust
+- verification
+- delegation
+- decision rights
+- accountability
+- machine-to-machine coordination
+- human–AI interfaces
+- institutional governance
 
 ---
 
-## Keywords
+### Attention as a Coordination Category
 
-`Coordination` `Communication` `Trust` `Institutions` `Knowledge` `Infrastructure` `Artificial Intelligence` `Human-Machine Coordination` `Organizational Coordination` `Systems Thinking` `Media Technology` `Strategic Communication`
+Film production, media systems, organizational communication, and digital environments suggest that coordination is not only about information.
+
+It is also about **attention**.
+
+The investigation asks:
+
+> How does attention function as a coordination resource, and how can systems deliberately design for it?
+
+---
+
+### Distributed Intelligence
+
+The program investigates whether intelligence can emerge across networks of:
+
+- humans
+- institutions
+- information systems
+- narratives
+- artificial agents
+
+The question is not simply whether an individual or machine is intelligent.
+
+It is whether a system can become **more capable through coordination among distributed intelligent participants**.
+
+---
+
+## Evidence Discipline
+
+A central principle of this repository is that **a proposition should not be presented as a fact merely because it is interesting, coherent, or implemented**.
+
+The program currently uses the following evidence vocabulary:
+
+| Status           | Meaning                                                  |
+| ---------------- | -------------------------------------------------------- |
+| **Demonstrated** | Direct evidence exists                                   |
+| **Supported**    | Evidence exists, but the conclusion remains interpretive |
+| **Research**     | Active investigation is underway                         |
+| **Experiment**   | A prototype or test environment exists                   |
+| **Framework**    | A structured model is proposed or being used             |
+| **Vision**       | A future possibility rather than an implemented reality  |
+
+This distinction is important throughout the repository.
+
+A live prototype demonstrates that something was built.
+
+It does not automatically demonstrate that the underlying theory is correct.
+
+A published essay demonstrates that an argument exists.
+
+It does not automatically validate the argument.
+
+A theoretical relationship supported by literature does not automatically establish the originality of the synthesis.
+
+The program therefore separates **evidence, interpretation, synthesis, and proposition**.
+
+---
+
+## Intellectual Record
+
+The professional and experiential history underlying this investigation is documented separately.
+
+It includes:
+
+- media and communication
+- journalism
+- broadcast production
+- filmmaking and documentary work
+- entrepreneurship
+- publishing
+- information architecture
+- artificial intelligence
+- systems-oriented experimentation
+
+The purpose of that document is not self-promotion.
+
+It establishes provenance: **where the observations, experiences, artifacts, and intellectual development underlying the research came from.**
+
+→ [`intellectual-record.md`](./intellectual-record.md)
+
+---
+
+## Theoretical Foundations
+
+The theoretical foundations document provides the research genealogy behind the program.
+
+It examines relationships with established work across:
+
+- information theory
+- cybernetics
+- general systems theory
+- complexity science
+- the sciences of the artificial
+- game theory
+- coordination theory
+- common ground
+- institutional theory
+- collective action
+- dispersed knowledge
+- sociological systems theory
+- sensemaking
+- narrative
+- infrastructure studies
+- business ecosystems
+- complexity and collapse
+- algorithms as institutions
+- contemporary human–AI coordination research
+
+It also distinguishes between:
+
+**Established**
+
+A relationship directly supported by cited scholarship.
+
+**Synthesized**
+
+A relationship constructed by combining established ideas.
+
+**Proposed**
+
+A hypothesis introduced by this research program.
+
+The purpose is not to claim that existing scholarship validates the entire model.
+
+It is to make the intellectual lineage and points of departure inspectable.
+
+→ [`theoretical-foundations.md`](./theoretical-foundations.md)
+
+---
+
+## Research-to-Application
+
+The program is not limited to written theory.
+
+Conceptual work is increasingly translated into experimental environments and operational systems.
+
+These include:
+
+- AI-assisted environments
+- semantic information structures
+- knowledge systems
+- coordination interfaces
+- narrative architectures
+- adaptive intelligence experiments
+- distributed publishing infrastructure
+
+The purpose of these implementations is not to manufacture evidence for the theory.
+
+They are environments in which propositions can be explored, operationalized, and subjected to new observations.
+
+---
+
+## Distributed Research Infrastructure
+
+The broader research ecosystem extends beyond this repository.
+
+Different platforms serve different evidentiary and operational functions.
+
+| Function                         | Primary Node                                                           |
+| -------------------------------- | ---------------------------------------------------------------------- |
+| Professional identity & evidence | [WordPress I](https://mharisansari.wordpress.com)                      |
+| Research & intellectual archive  | [WordPress II](https://mharisansarii.wordpress.com)                    |
+| Ecosystem observatory            | [Google Sites](https://sites.google.com/view/harisansari/home)         |
+| Technical infrastructure         | [GitHub Pages](https://mharrisansariii-creator.github.io/mharisansari) |
+| Executive systems interface      | [Netlify](https://muhammadharisansari.netlify.app)                     |
+| Operational intelligence         | [Base44](https://mharisansari.base44.app)                              |
+| R&D / prototype environment      | [Bolt](https://ai-infrastructure-ec-ah8d.bolt.host)                    |
+| Experimental sandbox             | [Created](https://mharisansari.created.app)                            |
+| Creative & visual evidence       | [Wix](https://mharrisansariii.wixsite.com/mharisansari)                |
+| Commercial front door            | [Neocities](https://mharisansari.neocities.org)                        |
+| Edge infrastructure              | [EdgeOne](https://mharisansari.edgeone.app)                            |
+
+The ecosystem should therefore be understood as a **distributed research and evidence architecture**, not simply a collection of websites.
+
+---
+
+## What This Repository Does Not Claim
+
+This repository does **not** currently establish:
+
+- a formally validated general theory of coordination
+- a mathematically validated Coordination Stack
+- a new information theory
+- a new communication theory
+- empirical proof that the proposed frameworks outperform existing approaches
+- empirical proof that artificial intelligence can become an institution
+- a completed theory of civilization through coordination
+- independent peer-reviewed validation of the current frameworks
+
+These boundaries are intentional.
+
+A serious research program should make clear not only what it proposes, but also what it cannot yet establish.
+
+---
+
+## Research Questions That Remain Open
+
+The program currently leaves several questions unresolved:
+
+1. **How does coordination change when artificial agents become active participants rather than tools?**
+
+2. **What forms of trust and verification are required in mixed human–AI systems?**
+
+3. **How does coherence survive scale across people, institutions, knowledge, and machines?**
+
+4. **What forms of governance become necessary when coordination is distributed across human and artificial actors?**
+
+5. **Can semantic infrastructure become a measurable component of organizational coordination?**
+
+6. **Can distributed intelligence be distinguished from simple information aggregation?**
+
+7. **How does attention function as a coordination resource?**
+
+8. **Can the Coordination Stack survive empirical testing across different organizational and historical environments?**
+
+9. **Which relationships in the proposed architecture are genuinely causal, and which are only correlated or conceptually adjacent?**
+
+10. **What coordination infrastructure does the AI era actually require?**
+
+The existence of these questions is not a weakness of the program.
+
+They define its current research frontier.
+
+---
+
+## Research Principles
+
+### 1. The question is bigger than the answer.
+
+The objective is not premature closure.
+
+### 2. Observation is not theory.
+
+An experience may generate a hypothesis without proving it.
+
+### 3. Vocabulary is not evidence.
+
+Two theories using the same word do not necessarily describe the same mechanism.
+
+### 4. Every model has boundaries.
+
+A useful model should make clear where it stops working.
+
+### 5. Originality must be demonstrated, not assumed.
+
+Conceptual similarity to existing scholarship is investigated before originality is claimed.
+
+### 6. Implementation is not validation.
+
+A prototype demonstrates implementation, not theoretical truth.
+
+### 7. The repository is cumulative.
+
+New research should connect to previous observations, concepts, experiments, and evidence.
+
+### 8. The record remains revisable.
+
+If evidence changes the model, the model should change.
+
+---
+
+## Current Position
+
+The current working position can be stated simply:
+
+> **Coordination is the problem through which this research program examines how distributed human and artificial systems preserve meaning, organize knowledge, make decisions, and act together under increasing complexity.**
+
+Communication, information, knowledge, narrative, institutions, infrastructure, intelligence, and AI are not assumed to be identical.
+
+The research asks whether they can be understood through sufficiently precise relationships within a broader coordination architecture.
+
+That question remains open.
+
+---
+
+## Where to Go Next
+
+### If you want the professional and intellectual provenance
+
+→ [`intellectual-record.md`](./intellectual-record.md)
+
+### If you want the theoretical foundations and literature
+
+→ [`theoretical-foundations.md`](./theoretical-foundations.md)
+
+### If you want the public-facing research environment
+
+→ [GitHub Pages](https://mharrisansariii-creator.github.io/mharisansari)
+
+### If you want the research archive
+
+→ [WordPress II](https://mharisansarii.wordpress.com)
+
+### If you want the broader ecosystem
+
+→ [Ecosystem Observatory](https://sites.google.com/view/harisansari/home)
+
+### If you want the Commercial Front
+
+→ [Neocities](https://mharisansari.neocities.org.com)
+
+---
+
+## About M. Haris Ansari
+
+**M. Haris Ansari** works across communication, media, information architecture, artificial intelligence, and systems.
+
+His formal education is in Mass Media Communication, but the research program documented here emerged through years of practical exposure to computing, journalism, broadcast media, filmmaking, entrepreneurship, institutional communication, digital publishing, and AI-assisted systems.
+
+The common thread is the study of how complex systems coordinate.
+
+This repository documents that investigation.
 
 ---
 
 ## Status
 
-- **Status:** Active Development
-- **Version:** 3.0
-- **License:** Open Infrastructure
-- **Last Updated:** 2026
+**Research Program:** Active
+**Repository:** Open
+**Current Stage:** Research / Framework / Experimentation
+**Maintainer:** M. Haris Ansari
+**Updated:** August 2026
 
 ---
 
-## Current Understanding
-
-Coordination is the mechanism by which complexity is managed. The investigation documented here suggests that effective coordination requires attention to communication, trust, institutions, knowledge, infrastructure, and increasingly, artificial intelligence. The models in this repository represent the current state of this understanding.
-
-## Open Questions
-
-1. How do mechanisms of trust and verification need to change when artificial systems become active participants in coordination rather than passive tools?
-2. How does attention function as a coordination category, and how can it be deliberately designed for?
-3. What new forms of governance are required when coordination occurs across human and artificial systems simultaneously?
-
-## Next Investigations
-
-1. Developing a formal ontology of coordination that can be shared across disciplines
-2. Testing the models in additional organizational environments
-3. Documenting the full narrative investigation in literary form
-
----
-
-*Built for Executives · Organizations · AI Systems*
-*Built from silence, failure, and the stubborn refusal to stop asking*
-
----
-
-*This repository is the canonical entry point into an ongoing independent research program. The investigation continues.*
+> *The purpose of this repository is not to demonstrate that the answer has been found.*
+>
+> *It is to make the search increasingly difficult to misunderstand.*
