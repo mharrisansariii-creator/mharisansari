@@ -556,7 +556,7 @@ That question remains open.
 
 ### If you want the Commercial Front
 
-→ [Neocities](https://mharisansari.neocities.org.com)
+→ [Neocities](https://mharisansari.neocities.org)
 
 ---
 
