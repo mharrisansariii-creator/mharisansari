@@ -1,0 +1,127 @@
+{
+  "registry": {
+    "name": "Haris Ansari Node Authority Registry",
+    "version": "1.0",
+    "status": "canonical",
+    "provenance": {
+      "human_canonical_source": "https://sites.google.com/view/harisansari/home",
+      "maintainer": "Muhammad Haris Ansari",
+      "last_reviewed": "2026-08-30"
+    },
+    "authority_model": {
+      "semantic_authority": "google-sites",
+      "machine_representation": "github",
+      "node_authority_registry": "github"
+    }
+  },
+  "nodes": [
+    {
+      "id": "google-sites",
+      "name": "Google Sites",
+      "status": "active",
+      "primary_role": "Observatory & Ecosystem Map",
+      "primary_authority": ["ecosystem ontology", "registry", "routing"],
+      "canonical_url": "https://sites.google.com/view/harisansari/home",
+      "authority_scope": "Canonical human-readable ecosystem registry and orientation layer"
+    },
+    {
+      "id": "wordpress-i",
+      "name": "WordPress I",
+      "status": "active",
+      "primary_role": "Professional Identity & Evidence",
+      "primary_authority": ["professional identity", "career", "experience", "capabilities"],
+      "canonical_url": "https://mharisansari.wordpress.com",
+      "authority_scope": "Professional identity, career documentation, evidence of organizational work"
+    },
+    {
+      "id": "wordpress-ii",
+      "name": "WordPress II",
+      "status": "active",
+      "primary_role": "Research & Intellectual Archive",
+      "primary_authority": ["research", "frameworks", "evolution"],
+      "canonical_url": "https://mharisansarii.wordpress.com",
+      "authority_scope": "Research questions, intellectual frameworks, conceptual vocabulary"
+    },
+    {
+      "id": "neocities",
+      "name": "Neocities",
+      "status": "active",
+      "primary_role": "Commercial Front Door",
+      "primary_authority": ["problem recognition", "capability routing", "client conversion"],
+      "canonical_url": "https://mharisansari.neocities.org",
+      "authority_scope": "Commercial engagement, capability translation, service routing"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "status": "active",
+      "primary_role": "Executive Systems Interface",
+      "primary_authority": ["frameworks", "executive models", "strategic positioning"],
+      "canonical_url": "https://muhammadharisansari.netlify.app",
+      "evidence_mode": "framework",
+      "authority_scope": "Executive interpretation, framework translation, strategic positioning"
+    },
+    {
+      "id": "wix",
+      "name": "Wix",
+      "status": "active",
+      "primary_role": "Creative & Visual Evidence",
+      "primary_authority": ["media portfolio", "creative work", "visual evidence"],
+      "canonical_url": "https://mharrisansariii.wixsite.com/mharisansari",
+      "authority_scope": "Creative and visual evidence, media portfolio"
+    },
+    {
+      "id": "base44",
+      "name": "Base44",
+      "status": "experimental",
+      "primary_role": "Operational Intelligence",
+      "primary_authority": ["working systems", "interactive intelligence", "operational experiments"],
+      "canonical_url": "https://mharisansari.base44.app",
+      "evidence_mode": "experiment",
+      "evidence_boundary": "Internal operational telemetry and generated system interpretations are experimental outputs, not independent validation of the underlying research propositions.",
+      "authority_scope": "Operational experimentation, interactive research environments"
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "status": "experimental",
+      "primary_role": "R&D / Prototype Lab",
+      "primary_authority": ["rapid prototyping", "technical experimentation", "early systems development"],
+      "canonical_url": "https://ai-infrastructure-ec-ah8d.bolt.host",
+      "evidence_mode": "experiment",
+      "authority_scope": "Technical R&D, rapid prototyping, early systems development"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "status": "active",
+      "primary_role": "Research Repository & Technical Infrastructure",
+      "primary_authority": ["research documentation", "machine-readable registry", "node authority", "code", "methodology", "inspectable implementation"],
+      "canonical_url": "https://github.com/mharrisansariii-creator/mharisansari",
+      "public_interface": "https://mharrisansariii-creator.github.io/mharisansari",
+      "evidence_mode": "demonstrated",
+      "authority_scope": "Technical infrastructure, research documentation, machine-readable registries, code, methodology"
+    },
+    {
+      "id": "created",
+      "name": "Created",
+      "status": "experimental",
+      "primary_role": "Experimental Sandbox",
+      "primary_authority": ["communication experiments", "publishing experiments"],
+      "canonical_url": "https://mharisansari.created.app",
+      "evidence_mode": "experiment",
+      "authority_scope": "Communication and publishing experimentation"
+    },
+    {
+      "id": "edgeone",
+      "name": "EdgeOne",
+      "status": "locked",
+      "primary_role": "Edge Infrastructure",
+      "primary_authority": ["deployment", "distribution"],
+      "canonical_url": "https://mharisansari.edgeone.app",
+      "evidence_mode": "demonstrated",
+      "authority_scope": "Edge infrastructure and distribution",
+      "status_note": "Locked — retained in the registry as infrastructure context; not currently an active development environment."
+    }
+  ]
+}
