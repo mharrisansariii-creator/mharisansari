@@ -1,0 +1,170 @@
+{
+  "registry": {
+    "name": "Haris Ansari Ecosystem Registry",
+    "version": "1.0",
+    "status": "canonical",
+    "canonical_human_registry": "https://sites.google.com/view/harisansari/home",
+    "canonical_machine_registry": "https://github.com/mharrisansariii-creator/mharisansari",
+    "central_research_question": "How do humans, organizations, societies, media systems, and intelligent systems coordinate meaning, knowledge, decisions, and action?",
+    "governing_principle": "One identity. One semantic vocabulary. Multiple specialized environments. Each node has one primary authority.",
+    "provenance": {
+      "maintainer": "Muhammad Haris Ansari",
+      "last_reviewed": "2026-08-30",
+      "review_policy": "Registry changes must be reflected in dependent nodes."
+    }
+  },
+  "domains": {
+    "identity": {
+      "purpose": "Who is Haris?",
+      "primary_authority": "WordPress I"
+    },
+    "knowledge": {
+      "purpose": "What has been documented and accumulated?",
+      "primary_authority": ["WordPress I", "WordPress II"]
+    },
+    "research": {
+      "purpose": "What is being investigated?",
+      "primary_authority": ["WordPress II", "GitHub"]
+    },
+    "experimentation": {
+      "purpose": "What is being tested?",
+      "primary_authority": ["Base44", "Bolt", "Created"]
+    },
+    "engagement": {
+      "purpose": "How does the work become useful to organizations and clients?",
+      "primary_authority": ["Neocities", "Netlify"]
+    },
+    "infrastructure": {
+      "purpose": "How is the ecosystem technically distributed and maintained?",
+      "primary_authority": ["GitHub", "Netlify", "EdgeOne"]
+    }
+  },
+  "nodes": [
+    {
+      "id": "google-sites",
+      "name": "Google Sites",
+      "role": "Observatory & Ecosystem Map",
+      "authority": ["ecosystem ontology", "registry", "routing"],
+      "status": "active",
+      "canonical_url": "https://sites.google.com/view/harisansari/home"
+    },
+    {
+      "id": "wordpress-i",
+      "name": "WordPress I",
+      "role": "Professional Identity & Evidence",
+      "authority": ["professional identity", "career", "experience", "capabilities"],
+      "status": "active",
+      "canonical_url": "https://mharisansari.wordpress.com"
+    },
+    {
+      "id": "wordpress-ii",
+      "name": "WordPress II",
+      "role": "Research & Intellectual Archive",
+      "authority": ["research", "frameworks", "evolution"],
+      "status": "active",
+      "canonical_url": "https://mharisansarii.wordpress.com"
+    },
+    {
+      "id": "neocities",
+      "name": "Neocities",
+      "role": "Commercial Front Door",
+      "authority": ["problem recognition", "capability routing", "client conversion"],
+      "status": "active",
+      "canonical_url": "https://mharisansari.neocities.org"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "role": "Executive Systems Interface",
+      "authority": ["frameworks", "executive models", "strategic positioning"],
+      "status": "active",
+      "evidence_mode": "framework",
+      "canonical_url": "https://muhammadharisansari.netlify.app"
+    },
+    {
+      "id": "wix",
+      "name": "Wix",
+      "role": "Creative & Visual Evidence",
+      "authority": ["media portfolio", "creative work", "visual evidence"],
+      "status": "active",
+      "canonical_url": "https://mharrisansariii.wixsite.com/mharisansari"
+    },
+    {
+      "id": "base44",
+      "name": "Base44",
+      "role": "Operational Intelligence",
+      "authority": ["working systems", "interactive intelligence", "operational experiments"],
+      "status": "experimental",
+      "evidence_mode": "experiment",
+      "evidence_boundary": "Internal operational telemetry and generated system interpretations are experimental outputs, not independent validation of the underlying research propositions.",
+      "canonical_url": "https://mharisansari.base44.app"
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "role": "R&D / Prototype Lab",
+      "authority": ["rapid prototyping", "technical experimentation", "early systems development"],
+      "status": "experimental",
+      "evidence_mode": "experiment",
+      "canonical_url": "https://ai-infrastructure-ec-ah8d.bolt.host"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "role": "Research Repository & Technical Infrastructure",
+      "authority": ["research documentation", "machine-readable registry", "node authority", "code", "methodology", "inspectable implementation"],
+      "status": "active",
+      "evidence_mode": "demonstrated",
+      "canonical_url": "https://github.com/mharrisansariii-creator/mharisansari",
+      "public_interface": "https://mharrisansariii-creator.github.io/mharisansari",
+      "machine_registry": "ecosystem-registry.json",
+      "authority_registry": "node-authority-registry.json"
+    },
+    {
+      "id": "created",
+      "name": "Created",
+      "role": "Experimental Sandbox",
+      "authority": ["communication experiments", "publishing experiments"],
+      "status": "experimental",
+      "evidence_mode": "experiment",
+      "canonical_url": "https://mharisansari.created.app"
+    },
+    {
+      "id": "edgeone",
+      "name": "EdgeOne",
+      "role": "Edge Infrastructure",
+      "authority": ["deployment", "distribution"],
+      "status": "locked",
+      "evidence_mode": "demonstrated",
+      "canonical_url": "https://mharisansari.edgeone.app",
+      "status_note": "Locked — retained in the registry as infrastructure context; not currently an active development environment."
+    }
+  ],
+  "research_cycles": {
+    "research_cycle": "Practice → Observation → Research → Framework → Experiment → Evidence → New Questions",
+    "applied_systems_cycle": "Understand → Map → Frame → Design → Build → Observe → Evolve"
+  },
+  "evidence_statuses": [
+    "Demonstrated",
+    "Supported",
+    "Research",
+    "Experiment",
+    "Framework",
+    "Proposed",
+    "Vision"
+  ],
+  "canonical_vocabulary": {
+    "Communication": "The exchange of information, meaning and intent between agents",
+    "Coordination": "The process through which multiple agents maintain sufficient alignment of meaning, information, decisions and action to act coherently within shared or interdependent conditions",
+    "Intelligence": "The capacity of an agent or system to interpret information, form useful representations, adapt to changing conditions and guide decisions or action",
+    "Systems": "Interconnected components that function as a whole",
+    "Infrastructure": "The underlying systems that enable communication and coordination",
+    "Knowledge": "Organized information that enables understanding and action",
+    "Narrative": "Structured storytelling that shapes understanding",
+    "Adaptation": "Change in response to new information or conditions",
+    "Semantic": "Relating to meaning and relationships between concepts",
+    "Practice": "Professional work that generates observations and evidence",
+    "Research": "Systematic investigation that produces frameworks and knowledge",
+    "Evidence": "Artifacts and outcomes that support claims"
+  }
+}
