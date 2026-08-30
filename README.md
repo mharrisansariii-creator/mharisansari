@@ -411,23 +411,45 @@ They are environments in which propositions can be explored, operationalized, an
 
 ## Distributed Research Infrastructure
 
+## Canonical Ecosystem Registry
+
+The ecosystem is governed semantically by the Ecosystem Observatory & Map
+and represented technically in this repository through machine-readable
+registry artifacts.
+
+**Human-readable canonical registry:**
+[Google Sites Observatory](https://sites.google.com/view/harisansari/home)
+
+**Machine-readable ecosystem registry:**
+[`ecosystem-registry.json`](./ecosystem-registry.json)
+
+**Machine-readable node authority registry:**
+[`node-authority-registry.json`](./node-authority-registry.json)
+
+The JSON registries define node identity, authority, status, URLs,
+functional participation, relationships, evidence modes and routing
+metadata.
+
+The Google Sites Observatory remains the canonical human-readable
+explanation of the ecosystem.
+
 The broader research ecosystem extends beyond this repository.
 
 Different platforms serve different evidentiary and operational functions.
 
-| Function                         | Primary Node                                                           |
-| -------------------------------- | ---------------------------------------------------------------------- |
-| Professional identity & evidence | [WordPress I](https://mharisansari.wordpress.com)                      |
-| Research & intellectual archive  | [WordPress II](https://mharisansarii.wordpress.com)                    |
-| Ecosystem observatory            | [Google Sites](https://sites.google.com/view/harisansari/home)         |
-| Technical infrastructure         | [GitHub Pages](https://mharrisansariii-creator.github.io/mharisansari) |
-| Executive systems interface      | [Netlify](https://muhammadharisansari.netlify.app)                     |
-| Operational intelligence         | [Base44](https://mharisansari.base44.app)                              |
-| R&D / prototype environment      | [Bolt](https://ai-infrastructure-ec-ah8d.bolt.host)                    |
-| Experimental sandbox             | [Created](https://mharisansari.created.app)                            |
-| Creative & visual evidence       | [Wix](https://mharrisansariii.wixsite.com/mharisansari)                |
-| Commercial front door            | [Neocities](https://mharisansari.neocities.org)                        |
-| Edge infrastructure              | [EdgeOne](https://mharisansari.edgeone.app)                            |
+| Platform | URL | Function |
+|----------|-----|----------|
+| Primary Publishing | [mharisansari.wordpress.com](https://mharisansari.wordpress.com) | Professional Identity & Evidence |
+| Research Archive | [mharisansarii.wordpress.com](https://mharisansarii.wordpress.com) | Research & Intellectual Archive |
+| Operational Intelligence | [mharisansari.base44.app](https://mharisansari.base44.app) | Operational Intelligence |
+| Experimental Environment | [ai-infrastructure-ec-ah8d.bolt.host](https://ai-infrastructure-ec-ah8d.bolt.host) | R&D / Prototype Lab |
+| Commercial Front Door | [mharisansari.neocities.org](https://mharisansari.neocities.org) | Commercial Front Door |
+| Creative & Visual Evidence | [mharrisansariii.wixsite.com/mharisansari](https://mharrisansariii.wixsite.com/mharisansari) | Creative & Visual Evidence |
+| **Research Repository & Technical Infrastructure** | [**GitHub Repository**](https://github.com/mharrisansariii-creator/mharisansari) | **Research Documentation · Code · Methodology · Machine-Readable Registries · Inspectable Implementation** |
+| Edge Infrastructure | [mharisansari.edgeone.app](https://mharisansari.edgeone.app) | Edge Infrastructure |
+| Experimental Sandbox | [mharisansari.created.app](https://mharisansari.created.app) | Experimental Sandbox |
+| Executive Systems Interface | [muhammadharisansari.netlify.app](https://muhammadharisansari.netlify.app) | Executive Systems Interface |
+| **Public Research Interface** | [**GitHub Pages**](https://mharrisansariii-creator.github.io/mharisansari/) | **Public-facing research interface derived from the repository** |
 
 The ecosystem should therefore be understood as a **distributed research and evidence architecture**, not simply a collection of websites.
 
