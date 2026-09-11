@@ -1,127 +1,381 @@
 {
   "registry": {
     "name": "Haris Ansari Node Authority Registry",
-    "version": "1.0",
+    "version": "2.0",
+    "schema_version": "2.0",
     "status": "canonical",
-    "provenance": {
-      "human_canonical_source": "https://sites.google.com/view/harisansari/home",
-      "maintainer": "Muhammad Haris Ansari",
-      "last_reviewed": "2026-08-30"
-    },
-    "authority_model": {
-      "semantic_authority": "google-sites",
-      "machine_representation": "github",
-      "node_authority_registry": "github"
-    }
+    "purpose": "Defines authority boundaries, delegation, exclusions and synchronization rules for the 11-node Haris Ansari ecosystem.",
+    "human_canonical_source": "https://sites.google.com/view/harisansari/home",
+    "machine_representation": "https://github.com/mharrisansariii-creator/mharisansari",
+    "maintainer": "Muhammad Haris Ansari",
+    "last_reviewed": "2026-09-11"
   },
-  "nodes": [
+
+  "authority_model": {
+    "semantic_authority": "google-sites",
+    "machine_representation": "github",
+    "node_authority_registry": "github",
+    "authority_rule": "Each internal node has one primary authority scope. Authority is categorical, not absolute.",
+    "canonical_means": "Internally designated authority for a specific category of information; it does not imply exclusivity.",
+    "external_platform_rule": "External platforms are defined in ecosystem-registry.json → external_presence. They do not receive internal ecosystem authority."
+  },
+
+  "node_authorities": [
     {
-      "id": "google-sites",
+      "node_id": "google-sites",
       "name": "Google Sites",
+      "node_type": "canonical_observatory",
       "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Observatory & Ecosystem Map",
-      "primary_authority": ["ecosystem ontology", "registry", "routing"],
-      "canonical_url": "https://sites.google.com/view/harisansari/home",
-      "authority_scope": "Canonical human-readable ecosystem registry and orientation layer"
+      "primary_authority": ["ecosystem ontology", "ecosystem boundary", "11-node topology", "node registry", "routing"],
+      "secondary_authority": ["human-readable vocabulary", "human-readable research architecture"],
+      "publishes": ["ecosystem map", "node roles", "authority orientation", "visitor routing", "ecosystem boundaries"],
+      "references": ["all internal nodes", "selected external presence"],
+      "not_authoritative_for": [
+        "professional career detail (owned by WordPress I)",
+        "individual media credits (owned by Wix and external records)",
+        "technical implementation details (owned by GitHub)",
+        "experimental runtime telemetry (owned by experimental nodes with their evidence boundaries)",
+        "independent academic validation"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "wordpress-i",
+      "node_id": "wordpress-i",
       "name": "WordPress I",
+      "node_type": "professional_record",
       "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Professional Identity & Evidence",
-      "primary_authority": ["professional identity", "career", "experience", "capabilities"],
-      "canonical_url": "https://mharisansari.wordpress.com",
-      "authority_scope": "Professional identity, career documentation, evidence of organizational work"
+      "primary_authority": ["professional identity", "career", "experience", "professional practice areas", "professional record"],
+      "publishes": ["professional biography", "career timeline", "capabilities", "professional evidence", "selected organizational work"],
+      "references": ["research archive", "creative evidence", "ecosystem"],
+      "not_authoritative_for": [
+        "ecosystem topology (owned by Google Sites)",
+        "canonical research methodology (owned by GitHub)",
+        "theoretical validation (owned by GitHub research record)",
+        "experimental runtime state (owned by experimental nodes)"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "wordpress-ii",
+      "node_id": "wordpress-ii",
       "name": "WordPress II",
+      "node_type": "research_archive",
       "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Research & Intellectual Archive",
-      "primary_authority": ["research", "frameworks", "evolution"],
-      "canonical_url": "https://mharisansarii.wordpress.com",
-      "authority_scope": "Research questions, intellectual frameworks, conceptual vocabulary"
+      "primary_authority": ["research archive", "conceptual frameworks", "research questions", "intellectual evolution", "conceptual vocabulary"],
+      "publishes": ["research questions", "conceptual frameworks", "intellectual evolution", "research archive", "research-oriented publications"],
+      "references": ["GitHub research repository", "experimental environments", "professional provenance"],
+      "not_authoritative_for": [
+        "machine-readable registry structure (owned by GitHub)",
+        "node authority definitions (owned by GitHub)",
+        "professional career as sole evidence (owned by WordPress I)",
+        "experimental runtime measurements (owned by experimental nodes)"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "neocities",
+      "node_id": "neocities",
       "name": "Neocities",
+      "node_type": "commercial_interface",
       "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Commercial Front Door",
-      "primary_authority": ["problem recognition", "capability routing", "client conversion"],
-      "canonical_url": "https://mharisansari.neocities.org",
-      "authority_scope": "Commercial engagement, capability translation, service routing"
+      "primary_authority": ["commercial positioning", "problem recognition", "capability translation", "client routing"],
+      "publishes": ["commercial proposition", "organizational problems", "capabilities", "selected cases", "contact routes"],
+      "references": ["WordPress I", "WordPress II", "Wix", "Base44", "GitHub"],
+      "not_authoritative_for": [
+        "research theory (owned by WordPress II)",
+        "canonical research questions (owned by WordPress II)",
+        "professional chronology (owned by WordPress I)",
+        "node topology (owned by Google Sites)",
+        "technical implementation details (owned by GitHub)"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "netlify",
+      "node_id": "netlify",
       "name": "Netlify",
+      "node_type": "executive_interface",
       "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Executive Systems Interface",
-      "primary_authority": ["frameworks", "executive models", "strategic positioning"],
-      "canonical_url": "https://muhammadharisansari.netlify.app",
-      "evidence_mode": "framework",
-      "authority_scope": "Executive interpretation, framework translation, strategic positioning"
+      "primary_authority": ["executive translation of frameworks", "strategic models", "executive-facing interpretation"],
+      "publishes": ["executive models", "framework translation", "strategic positioning"],
+      "references": ["research frameworks", "ecosystem", "professional identity"],
+      "not_authoritative_for": [
+        "canonical research provenance (owned by GitHub)",
+        "professional career chronology (owned by WordPress I)",
+        "machine registry (owned by GitHub)",
+        "experimental validation (owned by experimental nodes with their evidence boundaries)"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "wix",
+      "node_id": "wix",
       "name": "Wix",
+      "node_type": "creative_portfolio",
       "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Creative & Visual Evidence",
-      "primary_authority": ["media portfolio", "creative work", "visual evidence"],
-      "canonical_url": "https://mharrisansariii.wixsite.com/mharisansari",
-      "authority_scope": "Creative and visual evidence, media portfolio"
+      "primary_authority": ["media portfolio", "film", "documentary", "photography", "visual craft"],
+      "publishes": ["named productions", "visual portfolio", "media artifacts", "creative evidence"],
+      "references": ["WordPress I", "WordPress II", "external media platforms"],
+      "not_authoritative_for": [
+        "research methodology (owned by GitHub)",
+        "canonical vocabulary (owned by Google Sites and WordPress II)",
+        "node topology (owned by Google Sites)",
+        "theoretical claims (owned by WordPress II and GitHub)"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "base44",
+      "node_id": "base44",
       "name": "Base44",
+      "node_type": "operational_experiment",
       "status": "experimental",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Operational Intelligence",
-      "primary_authority": ["working systems", "interactive intelligence", "operational experiments"],
-      "canonical_url": "https://mharisansari.base44.app",
-      "evidence_mode": "experiment",
-      "evidence_boundary": "Internal operational telemetry and generated system interpretations are experimental outputs, not independent validation of the underlying research propositions.",
-      "authority_scope": "Operational experimentation, interactive research environments"
+      "primary_authority": ["working operational systems", "interactive intelligence environments", "operational experiments", "experimental knowledge-graph interaction"],
+      "publishes": ["working interfaces", "experimental system behavior", "operational interpretations", "experimental signals"],
+      "references": ["ecosystem registry", "research archive", "working frameworks"],
+      "not_authoritative_for": [
+        "independent research validation (owned by GitHub)",
+        "canonical theoretical provenance (owned by GitHub)",
+        "professional history (owned by WordPress I)",
+        "ecosystem node count (owned by Google Sites)",
+        "external organizational performance",
+        "independent causal claims"
+      ],
+      "mandatory_evidence_boundary": "Runtime telemetry, generated insights and internal graph computations are experimental outputs and must not be presented as independent validation of the research program.",
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "bolt",
+      "node_id": "bolt",
       "name": "Bolt",
+      "node_type": "technical_experiment",
       "status": "experimental",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "R&D / Prototype Lab",
       "primary_authority": ["rapid prototyping", "technical experimentation", "early systems development"],
-      "canonical_url": "https://ai-infrastructure-ec-ah8d.bolt.host",
-      "evidence_mode": "experiment",
-      "authority_scope": "Technical R&D, rapid prototyping, early systems development"
+      "publishes": ["technical prototypes", "experimental implementations", "R&D work"],
+      "references": ["research concepts", "GitHub", "ecosystem"],
+      "not_authoritative_for": [
+        "validated theory (owned by GitHub)",
+        "professional identity (owned by WordPress I)",
+        "ecosystem ontology (owned by Google Sites)",
+        "independent research evidence (owned by GitHub)"
+      ],
+      "crawl_boundary": "If runtime content cannot be independently inspected, no content claim should be inferred from the node's existence alone.",
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "github",
+      "node_id": "github",
       "name": "GitHub",
+      "node_type": "research_repository",
       "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Research Repository & Technical Infrastructure",
-      "primary_authority": ["research documentation", "machine-readable registry", "node authority", "code", "methodology", "inspectable implementation"],
-      "canonical_url": "https://github.com/mharrisansariii-creator/mharisansari",
-      "public_interface": "https://mharrisansariii-creator.github.io/mharisansari",
-      "evidence_mode": "demonstrated",
-      "authority_scope": "Technical infrastructure, research documentation, machine-readable registries, code, methodology"
+      "primary_authority": ["machine-readable ecosystem registry", "node authority registry", "research provenance", "research documentation", "methodology", "code", "inspectable implementation"],
+      "publishes": ["ecosystem-registry.json", "node-authority-registry.json", "research documentation", "intellectual record", "theoretical foundations", "code and implementation"],
+      "derived_interfaces": [
+        {
+          "id": "github-pages",
+          "type": "derived_public_interface",
+          "parent_node": "github",
+          "ecosystem_node": false,
+          "authority": "derived_from_github"
+        }
+      ],
+      "not_authoritative_for": [
+        "human-facing ecosystem routing over Google Sites (owned by Google Sites)",
+        "professional identity over WordPress I (owned by WordPress I)",
+        "creative portfolio over Wix (owned by Wix)",
+        "commercial positioning over Neocities (owned by Neocities)",
+        "experimental runtime state over experimental nodes (owned by experimental nodes)"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "created",
+      "node_id": "created",
       "name": "Created",
+      "node_type": "experimental_publishing",
       "status": "experimental",
+      "platform_state": "locked",
+      "authority_level": "primary",
       "primary_role": "Experimental Sandbox",
       "primary_authority": ["communication experiments", "publishing experiments"],
-      "canonical_url": "https://mharisansari.created.app",
-      "evidence_mode": "experiment",
-      "authority_scope": "Communication and publishing experimentation"
+      "publishes": ["experimental communication work", "experimental publishing work"],
+      "references": ["research archive", "ecosystem"],
+      "not_authoritative_for": [
+        "professional record (owned by WordPress I)",
+        "research validation (owned by GitHub)",
+        "canonical vocabulary (owned by Google Sites and WordPress II)",
+        "ecosystem topology (owned by Google Sites)"
+      ],
+      "last_reviewed": "2026-09-11"
     },
     {
-      "id": "edgeone",
+      "node_id": "edgeone",
       "name": "EdgeOne",
-      "status": "locked",
+      "node_type": "edge_infrastructure",
+      "status": "active",
+      "platform_state": "live",
+      "authority_level": "primary",
       "primary_role": "Edge Infrastructure",
-      "primary_authority": ["deployment", "distribution"],
-      "canonical_url": "https://mharisansari.edgeone.app",
-      "evidence_mode": "demonstrated",
-      "authority_scope": "Edge infrastructure and distribution",
-      "status_note": "Locked — retained in the registry as infrastructure context; not currently an active development environment."
+      "primary_authority": ["edge delivery", "deployment", "distribution"],
+      "publishes": ["edge infrastructure context", "deployment and distribution environment"],
+      "references": ["ecosystem infrastructure", "technical repository"],
+      "not_authoritative_for": [
+        "research methodology (owned by GitHub)",
+        "professional identity (owned by WordPress I)",
+        "framework definitions (owned by WordPress II and GitHub)",
+        "experimental validation (owned by experimental nodes with their evidence boundaries)"
+      ],
+      "last_reviewed": "2026-09-11"
+    }
+  ],
+
+  "subject_authorities": {
+    "ecosystem_ontology": "google-sites",
+    "ecosystem_boundary": "google-sites",
+    "ecosystem_routing": "google-sites",
+    "machine_registry": "github",
+    "node_authority": "github",
+    "professional_identity": "wordpress-i",
+    "professional_career": "wordpress-i",
+    "professional_practice_areas": "wordpress-i",
+    "research_archive": "wordpress-ii",
+    "conceptual_frameworks": "wordpress-ii",
+    "research_questions": "wordpress-ii",
+    "intellectual_evolution": "wordpress-ii",
+    "commercial_positioning": "neocities",
+    "commercial_routing": "neocities",
+    "executive_framework_translation": "netlify",
+    "creative_visual_evidence": "wix",
+    "media_portfolio": "wix",
+    "operational_intelligence": "base44",
+    "operational_experiments": "base44",
+    "technical_prototypes": "bolt",
+    "research_provenance": "github",
+    "theoretical_foundations": "github",
+    "machine_readable_ontology": "github",
+    "experimental_publishing": "created",
+    "edge_infrastructure": "edgeone"
+  },
+
+  "delegated_authorities": [
+    {
+      "subject": "public research interface",
+      "delegated_from": "github",
+      "delegated_to": "github-pages",
+      "authority_level": "derived",
+      "condition": "Cannot redefine the underlying GitHub research record or registry."
+    }
+  ],
+
+  "exclusions": [
+    { "subject": "external presence", "rule": "LinkedIn, Behance, IMDb, Facebook, Instagram, YouTube and other third-party platforms are external presence and do not count as internal ecosystem nodes." },
+    { "subject": "GitHub Pages", "rule": "GitHub Pages is a derived public interface of GitHub and is not an additional ecosystem node." },
+    { "subject": "WordPress II Digital Lab", "rule": "Digital Lab is a subsection of WordPress II and is not an additional ecosystem node." },
+    { "subject": "Base44 runtime counts", "rule": "Entities, concepts, relationships, themes and other runtime graph counts are Base44 knowledge-graph measurements and are not ecosystem node counts." },
+    { "subject": "implementation", "rule": "Implementation of a model does not constitute validation of the model." },
+    { "subject": "vocabulary", "rule": "Shared terminology does not establish shared mechanism or theoretical equivalence." },
+    { "subject": "external profile", "rule": "The existence of an external profile does not independently establish the truth of every claim contained in that profile." }
+  ],
+
+  "cross_node_rules": {
+    "authority": [
+      "Each node has one primary authority scope.",
+      "Authority is categorical rather than global.",
+      "A node may reference information owned by another node without becoming authoritative for that information."
+    ],
+    "evidence": [
+      "Every strong claim should carry an evidence status.",
+      "Evidence status must not be inferred from visual polish, implementation complexity or repetition.",
+      "External evidence and first-party evidence should remain distinguishable.",
+      "Prototype existence demonstrates implementation, not theoretical validity."
+    ],
+    "research": [
+      "Research propositions remain distinguishable from established theory.",
+      "Established, Synthesized and Proposed are theoretical provenance statuses.",
+      "Demonstrated, Supported, Research, Experiment, Framework and Vision are evidence statuses.",
+      "Observation, Interpretation, Candidate Connection, Hypothesis, Human Validated, Evidence Supported and Open Question are epistemic types."
+    ],
+    "ontology": [
+      "The 11-node topology is canonical.",
+      "Functional layers are overlapping rather than mutually exclusive.",
+      "Professional practice areas are distinct from ecosystem functional layers.",
+      "Research domains are distinct from both professional practice areas and functional layers."
+    ]
+  },
+
+  "synchronization": {
+    "canonical_sequence": [
+      "Google Sites defines human-readable ecosystem ontology.",
+      "GitHub represents the machine-readable ontology.",
+      "Each node owns its defined subject authority."
+    ],
+    "node_content_rule": "Node-specific content may expand, interpret or operationalize canonical concepts but must not silently redefine canonical ontology, node topology, evidence statuses, authority boundaries or research cycles.",
+    "conflict_resolution": {
+      "ecosystem_structure": "Google Sites",
+      "machine_registry": "GitHub",
+      "professional_identity": "WordPress I",
+      "research_archive": "WordPress II",
+      "commercial_positioning": "Neocities",
+      "executive_translation": "Netlify",
+      "creative_evidence": "Wix",
+      "operational_experimentation": "Base44",
+      "technical_prototyping": "Bolt",
+      "experimental_publishing": "Created",
+      "edge_infrastructure": "EdgeOne"
+    },
+    "drift_detection": [
+      "Node count differs from 11.",
+      "Node role differs from canonical registry.",
+      "A node claims authority outside its defined scope.",
+      "Professional practice taxonomy changes without registry update.",
+      "Research cycle changes without registry update.",
+      "Evidence status vocabulary changes without registry update.",
+      "External platform is presented as an internal node.",
+      "Derived interface is presented as an additional node.",
+      "Experimental telemetry is presented as independent validation."
+    ]
+  },
+
+  "registry_links": {
+    "ecosystem_registry": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/ecosystem-registry.json",
+    "human_registry": "https://sites.google.com/view/harisansari/home",
+    "research_repository": "https://github.com/mharrisansariii-creator/mharisansari",
+    "public_research_interface": "https://mharrisansariii-creator.github.io/mharisansari"
+  },
+
+  "changelog": [
+    {
+      "version": "2.0",
+      "date": "2026-09-11",
+      "changes": [
+        "Aligned node_authorities schema with ecosystem-registry.json (added node_type, status, platform_state, last_reviewed).",
+        "Standardized Google Sites primary authority wording to match ecosystem-registry.json.",
+        "Standardized not_authoritative_for entries with explicit owner references.",
+        "EdgeOne reclassified: status active, platform_state live, no development_state.",
+        "Created reclassified: platform_state locked.",
+        "GitHub Pages interface type standardized to derived_public_interface across both registries.",
+        "External presence is single source of truth in ecosystem-registry.json; this registry only references it.",
+        "Added changelog for auditability."
+      ]
     }
   ]
 }
