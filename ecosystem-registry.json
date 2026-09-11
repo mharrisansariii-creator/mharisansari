@@ -1,170 +1,638 @@
 {
   "registry": {
     "name": "Haris Ansari Ecosystem Registry",
-    "version": "1.0",
+    "version": "2.0",
+    "schema_version": "2.0",
     "status": "canonical",
     "canonical_human_registry": "https://sites.google.com/view/harisansari/home",
     "canonical_machine_registry": "https://github.com/mharrisansariii-creator/mharisansari",
     "central_research_question": "How do humans, organizations, societies, media systems, and intelligent systems coordinate meaning, knowledge, decisions, and action?",
-    "governing_principle": "One identity. One semantic vocabulary. Multiple specialized environments. Each node has one primary authority.",
+    "governing_statement": "One identity. Eleven specialized nodes. Distributed infrastructure.",
+    "governing_principles": [
+      "One identity. One semantic vocabulary. Multiple specialized environments.",
+      "Each node has one primary authority.",
+      "Every link should tell the visitor why the next node exists.",
+      "Every claim should carry an evidence status.",
+      "Every evidence-bearing claim should point to an identifiable artifact or source."
+    ],
     "provenance": {
       "maintainer": "Muhammad Haris Ansari",
-      "last_reviewed": "2026-08-30",
-      "review_policy": "Registry changes must be reflected in dependent nodes."
+      "last_reviewed": "2026-09-11",
+      "review_method": "Live ecosystem crawl and cross-node consistency review",
+      "review_policy": "Changes to canonical ontology, node identity, authority, research cycles, evidence statuses or shared vocabulary must be reflected in dependent nodes.",
+      "source_priority": [
+        "Google Sites Observatory for human-readable ecosystem ontology and routing",
+        "GitHub registry for machine-readable representation",
+        "Node-specific primary authorities for their respective subject domains",
+        "External sources for independent corroboration where applicable"
+      ]
+    },
+    "scope": {
+      "includes": [
+        "Internal ecosystem ontology",
+        "11 internal ecosystem nodes",
+        "Node roles and functional participation",
+        "Authority relationships",
+        "Research architecture",
+        "Professional practice taxonomy",
+        "Research domains",
+        "Canonical vocabulary",
+        "Working frameworks",
+        "Evidence and epistemic models",
+        "Selected claims and evidence artifacts",
+        "Internal node relationships",
+        "External-presence boundary",
+        "Synchronization rules"
+      ],
+      "excludes": [
+        "Page-level CMS content",
+        "Complete publication databases",
+        "Complete media catalogues",
+        "Private organizational data",
+        "Third-party platform analytics",
+        "Unverified claims",
+        "Base44 runtime telemetry as independent research validation"
+      ]
     }
   },
-  "domains": {
-    "identity": {
-      "purpose": "Who is Haris?",
-      "primary_authority": "WordPress I"
+
+  "schema": {
+    "node_required_fields": [
+      "id", "name", "role", "node_type", "status", "platform_state",
+      "functional_layers", "primary_authority", "canonical_url",
+      "audience", "evidence_mode", "last_reviewed"
+    ],
+    "node_optional_fields": [
+      "development_state", "evidence_boundary", "evidence_note",
+      "crawl_note", "interfaces", "machine_interfaces"
+    ],
+    "node_types": [
+      "canonical_observatory", "professional_record", "research_archive",
+      "commercial_interface", "executive_interface", "creative_portfolio",
+      "operational_experiment", "technical_experiment", "research_repository",
+      "experimental_publishing", "edge_infrastructure"
+    ],
+    "statuses": ["active", "experimental"],
+    "platform_states": ["live", "locked", "partially_crawlable"],
+    "development_states": ["active", "frozen", "locked"],
+    "evidence_modes": ["demonstrated", "supported", "research", "experiment", "framework", "vision"],
+    "authority_levels": ["primary", "secondary", "derived"],
+    "functional_layers": [
+      "identity", "knowledge", "research", "frameworks",
+      "experimentation", "creation", "infrastructure"
+    ],
+    "professional_practice_areas": [
+      "media-storytelling", "strategic-communications", "digital-publishing",
+      "information-architecture", "ai-digital-systems", "research-thinking"
+    ],
+    "research_domains": [
+      "coordination", "communication", "trust", "institutions",
+      "knowledge", "infrastructure", "artificial-intelligence"
+    ],
+    "relationship_types": [
+      "routing", "research", "formalization", "operationalization",
+      "feeds_back_to", "derived_interface", "evidence", "infrastructure"
+    ],
+    "relationship_target_types": ["node", "derived_interface", "ecosystem"],
+    "artifact_kinds": ["node_interface", "evidence_artifact"],
+    "evidence_statuses": ["demonstrated", "supported", "research", "experiment", "framework", "vision"],
+    "epistemic_types": ["Observation", "Interpretation", "Candidate Connection", "Hypothesis", "Human Validated", "Evidence Supported", "Open Question"],
+    "provenance_statuses": ["Established", "Synthesized", "Proposed"],
+    "external_platform_types": [
+      "professional_network", "creative_network", "film_industry_database",
+      "social_network", "video_platform", "media_distribution"
+    ]
+  },
+
+  "relationship_vocabulary": {
+    "routing": "Node A directs visitors to Node B for a specific category of information.",
+    "research": "Node A provides provenance or observations that inform research in Node B.",
+    "formalization": "Node A's concepts are represented in machine-readable form in Node B.",
+    "operationalization": "Node A's concepts are translated into working systems in Node B.",
+    "feeds_back_to": "Node A generates observations that inform Node B.",
+    "derived_interface": "Node A is a derived interface of Node B.",
+    "evidence": "Node A provides artifacts that support claims owned by Node B.",
+    "infrastructure": "Node A provides technical infrastructure for the ecosystem."
+  },
+
+  "taxonomies": {
+    "evidence_status": {
+      "question": "What kind of evidence exists for this claim?",
+      "values": ["demonstrated", "supported", "research", "experiment", "framework", "vision"]
     },
-    "knowledge": {
-      "purpose": "What has been documented and accumulated?",
-      "primary_authority": ["WordPress I", "WordPress II"]
+    "epistemic_type": {
+      "question": "What kind of claim is being made?",
+      "values": ["Observation", "Interpretation", "Candidate Connection", "Hypothesis", "Human Validated", "Evidence Supported", "Open Question"]
     },
-    "research": {
-      "purpose": "What is being investigated?",
-      "primary_authority": ["WordPress II", "GitHub"]
-    },
-    "experimentation": {
-      "purpose": "What is being tested?",
-      "primary_authority": ["Base44", "Bolt", "Created"]
-    },
-    "engagement": {
-      "purpose": "How does the work become useful to organizations and clients?",
-      "primary_authority": ["Neocities", "Netlify"]
-    },
-    "infrastructure": {
-      "purpose": "How is the ecosystem technically distributed and maintained?",
-      "primary_authority": ["GitHub", "Netlify", "EdgeOne"]
+    "provenance_status": {
+      "question": "Where did the claim originate?",
+      "values": ["Established", "Synthesized", "Proposed"]
     }
   },
+
+  "validation": {
+    "node_count_must_equal": 11,
+    "every_node_must_have_status": true,
+    "every_node_must_have_platform_state": true,
+    "every_node_must_have_evidence_mode": true,
+    "every_node_must_have_audience_array": true,
+    "every_node_must_have_canonical_url": true,
+    "every_node_must_have_last_reviewed": true,
+    "every_claim_must_have_evidence_status": true,
+    "every_evidence_bearing_claim_must_reference_artifact": true,
+    "every_relationship_must_have_target_type": true,
+    "external_platforms_must_not_have_primary_authority": true,
+    "derived_interfaces_must_not_be_nodes": true
+  },
+
+  "architecture": {
+    "identity_count": 1,
+    "node_count": 11,
+    "external_presence_policy": "External platforms are not counted as ecosystem nodes.",
+    "external_presence_identified": 6,
+    "model": "overlapping distributed architecture",
+    "exclusive_node_function_assignment": false,
+
+    "professional_practice_areas": [
+      { "id": "media-storytelling", "name": "Media & Storytelling", "definition": "Film production, documentary, visual storytelling, photography, narrative development and cinematic communication." },
+      { "id": "strategic-communications", "name": "Strategic Communications", "definition": "Communication strategy, narrative architecture, information behavior, digital communication and cross-platform coordination." },
+      { "id": "digital-publishing", "name": "Digital Publishing", "definition": "Content architecture, semantic publishing, information organization, knowledge structures and cross-platform publishing." },
+      { "id": "information-architecture", "name": "Information Architecture", "definition": "Knowledge organization, taxonomy systems, discoverability frameworks and structured digital environments." },
+      { "id": "ai-digital-systems", "name": "AI & Digital Systems", "definition": "AI-assisted workflows, generative AI applications, human-AI collaboration, knowledge systems and digital experimentation." },
+      { "id": "research-thinking", "name": "Research & Thinking", "definition": "Independent research examining media, communication, technology, AI, knowledge, information and systems." }
+    ],
+
+    "functional_layers": {
+      "model": "overlapping",
+      "exclusive": false,
+      "count": 7,
+      "layers": [
+        { "id": "identity", "name": "Identity", "definition": "Professional identity, orientation and authoritative representation." },
+        { "id": "knowledge", "name": "Knowledge", "definition": "Accumulated information, concepts, archives and reusable knowledge structures." },
+        { "id": "research", "name": "Research", "definition": "Investigation, provenance, questions, methodology and intellectual development." },
+        { "id": "frameworks", "name": "Frameworks", "definition": "Structured conceptual or applied models used to organize understanding and action." },
+        { "id": "experimentation", "name": "Experimentation", "definition": "Prototypes, tests, operational environments and exploratory implementations." },
+        { "id": "creation", "name": "Creation", "definition": "Media, publishing, visual work and communication outputs." },
+        { "id": "infrastructure", "name": "Infrastructure", "definition": "Technical, semantic, publishing, deployment and distribution structures that support the ecosystem." }
+      ]
+    },
+
+    "research_domains": [
+      { "id": "coordination", "name": "Coordination", "definition": "How distributed actors synchronize action." },
+      { "id": "communication", "name": "Communication", "definition": "How information, meaning and signals move through systems." },
+      { "id": "trust", "name": "Trust", "definition": "How credibility and verification enable coordination." },
+      { "id": "institutions", "name": "Institutions", "definition": "How coordination becomes durable and governed." },
+      { "id": "knowledge", "name": "Knowledge", "definition": "How information becomes contextual, shared and reusable." },
+      { "id": "infrastructure", "name": "Infrastructure", "definition": "How coordination is materially and technically enabled." },
+      { "id": "artificial-intelligence", "name": "Artificial Intelligence", "definition": "What changes when machines become active participants in coordination." }
+    ]
+  },
+
   "nodes": [
     {
       "id": "google-sites",
       "name": "Google Sites",
       "role": "Observatory & Ecosystem Map",
-      "authority": ["ecosystem ontology", "registry", "routing"],
+      "node_type": "canonical_observatory",
       "status": "active",
-      "canonical_url": "https://sites.google.com/view/harisansari/home"
+      "platform_state": "live",
+      "functional_layers": ["identity", "knowledge", "research", "frameworks", "infrastructure"],
+      "primary_authority": ["ecosystem ontology", "ecosystem boundary", "11-node topology", "node registry", "routing"],
+      "canonical_url": "https://sites.google.com/view/harisansari/home",
+      "audience": ["general"],
+      "evidence_mode": "demonstrated",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "wordpress-i",
       "name": "WordPress I",
       "role": "Professional Identity & Evidence",
-      "authority": ["professional identity", "career", "experience", "capabilities"],
+      "node_type": "professional_record",
       "status": "active",
-      "canonical_url": "https://mharisansari.wordpress.com"
+      "platform_state": "live",
+      "functional_layers": ["identity", "knowledge", "creation"],
+      "primary_authority": ["professional identity", "career", "experience", "professional practice areas", "professional evidence record"],
+      "canonical_url": "https://mharisansari.wordpress.com",
+      "audience": ["employers", "clients", "collaborators", "professional network"],
+      "evidence_mode": "demonstrated",
+      "evidence_note": "First-party professional record.",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "wordpress-ii",
       "name": "WordPress II",
       "role": "Research & Intellectual Archive",
-      "authority": ["research", "frameworks", "evolution"],
+      "node_type": "research_archive",
       "status": "active",
-      "canonical_url": "https://mharisansarii.wordpress.com"
+      "platform_state": "live",
+      "functional_layers": ["knowledge", "research", "frameworks", "creation"],
+      "primary_authority": ["research archive", "conceptual frameworks", "research questions", "intellectual evolution", "conceptual vocabulary"],
+      "canonical_url": "https://mharisansarii.wordpress.com",
+      "audience": ["researchers", "systems thinkers", "intellectually curious visitors"],
+      "evidence_mode": "demonstrated",
+      "evidence_note": "Published research and intellectual archive.",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "neocities",
       "name": "Neocities",
       "role": "Commercial Front Door",
-      "authority": ["problem recognition", "capability routing", "client conversion"],
+      "node_type": "commercial_interface",
       "status": "active",
-      "canonical_url": "https://mharisansari.neocities.org"
+      "platform_state": "live",
+      "functional_layers": ["identity", "creation", "knowledge"],
+      "primary_authority": ["commercial positioning", "problem recognition", "capability translation", "client routing"],
+      "canonical_url": "https://mharisansari.neocities.org",
+      "audience": ["prospective clients", "organizations", "institutions", "leadership teams"],
+      "evidence_mode": "demonstrated",
+      "evidence_note": "Commercial positioning and client routing.",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "netlify",
       "name": "Netlify",
       "role": "Executive Systems Interface",
-      "authority": ["frameworks", "executive models", "strategic positioning"],
+      "node_type": "executive_interface",
       "status": "active",
+      "platform_state": "live",
+      "functional_layers": ["frameworks", "knowledge", "creation"],
+      "primary_authority": ["executive translation of frameworks", "strategic models", "executive-facing interpretation"],
+      "canonical_url": "https://muhammadharisansari.netlify.app",
+      "audience": ["executive decision-makers", "partners"],
       "evidence_mode": "framework",
-      "canonical_url": "https://muhammadharisansari.netlify.app"
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "wix",
       "name": "Wix",
       "role": "Creative & Visual Evidence",
-      "authority": ["media portfolio", "creative work", "visual evidence"],
+      "node_type": "creative_portfolio",
       "status": "active",
-      "canonical_url": "https://mharrisansariii.wixsite.com/mharisansari"
+      "platform_state": "live",
+      "functional_layers": ["creation", "knowledge", "identity"],
+      "primary_authority": ["media portfolio", "film", "documentary", "photography", "visual evidence"],
+      "canonical_url": "https://mharrisansariii.wixsite.com/mharisansari",
+      "audience": ["creative industry", "media clients", "visual discovery"],
+      "evidence_mode": "demonstrated",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "base44",
       "name": "Base44",
       "role": "Operational Intelligence",
-      "authority": ["working systems", "interactive intelligence", "operational experiments"],
+      "node_type": "operational_experiment",
       "status": "experimental",
+      "platform_state": "live",
+      "functional_layers": ["experimentation", "frameworks", "infrastructure"],
+      "primary_authority": ["working systems", "operational intelligence", "interactive experiments", "operationalization"],
+      "canonical_url": "https://mharisansari.base44.app",
+      "audience": ["technical", "operational", "research"],
       "evidence_mode": "experiment",
-      "evidence_boundary": "Internal operational telemetry and generated system interpretations are experimental outputs, not independent validation of the underlying research propositions.",
-      "canonical_url": "https://mharisansari.base44.app"
+      "evidence_boundary": "Internal operational telemetry and generated system interpretations demonstrate implementation and experimentation; they do not independently validate underlying research propositions.",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "bolt",
       "name": "Bolt",
       "role": "R&D / Prototype Lab",
-      "authority": ["rapid prototyping", "technical experimentation", "early systems development"],
+      "node_type": "technical_experiment",
       "status": "experimental",
+      "platform_state": "live",
+      "functional_layers": ["experimentation", "infrastructure", "frameworks"],
+      "primary_authority": ["rapid prototyping", "technical experimentation", "early systems development"],
+      "canonical_url": "https://ai-infrastructure-ec-ah8d.bolt.host",
+      "audience": ["technical", "experimental", "research"],
       "evidence_mode": "experiment",
-      "canonical_url": "https://ai-infrastructure-ec-ah8d.bolt.host"
+      "crawl_note": "Current plain web retrieval could not fully inspect the application state; inaccessible runtime content must not be inferred.",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "github",
       "name": "GitHub",
       "role": "Research Repository & Technical Infrastructure",
-      "authority": ["research documentation", "machine-readable registry", "node authority", "code", "methodology", "inspectable implementation"],
+      "node_type": "research_repository",
       "status": "active",
-      "evidence_mode": "demonstrated",
+      "platform_state": "live",
+      "functional_layers": ["research", "frameworks", "knowledge", "infrastructure"],
+      "primary_authority": ["machine-readable registry", "node authority registry", "research documentation", "research provenance", "methodology", "code", "inspectable implementation"],
       "canonical_url": "https://github.com/mharrisansariii-creator/mharisansari",
-      "public_interface": "https://mharrisansariii-creator.github.io/mharisansari",
-      "machine_registry": "ecosystem-registry.json",
-      "authority_registry": "node-authority-registry.json"
+      "audience": ["technical", "research", "verification"],
+      "evidence_mode": "demonstrated",
+      "interfaces": [
+        {
+          "id": "github-pages",
+          "type": "derived_public_interface",
+          "parent_node": "github",
+          "url": "https://mharrisansariii-creator.github.io/mharisansari",
+          "authority": "derived_from_github",
+          "ecosystem_node": false
+        }
+      ],
+      "machine_interfaces": ["ecosystem-registry.json", "node-authority-registry.json"],
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "created",
       "name": "Created",
       "role": "Experimental Sandbox",
-      "authority": ["communication experiments", "publishing experiments"],
+      "node_type": "experimental_publishing",
       "status": "experimental",
+      "platform_state": "locked",
+      "functional_layers": ["experimentation", "creation"],
+      "primary_authority": ["communication experiments", "publishing experiments"],
+      "canonical_url": "https://mharisansari.created.app",
+      "audience": ["experimental"],
       "evidence_mode": "experiment",
-      "canonical_url": "https://mharisansari.created.app"
+      "crawl_note": "Current plain retrieval returned no readable page content; no additional runtime claims are inferred.",
+      "last_reviewed": "2026-09-11"
     },
     {
       "id": "edgeone",
       "name": "EdgeOne",
       "role": "Edge Infrastructure",
-      "authority": ["deployment", "distribution"],
-      "status": "locked",
-      "evidence_mode": "demonstrated",
+      "node_type": "edge_infrastructure",
+      "status": "active",
+      "platform_state": "live",
+      "functional_layers": ["infrastructure"],
+      "primary_authority": ["edge delivery", "deployment", "distribution"],
       "canonical_url": "https://mharisansari.edgeone.app",
-      "status_note": "Locked — retained in the registry as infrastructure context; not currently an active development environment."
+      "audience": ["technical", "infrastructure"],
+      "evidence_mode": "demonstrated",
+      "last_reviewed": "2026-09-11"
     }
   ],
-  "research_cycles": {
-    "research_cycle": "Practice → Observation → Research → Framework → Experiment → Evidence → New Questions",
-    "applied_systems_cycle": "Understand → Map → Frame → Design → Build → Observe → Evolve"
+
+  "research": {
+    "central_question_ref": "registry.central_research_question",
+    "structural_research_question": "How does coordination change as it becomes increasingly structured, contextualized, shared, semantically organized, institutionalized, infrastructural, networked, and persistent across time — and what changes when artificial agents become participants in those processes?",
+
+    "research_cycle": {
+      "canonical": ["Practice", "Observation", "Research", "Framework", "Experiment", "Application", "Observation"],
+      "loops_back_to": "Observation",
+      "interpretation": "Professional practice generates observations; observations motivate research; research produces frameworks; frameworks are tested through experiments and applications; application generates new observations, which begin the next iteration.",
+      "evidence_is_cycle_phase": false
+    },
+
+    "applied_systems_cycle": ["Understand", "Map", "Frame", "Design", "Build", "Observe", "Evolve"],
+
+    "research_domain_ids": [
+      "coordination", "communication", "trust", "institutions",
+      "knowledge", "infrastructure", "artificial-intelligence"
+    ],
+
+    "active_investigations": [
+      "How does communication become coordination?",
+      "How do organizations remember?",
+      "What is the architecture of collective intelligence?",
+      "Can AI strengthen human decision-making without replacing it?",
+      "How do digital ecosystems evolve?",
+      "How can knowledge become executable infrastructure?"
+    ],
+
+    "open_questions": [
+      "How does coordination change when artificial agents become active participants rather than tools?",
+      "What forms of trust and verification are required in mixed human-AI systems?",
+      "How does coherence survive scale across people, institutions, knowledge and machines?",
+      "What forms of governance become necessary when coordination is distributed across human and artificial actors?",
+      "Can semantic infrastructure become a measurable component of organizational coordination?",
+      "Can distributed intelligence be distinguished from simple information aggregation?",
+      "How does attention function as a coordination resource?",
+      "Can the Coordination Stack survive empirical testing across different organizational and historical environments?",
+      "Which relationships in the proposed architecture are genuinely causal, and which are only correlated or conceptually adjacent?",
+      "What coordination infrastructure does the AI era actually require?"
+    ],
+
+    "principles": [
+      "Observation is not theory.",
+      "Vocabulary is not evidence.",
+      "Every model has boundaries.",
+      "Originality must be demonstrated, not assumed.",
+      "Implementation is not validation.",
+      "The repository is cumulative.",
+      "The record remains revisable."
+    ]
   },
-  "evidence_statuses": [
-    "Demonstrated",
-    "Supported",
-    "Research",
-    "Experiment",
-    "Framework",
-    "Proposed",
-    "Vision"
+
+  "knowledge": {
+    "conceptual_vocabulary": [
+      { "id": "communication", "term": "Communication", "definition": "The exchange of information, meaning and intent between agents.", "provenance": "established_term" },
+      { "id": "coordination", "term": "Coordination", "definition": "The process through which multiple agents maintain sufficient alignment of meaning, information, decisions and action to act coherently within shared or interdependent conditions.", "provenance": "program_working_definition" },
+      { "id": "intelligence", "term": "Intelligence", "definition": "The capacity of an agent or system to interpret information, form useful representations, adapt to changing conditions and guide decisions or action.", "provenance": "program_working_definition" },
+      { "id": "systems", "term": "Systems", "definition": "Interconnected components that function as a whole.", "provenance": "established_term" },
+      { "id": "infrastructure", "term": "Infrastructure", "definition": "Underlying systems and arrangements that enable communication, coordination and collective activity.", "provenance": "established_term_with_program_application" },
+      { "id": "knowledge", "term": "Knowledge", "definition": "Organized information that enables understanding and action.", "provenance": "program_working_definition" },
+      { "id": "narrative", "term": "Narrative", "definition": "Structured storytelling or continuity that shapes understanding.", "provenance": "program_working_definition" },
+      { "id": "adaptation", "term": "Adaptation", "definition": "Change in response to new information or conditions.", "provenance": "established_term" },
+      { "id": "semantic", "term": "Semantic", "definition": "Relating to meaning and relationships between concepts.", "provenance": "established_term" },
+      { "id": "practice", "term": "Practice", "definition": "Professional work that generates observations and experience.", "provenance": "program_working_definition" },
+      { "id": "research", "term": "Research", "definition": "Systematic investigation that produces knowledge, interpretations and frameworks.", "provenance": "program_working_definition" },
+      { "id": "evidence", "term": "Evidence", "definition": "Artifacts, observations or outcomes that support or qualify a claim.", "provenance": "program_working_definition" }
+    ],
+
+    "ecosystem_vocabulary": [
+      { "term": "Internal Ecosystem Node", "definition": "A governed environment within the 11-node architecture." },
+      { "term": "External Presence", "definition": "A third-party platform associated with the identity but outside the ecosystem." },
+      { "term": "External Evidence", "definition": "Independent artifacts that may support specific claims." },
+      { "term": "Primary Authority", "definition": "The internally designated canonical source for a specific category of information." },
+      { "term": "Canonical", "definition": "Internally designated authority; does not imply exclusivity." },
+      { "term": "Research Provenance", "definition": "The system for tracking the evidential status and origin of claims." }
+    ],
+
+    "frameworks": [
+      { "id": "civilization-as-coordination", "name": "Civilization as Coordination", "family": "executive_working_frameworks", "status": "Framework", "definition": "Examines large-scale human systems through the problem of coordination.", "validation_boundary": "Working framework; not an established or independently validated theory." },
+      { "id": "communication-operating-system", "name": "Communication Operating System", "family": "executive_working_frameworks", "status": "Framework", "definition": "Treats organizational communication as an architecture rather than merely a collection of channels.", "validation_boundary": "Working framework; comparative effectiveness remains to be established." },
+      { "id": "distributed-narrative-intelligence", "name": "Distributed Narrative Intelligence", "family": "executive_working_frameworks", "status": "Framework", "definition": "Examines how distributed actors preserve coherence through shared narrative structures.", "validation_boundary": "Working framework." },
+      { "id": "brain-os", "name": "Brain OS", "family": "executive_working_frameworks", "status": "Framework", "definition": "Externalizes and structures attention, working memory and decision processes.", "validation_boundary": "Working framework and experimental application area." },
+      { "id": "adaptive-intelligence-systems", "name": "Adaptive Intelligence Systems", "family": "executive_working_frameworks", "status": "Framework", "definition": "Examines systems that incorporate feedback and recalibrate as conditions change.", "validation_boundary": "Working framework." },
+      { "id": "semantic-infrastructure-architecture", "name": "Semantic Infrastructure Architecture", "family": "executive_working_frameworks", "status": "Framework", "definition": "Treats shared meaning, definitions, context and relationships as infrastructure for coordination.", "validation_boundary": "Working framework." },
+      { "id": "coordination-framework", "name": "Coordination Framework", "family": "research_foundational_frameworks", "status": "Framework", "definition": "Examines how human, organizational and intelligent agents align action, meaning and understanding across distributed environments." },
+      { "id": "communication-systems-framework", "name": "Communication Systems Framework", "family": "research_foundational_frameworks", "status": "Framework", "definition": "Examines how information, meaning and intent move between agents and how systems enable or constrain that movement." },
+      { "id": "semantic-intelligence-framework", "name": "Semantic Intelligence Framework", "family": "research_foundational_frameworks", "status": "Framework", "definition": "Examines how meaning is represented, shared and processed across human and machine systems." },
+      { "id": "distributed-intelligence-framework", "name": "Distributed Intelligence Framework", "family": "research_foundational_frameworks", "status": "Framework", "definition": "Examines how intelligence may emerge across distributed human, organizational and AI systems." }
+    ],
+
+    "framework_evolution": [
+      { "from": "coordination-framework", "to": "civilization-as-coordination", "relationship": "conceptual_translation", "certainty": "documented" },
+      { "from": "communication-systems-framework", "to": "communication-operating-system", "relationship": "applied_translation", "certainty": "documented" },
+      { "from": "semantic-intelligence-framework", "to": "semantic-infrastructure-architecture", "relationship": "applied_translation", "certainty": "documented" },
+      { "from": "distributed-intelligence-framework", "to": "distributed-narrative-intelligence", "relationship": "related_application", "certainty": "interpretive" }
+    ],
+
+    "coordination_stack": {
+      "status": "Framework",
+      "research_status": "Research",
+      "layers": ["Signal", "Information", "Knowledge", "Narrative", "Institution", "Infrastructure", "Ecosystem", "Civilization"],
+      "interpretation": "The layers are treated as different forms or scales through which coordination can be organized, not as substances that necessarily transform linearly from one into another.",
+      "validation_boundary": "The ordering, causal relationships and universal applicability remain unresolved. No peer-reviewed validation or independent replication is claimed."
+    },
+
+    "provenance_model": {
+      "Established": "A relationship directly supported by cited scholarship.",
+      "Synthesized": "A relationship constructed by combining established ideas.",
+      "Proposed": "A hypothesis introduced by the research program."
+    }
+  },
+
+  "evidence": {
+    "claims": [
+      { "id": "claim-11-node-architecture", "claim": "The Haris Ansari ecosystem contains 11 internally governed nodes.", "evidence_status": "demonstrated", "epistemic_type": "Evidence Supported", "provenance_status": "Synthesized", "authority_node": "google-sites", "source_artifacts": ["artifact-google-observatory"], "last_verified": "2026-09-11" },
+      { "id": "claim-external-boundary", "claim": "External platforms such as LinkedIn, Behance, IMDb, Facebook, Instagram and YouTube are outside the 11-node internal ecosystem.", "evidence_status": "demonstrated", "epistemic_type": "Evidence Supported", "provenance_status": "Synthesized", "authority_node": "google-sites", "source_artifacts": ["artifact-google-observatory"], "last_verified": "2026-09-11" },
+      { "id": "claim-machine-registry", "claim": "GitHub contains the machine-readable ecosystem and node-authority registries.", "evidence_status": "demonstrated", "epistemic_type": "Evidence Supported", "provenance_status": "Established", "authority_node": "github", "source_artifacts": ["artifact-ecosystem-registry", "artifact-node-authority-registry"], "last_verified": "2026-09-11" },
+      { "id": "claim-research-program-active", "claim": "The Coordination research program is an active research program rather than a completed theory.", "evidence_status": "demonstrated", "epistemic_type": "Evidence Supported", "provenance_status": "Established", "authority_node": "github", "source_artifacts": ["artifact-github-readme"], "last_verified": "2026-09-11" },
+      { "id": "claim-coordination-stack", "claim": "The Coordination Stack is a documented working model consisting of Signal, Information, Knowledge, Narrative, Institution, Infrastructure, Ecosystem and Civilization.", "evidence_status": "framework", "epistemic_type": "Hypothesis", "provenance_status": "Proposed", "authority_node": "github", "source_artifacts": ["artifact-github-readme", "artifact-theoretical-foundations"], "last_verified": "2026-09-11" },
+      { "id": "claim-no-theory-validation", "claim": "The current research record does not claim independent validation of the Coordination Stack or a completed general theory of coordination.", "evidence_status": "demonstrated", "epistemic_type": "Evidence Supported", "provenance_status": "Established", "authority_node": "github", "source_artifacts": ["artifact-theoretical-foundations", "artifact-intellectual-record"], "last_verified": "2026-09-11" },
+      { "id": "claim-base44-experimental-boundary", "claim": "Base44 operational telemetry and generated system interpretations are experimental outputs and are not independent validation of the underlying research propositions.", "evidence_status": "experiment", "epistemic_type": "Evidence Supported", "provenance_status": "Established", "authority_node": "base44", "source_artifacts": ["artifact-base44"], "last_verified": "2026-09-11" },
+      { "id": "claim-professional-taxonomy-six", "claim": "The professional practice taxonomy contains six core areas.", "evidence_status": "demonstrated", "epistemic_type": "Evidence Supported", "provenance_status": "Synthesized", "authority_node": "wordpress-i", "source_artifacts": ["artifact-wordpress-i"], "last_verified": "2026-09-11" }
+    ],
+
+    "artifacts": [
+      { "id": "artifact-google-observatory", "kind": "node_interface", "node_id": "google-sites", "title": "Haris Ansari Ecosystem Observatory", "url": "https://sites.google.com/view/harisansari/home" },
+      { "id": "artifact-wordpress-i", "kind": "node_interface", "node_id": "wordpress-i", "title": "Professional Identity & Evidence", "url": "https://mharisansari.wordpress.com" },
+      { "id": "artifact-wordpress-ii", "kind": "node_interface", "node_id": "wordpress-ii", "title": "Research & Intellectual Archive", "url": "https://mharisansarii.wordpress.com" },
+      { "id": "artifact-neocities", "kind": "node_interface", "node_id": "neocities", "title": "Commercial Front Door", "url": "https://mharisansari.neocities.org" },
+      { "id": "artifact-netlify", "kind": "node_interface", "node_id": "netlify", "title": "Executive Systems Interface", "url": "https://muhammadharisansari.netlify.app" },
+      { "id": "artifact-wix", "kind": "node_interface", "node_id": "wix", "title": "Creative & Visual Evidence", "url": "https://mharrisansariii.wixsite.com/mharisansari" },
+      { "id": "artifact-base44", "kind": "node_interface", "node_id": "base44", "title": "Operational Intelligence Environment", "url": "https://mharisansari.base44.app" },
+      { "id": "artifact-bolt", "kind": "node_interface", "node_id": "bolt", "title": "R&D / Prototype Lab", "url": "https://ai-infrastructure-ec-ah8d.bolt.host" },
+      { "id": "artifact-github-repository", "kind": "node_interface", "node_id": "github", "title": "Research Repository & Technical Infrastructure", "url": "https://github.com/mharrisansariii-creator/mharisansari" },
+      { "id": "artifact-github-pages", "kind": "node_interface", "node_id": "github", "interface_type": "derived_public_interface", "title": "Public Research Interface", "url": "https://mharrisansariii-creator.github.io/mharisansari" },
+      { "id": "artifact-created", "kind": "node_interface", "node_id": "created", "title": "Experimental Sandbox", "url": "https://mharisansari.created.app" },
+      { "id": "artifact-edgeone", "kind": "node_interface", "node_id": "edgeone", "title": "Edge Infrastructure", "url": "https://mharisansari.edgeone.app" },
+      { "id": "artifact-ecosystem-registry", "kind": "evidence_artifact", "authority_node": "github", "title": "Machine-readable Ecosystem Registry", "type": "machine_registry", "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/ecosystem-registry.json" },
+      { "id": "artifact-node-authority-registry", "kind": "evidence_artifact", "authority_node": "github", "title": "Machine-readable Node Authority Registry", "type": "authority_registry", "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/node-authority-registry.json" },
+      { "id": "artifact-intellectual-record", "kind": "evidence_artifact", "authority_node": "github", "title": "Intellectual and Professional Record", "type": "provenance_document", "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/intellectual-record.md" },
+      { "id": "artifact-theoretical-foundations", "kind": "evidence_artifact", "authority_node": "github", "title": "Theoretical Foundations of the Coordination Research Program", "type": "theoretical_provenance_document", "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/theoretical-foundations.md" },
+      { "id": "artifact-github-readme", "kind": "evidence_artifact", "authority_node": "github", "title": "Independent Research Program on Coordination", "type": "research_repository_readme", "url": "https://github.com/mharrisansariii-creator/mharisansari" }
+    ]
+  },
+
+  "relationships": [
+    { "from": "google-sites", "to": "wordpress-i", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking professional identity and career evidence." },
+    { "from": "google-sites", "to": "wordpress-ii", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking research and frameworks." },
+    { "from": "google-sites", "to": "neocities", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking commercial engagement." },
+    { "from": "google-sites", "to": "netlify", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking executive framework translation." },
+    { "from": "google-sites", "to": "wix", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking creative and visual evidence." },
+    { "from": "google-sites", "to": "base44", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking working operational intelligence." },
+    { "from": "google-sites", "to": "bolt", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking technical prototypes." },
+    { "from": "google-sites", "to": "github", "target_type": "node", "type": "routing", "reason": "Routes visitors seeking inspectable research and machine-readable registries." },
+    { "from": "google-sites", "to": "edgeone", "target_type": "node", "type": "routing", "reason": "Identifies the infrastructure layer." },
+    { "from": "wordpress-i", "to": "wordpress-ii", "target_type": "node", "type": "research", "reason": "Professional experience provides provenance and observations for the research archive." },
+    { "from": "wordpress-ii", "to": "github", "target_type": "node", "type": "formalization", "reason": "Research concepts and provenance are represented in the technical research repository." },
+    { "from": "wordpress-ii", "to": "base44", "target_type": "node", "type": "operationalization", "reason": "Research concepts are translated into working operational environments." },
+    { "from": "github", "to": "base44", "target_type": "node", "type": "operationalization", "reason": "Machine-readable research and ecosystem structures can be used by experimental environments." },
+    { "from": "base44", "to": "wordpress-ii", "target_type": "node", "type": "feeds_back_to", "reason": "Experimental observations can inform the research layer." },
+    { "from": "github", "to": "github-pages", "target_type": "derived_interface", "type": "derived_interface", "reason": "GitHub Pages presents a public-facing interface derived from the GitHub research repository." },
+    { "from": "wix", "to": "wordpress-ii", "target_type": "node", "type": "evidence", "reason": "Creative and media artifacts provide inspectable evidence connected to the broader research and professional record." },
+    { "from": "neocities", "to": "wordpress-i", "target_type": "node", "type": "routing", "reason": "Commercial visitors can be routed to the professional record." },
+    { "from": "neocities", "to": "wordpress-ii", "target_type": "node", "type": "routing", "reason": "Commercial visitors can be routed to research context." },
+    { "from": "neocities", "to": "base44", "target_type": "node", "type": "routing", "reason": "Commercial visitors can inspect operational experimentation where relevant." },
+    { "from": "edgeone", "to": "ecosystem", "target_type": "ecosystem", "type": "infrastructure", "reason": "Edge delivery forms part of the technical distribution layer." }
   ],
-  "canonical_vocabulary": {
-    "Communication": "The exchange of information, meaning and intent between agents",
-    "Coordination": "The process through which multiple agents maintain sufficient alignment of meaning, information, decisions and action to act coherently within shared or interdependent conditions",
-    "Intelligence": "The capacity of an agent or system to interpret information, form useful representations, adapt to changing conditions and guide decisions or action",
-    "Systems": "Interconnected components that function as a whole",
-    "Infrastructure": "The underlying systems that enable communication and coordination",
-    "Knowledge": "Organized information that enables understanding and action",
-    "Narrative": "Structured storytelling that shapes understanding",
-    "Adaptation": "Change in response to new information or conditions",
-    "Semantic": "Relating to meaning and relationships between concepts",
-    "Practice": "Professional work that generates observations and evidence",
-    "Research": "Systematic investigation that produces frameworks and knowledge",
-    "Evidence": "Artifacts and outcomes that support claims"
-  }
+
+  "external_presence": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "platform_type": "professional_network",
+      "is_ecosystem_node": false,
+      "relationship": "supports wordpress-i",
+      "url": "https://www.linkedin.com/in/mharisansarii/",
+      "last_reviewed": "2026-09-11"
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "platform_type": "creative_network",
+      "is_ecosystem_node": false,
+      "relationship": "supports wix and wordpress-ii",
+      "url": "https://www.behance.net/mharisansarii",
+      "last_reviewed": "2026-09-11"
+    },
+    {
+      "id": "imdb",
+      "name": "IMDb",
+      "platform_type": "film_industry_database",
+      "is_ecosystem_node": false,
+      "relationship": "external film evidence",
+      "url": "https://www.imdb.com/name/nm18524162/",
+      "last_reviewed": "2026-09-11"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "platform_type": "social_network",
+      "is_ecosystem_node": false,
+      "relationship": "external presence",
+      "url": "https://www.facebook.com/mharisansarii",
+      "last_reviewed": "2026-09-11"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "platform_type": "social_network",
+      "is_ecosystem_node": false,
+      "relationship": "external presence",
+      "url": "https://www.instagram.com/harris.ansarii",
+      "last_reviewed": "2026-09-11"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "platform_type": "video_platform",
+      "is_ecosystem_node": false,
+      "relationship": "external media presence",
+      "url": "https://www.youtube.com/@MHarisAnsariDirector",
+      "last_reviewed": "2026-09-11"
+    }
+  ],
+
+  "synchronization": {
+    "canonical_order": ["google-sites", "github", "node_specific_primary_authority"],
+    "rules": [
+      "Google Sites defines the human-readable ecosystem ontology and boundary.",
+      "GitHub represents the machine-readable ontology and authority model.",
+      "Each node remains authoritative only within its defined subject scope.",
+      "Node-specific content may expand the canonical vocabulary but must not silently redefine canonical terms.",
+      "Node-specific content must not redefine the 11-node topology.",
+      "Node-specific content must not redefine evidence statuses.",
+      "Node-specific content must not redefine the canonical research cycle.",
+      "External platforms cannot become internal ecosystem nodes merely through linking.",
+      "Derived interfaces inherit authority from their parent node.",
+      "Runtime telemetry does not become research evidence merely because it is machine-generated.",
+      "Implementation does not constitute theoretical validation."
+    ],
+    "conflict_resolution": {
+      "ontology_conflict": "Resolve against Google Sites.",
+      "machine_schema_conflict": "Resolve against GitHub registry.",
+      "professional_record_conflict": "Resolve against WordPress I.",
+      "research_archive_conflict": "Resolve against WordPress II.",
+      "research_provenance_conflict": "Resolve against GitHub research record and theoretical foundations.",
+      "creative_evidence_conflict": "Resolve against Wix and specific inspectable artifacts.",
+      "experimental_runtime_conflict": "Resolve against the experimental node's actual runtime while preserving its evidence boundary."
+    }
+  },
+
+  "changelog": [
+    {
+      "version": "2.0",
+      "date": "2026-09-11",
+      "changes": [
+        "Introduced three-layer architecture: internal ecosystem, external presence, external evidence.",
+        "Introduced uniform node schema (12 required fields, 6 optional).",
+        "Restricted status, platform_state, evidence_mode, authority_level to controlled vocabularies.",
+        "Reclassified EdgeOne status to active, platform_state to live.",
+        "Reclassified Created platform_state to locked.",
+        "Defined GitHub Pages as derived public interface, not a node.",
+        "Documented WordPress II Digital Lab as a subsection, not a node.",
+        "Standardized audience as always-array.",
+        "Reduced evidence statuses to 6 (Proposed moved to provenance status only).",
+        "Added schema, validation, relationship_vocabulary, and taxonomies blocks.",
+        "Split canonical vocabulary into conceptual and ecosystem vocabularies.",
+        "Distinguished node_interface artifacts from evidence_artifact artifacts.",
+        "Formalized relationship target types (node, derived_interface, ecosystem).",
+        "Aligned research cycle loop-back point to Observation.",
+        "Added changelog for auditability."
+      ]
+    }
+  ]
 }
