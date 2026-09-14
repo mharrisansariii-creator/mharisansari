@@ -420,16 +420,27 @@ registry artifacts.
 **Human-readable canonical registry:**
 [Google Sites Observatory](https://sites.google.com/view/harisansari/home)
 
-**Machine-readable ecosystem registry:**
-[`ecosystem-registry.json`](./ecosystem-registry.json)
+This repository maintains three canonical machine-readable registries. Each governs a distinct layer of the ecosystem.
 
-**Machine-readable node authority registry:**
-[`node-authority-registry.json`](./node-authority-registry.json)
+### Ecosystem Registry
 
-The JSON registries define node identity, authority, status, URLs,
-functional participation, relationships, evidence modes and routing
-metadata.
+The taxonomy of the ecosystem: 11 internal nodes, external presence, functional layers, professional practice areas, research domains, canonical vocabulary, frameworks, and evidence artifacts.
 
+- [`ecosystem-registry.json`](./ecosystem-registry.json)
+
+### Node Authority Registry
+
+Authority boundaries, delegation, exclusions, and synchronization rules for the 11-node ecosystem. Defines who owns which category of information and how conflicts resolve.
+
+- [`node-authority-registry.json`](./node-authority-registry.json)
+
+### Research Provenance Registry
+
+Claim-centric provenance and evidence registry for the Independent Research Program on Coordination. Every substantive claim is traceable to its origin, evidence, contribution boundary, status, limitations, and identifiable artifact.
+
+- [`research-provenance-registry.json`](./research-provenance-registry.json)
+
+These registries reference each other. Together they define the ecosystem's ontology, its authority model, and the provenance discipline governing its research claims.
 The Google Sites Observatory remains the canonical human-readable
 explanation of the ecosystem.
 
