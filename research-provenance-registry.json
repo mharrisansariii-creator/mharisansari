@@ -1,0 +1,414 @@
+{
+  "registry": {
+    "name": "Haris Ansari Research Provenance Registry",
+    "version": "1.0",
+    "schema_version": "1.0",
+    "status": "active",
+    "purpose": "Claim-centric research provenance and evidence registry for the Independent Research Program on Coordination.",
+    "canonical_machine_authority": "https://github.com/mharrisansariii-creator/mharisansari",
+    "maintainer": "Muhammad Haris Ansari",
+    "last_reviewed": "2026-09-14",
+    "governing_principle": "Every substantive claim should be traceable to its origin, evidence, contribution boundary, status, limitations, and identifiable artifact."
+  },
+  "model": {
+    "chain": [
+      "claim",
+      "provenance",
+      "evidence",
+      "contribution",
+      "status",
+      "limitation",
+      "artifact"
+    ],
+    "design_rules": [
+      "A claim is not evidence.",
+      "A source is not automatically evidence for every claim it contains.",
+      "Shared vocabulary is not evidence of shared mechanism.",
+      "Implementation demonstrates implementation, not theoretical validity.",
+      "Published material demonstrates publication, not necessarily independent validation.",
+      "External corroboration may support a claim without establishing theoretical originality.",
+      "A claim may have multiple evidence items with different strengths.",
+      "A claim remains revisable.",
+      "Unknown or missing evidence must be represented as unknown, not inferred.",
+      "Provenance and evidence status are separate dimensions."
+    ]
+  },
+  "schema": {
+    "claim_required_fields": [
+      "id",
+      "claim",
+      "claim_type",
+      "domain",
+      "evidence_status",
+      "epistemic_type",
+      "provenance_status",
+      "authority_node",
+      "evidence_ids",
+      "artifact_ids",
+      "limitations",
+      "last_reviewed"
+    ],
+    "claim_optional_fields": [
+      "subclaims",
+      "origin_note",
+      "contribution_status",
+      "related_claim_ids",
+      "counter_evidence_ids",
+      "research_question",
+      "framework_id",
+      "public_visibility"
+    ],
+    "claim_types": [
+      "architectural",
+      "professional",
+      "historical",
+      "research",
+      "theoretical",
+      "framework",
+      "experimental",
+      "methodological",
+      "interpretive"
+    ],
+    "evidence_statuses": [
+      "demonstrated",
+      "supported",
+      "research",
+      "experiment",
+      "framework",
+      "vision"
+    ],
+    "epistemic_types": [
+      "Observation",
+      "Interpretation",
+      "Candidate Connection",
+      "Hypothesis",
+      "Human Validated",
+      "Evidence Supported",
+      "Open Question"
+    ],
+    "provenance_statuses": [
+      "Established",
+      "Synthesized",
+      "Proposed"
+    ],
+    "contribution_statuses": [
+      "external",
+      "first_party",
+      "synthesized",
+      "proposed",
+      "unknown"
+    ],
+    "evidence_types": [
+      "primary_source",
+      "external_corroboration",
+      "direct_artifact",
+      "published_record",
+      "first_person_statement",
+      "implementation",
+      "experiment_output",
+      "literature",
+      "counter_evidence",
+      "archive_record"
+    ],
+    "evidence_strength": [
+      "high",
+      "medium",
+      "low",
+      "unknown"
+    ],
+    "artifact_kinds": [
+      "research_document",
+      "framework_document",
+      "professional_record",
+      "media_artifact",
+      "external_record",
+      "publication",
+      "prototype",
+      "runtime",
+      "registry",
+      "archive"
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim-001",
+      "claim": "The Haris Ansari ecosystem contains 11 internally governed nodes.",
+      "claim_type": "architectural",
+      "domain": "ecosystem",
+      "evidence_status": "demonstrated",
+      "epistemic_type": "Evidence Supported",
+      "provenance_status": "Synthesized",
+      "contribution_status": "first_party",
+      "authority_node": "google-sites",
+      "evidence_ids": [
+        "evidence-001"
+      ],
+      "artifact_ids": [
+        "artifact-ecosystem-registry",
+        "artifact-google-observatory"
+      ],
+      "limitations": [
+        "This establishes the declared and machine-registered architecture, not the quality or effectiveness of the ecosystem."
+      ],
+      "last_reviewed": "2026-09-14"
+    },
+    {
+      "id": "claim-002",
+      "claim": "The Coordination research program is an active research program rather than a completed general theory.",
+      "claim_type": "research",
+      "domain": "coordination",
+      "evidence_status": "demonstrated",
+      "epistemic_type": "Evidence Supported",
+      "provenance_status": "Established",
+      "contribution_status": "first_party",
+      "authority_node": "github",
+      "evidence_ids": [
+        "evidence-002"
+      ],
+      "artifact_ids": [
+        "artifact-github-readme",
+        "artifact-intellectual-record"
+      ],
+      "limitations": [
+        "The claim establishes the documented status of the research program; it does not establish the validity of its proposed models."
+      ],
+      "last_reviewed": "2026-09-14"
+    },
+    {
+      "id": "claim-003",
+      "claim": "The Coordination Stack is a documented working model consisting of Signal, Information, Knowledge, Narrative, Institution, Infrastructure, Ecosystem and Civilization.",
+      "claim_type": "framework",
+      "domain": "coordination",
+      "evidence_status": "framework",
+      "epistemic_type": "Hypothesis",
+      "provenance_status": "Proposed",
+      "contribution_status": "proposed",
+      "authority_node": "github",
+      "evidence_ids": [
+        "evidence-003"
+      ],
+      "artifact_ids": [
+        "artifact-theoretical-foundations",
+        "artifact-intellectual-record"
+      ],
+      "limitations": [
+        "The ordering is not a validated universal sequence.",
+        "The transitions are not established as necessary or causal.",
+        "Institution and Infrastructure are represented as potentially reciprocal.",
+        "Ecosystem to Civilization is explicitly unresolved.",
+        "No peer-reviewed validation or independent replication is claimed."
+      ],
+      "research_question": "Can the Coordination Stack survive empirical testing across different organizational and historical environments?",
+      "last_reviewed": "2026-09-14"
+    },
+    {
+      "id": "claim-004",
+      "claim": "The theoretical genealogy informing the Coordination research program draws from established work across information theory, cybernetics, systems theory, complexity, game theory, coordination theory, institutions, sensemaking, infrastructure studies, ecosystems and related fields.",
+      "claim_type": "theoretical",
+      "domain": "coordination",
+      "evidence_status": "supported",
+      "epistemic_type": "Evidence Supported",
+      "provenance_status": "Established",
+      "contribution_status": "external",
+      "authority_node": "github",
+      "evidence_ids": [
+        "evidence-004"
+      ],
+      "artifact_ids": [
+        "artifact-theoretical-foundations"
+      ],
+      "limitations": [
+        "The existence of theoretical lineages does not validate the research program's synthesis.",
+        "Conceptual overlap does not establish originality."
+      ],
+      "last_reviewed": "2026-09-14"
+    },
+    {
+      "id": "claim-005",
+      "claim": "The research program's proposed relationships among information, communication, meaning, knowledge, narrative, coordination, intelligence, systems, institutions and infrastructure remain an open research problem rather than a settled synthesis.",
+      "claim_type": "research",
+      "domain": "coordination",
+      "evidence_status": "research",
+      "epistemic_type": "Open Question",
+      "provenance_status": "Proposed",
+      "contribution_status": "proposed",
+      "authority_node": "github",
+      "evidence_ids": [
+        "evidence-005"
+      ],
+      "artifact_ids": [
+        "artifact-theoretical-foundations",
+        "artifact-intellectual-record"
+      ],
+      "limitations": [
+        "The proposition remains under investigation.",
+        "Several relationships are explicitly identified as weak, non-linear, reciprocal or unresolved."
+      ],
+      "research_question": "Are these domains different layers of a single coordination problem, or separate domains that share vocabulary?",
+      "last_reviewed": "2026-09-14"
+    },
+    {
+      "id": "claim-006",
+      "claim": "Base44 operational telemetry and generated system interpretations are experimental outputs and are not independent validation of the underlying research propositions.",
+      "claim_type": "methodological",
+      "domain": "research-method",
+      "evidence_status": "experiment",
+      "epistemic_type": "Evidence Supported",
+      "provenance_status": "Established",
+      "contribution_status": "first_party",
+      "authority_node": "base44",
+      "evidence_ids": [
+        "evidence-006"
+      ],
+      "artifact_ids": [
+        "artifact-base44"
+      ],
+      "limitations": [
+        "The runtime can demonstrate implementation and generate observations, but its internal metrics do not independently establish theoretical validity."
+      ],
+      "last_reviewed": "2026-09-14"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence-001",
+      "type": "primary_source",
+      "strength": "high",
+      "title": "Haris Ansari Ecosystem Registry v2.0",
+      "source": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/ecosystem-registry.json",
+      "supports_claim_ids": [
+        "claim-001"
+      ],
+      "notes": "Machine-readable canonical registry; Google Sites is the human-readable canonical ontology."
+    },
+    {
+      "id": "evidence-002",
+      "type": "primary_source",
+      "strength": "high",
+      "title": "Independent Research Program on Coordination",
+      "source": "https://github.com/mharrisansariii-creator/mharisansari",
+      "supports_claim_ids": [
+        "claim-002"
+      ],
+      "notes": "Repository explicitly states that the work is an evolving research program and does not claim a finished unified theory."
+    },
+    {
+      "id": "evidence-003",
+      "type": "primary_source",
+      "strength": "high",
+      "title": "Theoretical Foundations of the Coordination Research Program",
+      "source": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/theoretical-foundations.md",
+      "supports_claim_ids": [
+        "claim-003"
+      ],
+      "notes": "Contains the Coordination Stack, its formal status and arrow-by-arrow limitations."
+    },
+    {
+      "id": "evidence-004",
+      "type": "literature",
+      "strength": "high",
+      "title": "Theoretical Foundations of the Coordination Research Program — Theoretical Genealogy",
+      "source": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/theoretical-foundations.md",
+      "supports_claim_ids": [
+        "claim-004"
+      ],
+      "notes": "Documents and classifies the external theoretical lineages; it does not treat them as validation of the synthesis."
+    },
+    {
+      "id": "evidence-005",
+      "type": "primary_source",
+      "strength": "high",
+      "title": "Theoretical Foundations — Central Question and Synthesis Boundary",
+      "source": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/theoretical-foundations.md",
+      "supports_claim_ids": [
+        "claim-005"
+      ],
+      "notes": "Explicitly identifies the synthesis as a research question and documents reasons to doubt several proposed transitions."
+    },
+    {
+      "id": "evidence-006",
+      "type": "experiment_output",
+      "strength": "medium",
+      "title": "Base44 Operational Intelligence Environment",
+      "source": "https://mharisansari.base44.app",
+      "supports_claim_ids": [
+        "claim-006"
+      ],
+      "notes": "Experimental runtime documentation explicitly separates operational telemetry from independent validation."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "artifact-ecosystem-registry",
+      "kind": "registry",
+      "title": "ecosystem-registry.json",
+      "authority_node": "github",
+      "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/ecosystem-registry.json"
+    },
+    {
+      "id": "artifact-node-authority-registry",
+      "kind": "registry",
+      "title": "node-authority-registry.json",
+      "authority_node": "github",
+      "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/node-authority-registry.json"
+    },
+    {
+      "id": "artifact-research-provenance-registry",
+      "kind": "registry",
+      "title": "research-provenance-registry.json",
+      "authority_node": "github",
+      "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/research-provenance-registry.json"
+    },
+    {
+      "id": "artifact-github-readme",
+      "kind": "research_document",
+      "title": "Independent Research Program on Coordination",
+      "authority_node": "github",
+      "url": "https://github.com/mharrisansariii-creator/mharisansari"
+    },
+    {
+      "id": "artifact-intellectual-record",
+      "kind": "research_document",
+      "title": "Intellectual and Professional Record",
+      "authority_node": "github",
+      "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/intellectual-record.md"
+    },
+    {
+      "id": "artifact-theoretical-foundations",
+      "kind": "research_document",
+      "title": "Theoretical Foundations of the Coordination Research Program",
+      "authority_node": "github",
+      "url": "https://github.com/mharrisansariii-creator/mharisansari/blob/main/theoretical-foundations.md"
+    },
+    {
+      "id": "artifact-google-observatory",
+      "kind": "registry",
+      "title": "Haris Ansari Ecosystem Observatory",
+      "authority_node": "google-sites",
+      "url": "https://sites.google.com/view/harisansari/home"
+    },
+    {
+      "id": "artifact-base44",
+      "kind": "runtime",
+      "title": "Base44 Operational Intelligence Environment",
+      "authority_node": "base44",
+      "url": "https://mharisansari.base44.app"
+    }
+  ],
+  "validation": {
+    "rules": [
+      "Every claim must have exactly one canonical id.",
+      "Every claim must have an evidence_status.",
+      "Every claim must have an epistemic_type.",
+      "Every claim must have a provenance_status.",
+      "Every evidence-bearing claim must reference at least one evidence item or explicitly state that evidence is pending.",
+      "Every evidence item must identify its type and source.",
+      "Every artifact must have an authority_node.",
+      "Provenance status must not be used as evidence status.",
+      "Evidence status must not be used as a claim-type substitute.",
+      "Unknown contribution must remain unknown until supported.",
+      "Counter-evidence should be recorded rather than silently excluded.",
+      "A claim may be revised without deleting its historical provenance."
+    ]
+  }
+}
